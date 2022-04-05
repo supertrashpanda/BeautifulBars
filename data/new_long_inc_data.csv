@@ -1,0 +1,793 @@
+year,sex,money_measure,education,avg_income
+1990,Male,Current Dollar,Less than 9th grade,17390
+1995,Male,Current Dollar,Less than 9th grade,18350
+2000,Male,Current Dollar,Less than 9th grade,20790
+2001,Male,Current Dollar,Less than 9th grade,21360
+2002,Male,Current Dollar,Less than 9th grade,20920
+2003,Male,Current Dollar,Less than 9th grade,21220
+2004,Male,Current Dollar,Less than 9th grade,21660
+2005,Male,Current Dollar,Less than 9th grade,22330
+2006,Male,Current Dollar,Less than 9th grade,22710
+2007,Male,Current Dollar,Less than 9th grade,23380
+2008,Male,Current Dollar,Less than 9th grade,24260
+2009,Male,Current Dollar,Less than 9th grade,23950
+2010,Male,Current Dollar,Less than 9th grade,24450
+2011,Male,Current Dollar,Less than 9th grade,25220
+2012,Male,Current Dollar,Less than 9th grade,25130
+2013,Male,Current Dollar,Less than 9th grade,26160
+2014,Male,Current Dollar,Less than 9th grade,26580
+2015,Male,Current Dollar,Less than 9th grade,27160
+2016,Male,Current Dollar,Less than 9th grade,30350
+2017,Male,Current Dollar,Less than 9th grade,31000
+2018,Male,Current Dollar,Less than 9th grade,31800
+2019,Male,Current Dollar,Less than 9th grade,32140
+1990,Female,Current Dollar,Less than 9th grade,12250
+1995,Female,Current Dollar,Less than 9th grade,13580
+2000,Female,Current Dollar,Less than 9th grade,15800
+2001,Female,Current Dollar,Less than 9th grade,16690
+2002,Female,Current Dollar,Less than 9th grade,16510
+2003,Female,Current Dollar,Less than 9th grade,16910
+2004,Female,Current Dollar,Less than 9th grade,17020
+2005,Female,Current Dollar,Less than 9th grade,16140
+2006,Female,Current Dollar,Less than 9th grade,18130
+2007,Female,Current Dollar,Less than 9th grade,18260
+2008,Female,Current Dollar,Less than 9th grade,18630
+2009,Female,Current Dollar,Less than 9th grade,18480
+2010,Female,Current Dollar,Less than 9th grade,18240
+2011,Female,Current Dollar,Less than 9th grade,20100
+2012,Female,Current Dollar,Less than 9th grade,20060
+2013,Female,Current Dollar,Less than 9th grade,19840
+2014,Female,Current Dollar,Less than 9th grade,20990
+2015,Female,Current Dollar,Less than 9th grade,21050
+2016,Female,Current Dollar,Less than 9th grade,22210
+2017,Female,Current Dollar,Less than 9th grade,22360
+2018,Female,Current Dollar,Less than 9th grade,22970
+2019,Female,Current Dollars,Less than 9th grade,24560
+1990,Male,Constant 2019 Dollars,Less than 9th grade,34030
+1995,Male,Constant 2019 Dollars,Less than 9th grade,30790
+2000,Male,Constant 2019 Dollars,Less than 9th grade,30860
+2001,Male,Constant 2019 Dollars,Less than 9th grade,30840
+2002,Male,Constant 2019 Dollars,Less than 9th grade,29730
+2003,Male,Constant 2019 Dollars,Less than 9th grade,29490
+2004,Male,Constant 2019 Dollars,Less than 9th grade,29320
+2005,Male,Constant 2019 Dollars,Less than 9th grade,29230
+2006,Male,Constant 2019 Dollars,Less than 9th grade,28800
+2007,Male,Constant 2019 Dollars,Less than 9th grade,28820
+2008,Male,Constant 2019 Dollars,Less than 9th grade,28800
+2009,Male,Constant 2019 Dollars,Less than 9th grade,28530
+2010,Male,Constant 2019 Dollars,Less than 9th grade,28670
+2011,Male,Constant 2019 Dollars,Less than 9th grade,28670
+2012,Male,Constant 2019 Dollars,Less than 9th grade,27980
+2013,Male,Constant 2019 Dollars,Less than 9th grade,28710
+2014,Male,Constant 2019 Dollars,Less than 9th grade,28710
+2015,Male,Constant 2019 Dollars,Less than 9th grade,29290
+2016,Male,Constant 2019 Dollars,Less than 9th grade,32330
+2017,Male,Constant 2019 Dollars,Less than 9th grade,32330
+2018,Male,Constant 2019 Dollars,Less than 9th grade,32380
+2019,Male,Constant 2019 Dollars,Less than 9th grade,32140
+1990,Female,Constant 2019 Dollars,Less than 9th grade,23970
+1995,Female,Constant 2019 Dollars,Less than 9th grade,22780
+2000,Female,Constant 2019 Dollars,Less than 9th grade,23450
+2001,Female,Constant 2019 Dollars,Less than 9th grade,24100
+2002,Female,Constant 2019 Dollars,Less than 9th grade,23470
+2003,Female,Constant 2019 Dollars,Less than 9th grade,23500
+2004,Female,Constant 2019 Dollars,Less than 9th grade,23040
+2005,Female,Constant 2019 Dollars,Less than 9th grade,21130
+2006,Female,Constant 2019 Dollars,Less than 9th grade,23000
+2007,Female,Constant 2019 Dollars,Less than 9th grade,22520
+2008,Female,Constant 2019 Dollars,Less than 9th grade,22130
+2009,Female,Constant 2019 Dollars,Less than 9th grade,22020
+2010,Female,Constant 2019 Dollars,Less than 9th grade,21380
+2011,Female,Constant 2019 Dollars,Less than 9th grade,22850
+2012,Female,Constant 2019 Dollars,Less than 9th grade,22340
+2013,Female,Constant 2019 Dollars,Less than 9th grade,21770
+2014,Female,Constant 2019 Dollars,Less than 9th grade,22670
+2015,Female,Constant 2019 Dollars,Less than 9th grade,22710
+2016,Female,Constant 2019 Dollars,Less than 9th grade,23660
+2017,Female,Constant 2019 Dollars,Less than 9th grade,23320
+2018,Female,Constant 2019 Dollars,Less than 9th grade,23380
+2019,Female,Constant 2019 Dollars,Less than 9th grade,24560
+1990,Male,Current Dollar,"Some high school, no completion",20900
+1995,Male,Current Dollar,"Some high school, no completion",22190
+2000,Male,Current Dollar,"Some high school, no completion",25100
+2001,Male,Current Dollar,"Some high school, no completion",26210
+2002,Male,Current Dollar,"Some high school, no completion",25900
+2003,Male,Current Dollar,"Some high school, no completion",26470
+2004,Male,Current Dollar,"Some high school, no completion",26280
+2005,Male,Current Dollar,"Some high school, no completion",27190
+2006,Male,Current Dollar,"Some high school, no completion",27650
+2007,Male,Current Dollar,"Some high school, no completion",29320
+2008,Male,Current Dollar,"Some high school, no completion",29680
+2009,Male,Current Dollar,"Some high school, no completion",28020
+2010,Male,Current Dollar,"Some high school, no completion",29440
+2011,Male,Current Dollar,"Some high school, no completion",30420
+2012,Male,Current Dollar,"Some high school, no completion",30330
+2013,Male,Current Dollar,"Some high school, no completion",30570
+2014,Male,Current Dollar,"Some high school, no completion",30840
+2015,Male,Current Dollar,"Some high school, no completion",32140
+2016,Male,Current Dollar,"Some high school, no completion",32490
+2017,Male,Current Dollar,"Some high school, no completion",34620
+2018,Male,Current Dollar,"Some high school, no completion",35600
+2019,Male,Current Dollar,"Some high school, no completion",37150
+1990,Female,Current Dollar,"Some high school, no completion",14430
+1995,Female,Current Dollar,"Some high school, no completion",15830
+2000,Female,Current Dollar,"Some high school, no completion",17920
+2001,Female,Current Dollar,"Some high school, no completion",19160
+2002,Female,Current Dollar,"Some high school, no completion",19310
+2003,Female,Current Dollar,"Some high school, no completion",18940
+2004,Female,Current Dollar,"Some high school, no completion",19160
+2005,Female,Current Dollar,"Some high school, no completion",20130
+2006,Female,Current Dollar,"Some high school, no completion",20130
+2007,Female,Current Dollar,"Some high school, no completion",20400
+2008,Female,Current Dollar,"Some high school, no completion",20410
+2009,Female,Current Dollar,"Some high school, no completion",21230
+2010,Female,Current Dollar,"Some high school, no completion",20880
+2011,Female,Current Dollar,"Some high school, no completion",21110
+2012,Female,Current Dollar,"Some high school, no completion",21390
+2013,Female,Current Dollar,"Some high school, no completion",22250
+2014,Female,Current Dollar,"Some high school, no completion",21990
+2015,Female,Current Dollar,"Some high school, no completion",22670
+2016,Female,Current Dollar,"Some high school, no completion",24800
+2017,Female,Current Dollar,"Some high school, no completion",25450
+2018,Female,Current Dollar,"Some high school, no completion",25140
+2019,Female,Current Dollars,"Some high school, no completion",26740
+1990,Male,Constant 2019 Dollars,"Some high school, no completion",40900
+1995,Male,Constant 2019 Dollars,"Some high school, no completion",37220
+2000,Male,Constant 2019 Dollars,"Some high school, no completion",37260
+2001,Male,Constant 2019 Dollars,"Some high school, no completion",37840
+2002,Male,Constant 2019 Dollars,"Some high school, no completion",36820
+2003,Male,Constant 2019 Dollars,"Some high school, no completion",36780
+2004,Male,Constant 2019 Dollars,"Some high school, no completion",35570
+2005,Male,Constant 2019 Dollars,"Some high school, no completion",35590
+2006,Male,Constant 2019 Dollars,"Some high school, no completion",35070
+2007,Male,Constant 2019 Dollars,"Some high school, no completion",36150
+2008,Male,Constant 2019 Dollars,"Some high school, no completion",35240
+2009,Male,Constant 2019 Dollars,"Some high school, no completion",33390
+2010,Male,Constant 2019 Dollars,"Some high school, no completion",34510
+2011,Male,Constant 2019 Dollars,"Some high school, no completion",34580
+2012,Male,Constant 2019 Dollars,"Some high school, no completion",33770
+2013,Male,Constant 2019 Dollars,"Some high school, no completion",33540
+2014,Male,Constant 2019 Dollars,"Some high school, no completion",33300
+2015,Male,Constant 2019 Dollars,"Some high school, no completion",34670
+2016,Male,Constant 2019 Dollars,"Some high school, no completion",34610
+2017,Male,Constant 2019 Dollars,"Some high school, no completion",36110
+2018,Male,Constant 2019 Dollars,"Some high school, no completion",36250
+2019,Male,Constant 2019 Dollars,"Some high school, no completion",37150
+1990,Female,Constant 2019 Dollars,"Some high school, no completion",28230
+1995,Female,Constant 2019 Dollars,"Some high school, no completion",26550
+2000,Female,Constant 2019 Dollars,"Some high school, no completion",26600
+2001,Female,Constant 2019 Dollars,"Some high school, no completion",27660
+2002,Female,Constant 2019 Dollars,"Some high school, no completion",27440
+2003,Female,Constant 2019 Dollars,"Some high school, no completion",26320
+2004,Female,Constant 2019 Dollars,"Some high school, no completion",25940
+2005,Female,Constant 2019 Dollars,"Some high school, no completion",26350
+2006,Female,Constant 2019 Dollars,"Some high school, no completion",25530
+2007,Female,Constant 2019 Dollars,"Some high school, no completion",25150
+2008,Female,Constant 2019 Dollars,"Some high school, no completion",24230
+2009,Female,Constant 2019 Dollars,"Some high school, no completion",25290
+2010,Female,Constant 2019 Dollars,"Some high school, no completion",24480
+2011,Female,Constant 2019 Dollars,"Some high school, no completion",24000
+2012,Female,Constant 2019 Dollars,"Some high school, no completion",23810
+2013,Female,Constant 2019 Dollars,"Some high school, no completion",24420
+2014,Female,Constant 2019 Dollars,"Some high school, no completion",23740
+2015,Female,Constant 2019 Dollars,"Some high school, no completion",24450
+2016,Female,Constant 2019 Dollars,"Some high school, no completion",26420
+2017,Female,Constant 2019 Dollars,"Some high school, no completion",26550
+2018,Female,Constant 2019 Dollars,"Some high school, no completion",25590
+2019,Female,Constant 2019 Dollars,"Some high school, no completion",26740
+1990,Male,Current Dollar,High school completion (includes equivalency),26650
+1995,Male,Current Dollar,High school completion (includes equivalency),29510
+2000,Male,Current Dollar,High school completion (includes equivalency),34300
+2001,Male,Current Dollar,High school completion (includes equivalency),34720
+2002,Male,Current Dollar,High school completion (includes equivalency),33210
+2003,Male,Current Dollar,High school completion (includes equivalency),35410
+2004,Male,Current Dollar,High school completion (includes equivalency),35730
+2005,Male,Current Dollar,High school completion (includes equivalency),36300
+2006,Male,Current Dollar,High school completion (includes equivalency),37030
+2007,Male,Current Dollar,High school completion (includes equivalency),37860
+2008,Male,Current Dollar,High school completion (includes equivalency),39010
+2009,Male,Current Dollar,High school completion (includes equivalency),39480
+2010,Male,Current Dollar,High school completion (includes equivalency),40060
+2011,Male,Current Dollar,High school completion (includes equivalency),40450
+2012,Male,Current Dollar,High school completion (includes equivalency),40350
+2013,Male,Current Dollar,High school completion (includes equivalency),40290
+2014,Male,Current Dollar,High school completion (includes equivalency),40930
+2015,Male,Current Dollar,High school completion (includes equivalency),41570
+2016,Male,Current Dollar,High school completion (includes equivalency),41890
+2017,Male,Current Dollar,High school completion (includes equivalency),42440
+2018,Male,Current Dollar,High school completion (includes equivalency),45580
+2019,Male,Current Dollar,High school completion (includes equivalency),46850
+1990,Female,Current Dollar,High school completion (includes equivalency),18320
+1995,Female,Current Dollar,High school completion (includes equivalency),20460
+2000,Female,Current Dollar,High school completion (includes equivalency),24970
+2001,Female,Current Dollar,High school completion (includes equivalency),25300
+2002,Female,Current Dollar,High school completion (includes equivalency),25180
+2003,Female,Current Dollar,High school completion (includes equivalency),26070
+2004,Female,Current Dollar,High school completion (includes equivalency),26030
+2005,Female,Current Dollar,High school completion (includes equivalency),26290
+2006,Female,Current Dollar,High school completion (includes equivalency),26740
+2007,Female,Current Dollar,High school completion (includes equivalency),27240
+2008,Female,Current Dollar,High school completion (includes equivalency),28380
+2009,Female,Current Dollar,High school completion (includes equivalency),29150
+2010,Female,Current Dollar,High school completion (includes equivalency),29860
+2011,Female,Current Dollar,High school completion (includes equivalency),30010
+2012,Female,Current Dollar,High school completion (includes equivalency),30410
+2013,Female,Current Dollar,High school completion (includes equivalency),30800
+2014,Female,Current Dollar,High school completion (includes equivalency),30650
+2015,Female,Current Dollar,High school completion (includes equivalency),31250
+2016,Female,Current Dollar,High school completion (includes equivalency),31540
+2017,Female,Current Dollar,High school completion (includes equivalency),32240
+2018,Female,Current Dollar,High school completion (includes equivalency),32620
+2019,Female,Current Dollars,High school completion (includes equivalency),35100
+1990,Male,Constant 2019 Dollars,High school completion (includes equivalency),52150
+1995,Male,Constant 2019 Dollars,High school completion (includes equivalency),49510
+2000,Male,Constant 2019 Dollars,High school completion (includes equivalency),50930
+2001,Male,Constant 2019 Dollars,High school completion (includes equivalency),50130
+2002,Male,Constant 2019 Dollars,High school completion (includes equivalency),47200
+2003,Male,Constant 2019 Dollars,High school completion (includes equivalency),49210
+2004,Male,Constant 2019 Dollars,High school completion (includes equivalency),48350
+2005,Male,Constant 2019 Dollars,High school completion (includes equivalency),47520
+2006,Male,Constant 2019 Dollars,High school completion (includes equivalency),46960
+2007,Male,Constant 2019 Dollars,High school completion (includes equivalency),46680
+2008,Male,Constant 2019 Dollars,High school completion (includes equivalency),46320
+2009,Male,Constant 2019 Dollars,High school completion (includes equivalency),47040
+2010,Male,Constant 2019 Dollars,High school completion (includes equivalency),46960
+2011,Male,Constant 2019 Dollars,High school completion (includes equivalency),45970
+2012,Male,Constant 2019 Dollars,High school completion (includes equivalency),44930
+2013,Male,Constant 2019 Dollars,High school completion (includes equivalency),44210
+2014,Male,Constant 2019 Dollars,High school completion (includes equivalency),44200
+2015,Male,Constant 2019 Dollars,High school completion (includes equivalency),44840
+2016,Male,Constant 2019 Dollars,High school completion (includes equivalency),44620
+2017,Male,Constant 2019 Dollars,High school completion (includes equivalency),44260
+2018,Male,Constant 2019 Dollars,High school completion (includes equivalency),46400
+2019,Male,Constant 2019 Dollars,High school completion (includes equivalency),46850
+1990,Female,Constant 2019 Dollars,High school completion (includes equivalency),35840
+1995,Female,Constant 2019 Dollars,High school completion (includes equivalency),34330
+2000,Female,Constant 2019 Dollars,High school completion (includes equivalency),37070
+2001,Female,Constant 2019 Dollars,High school completion (includes equivalency),36530
+2002,Female,Constant 2019 Dollars,High school completion (includes equivalency),35790
+2003,Female,Constant 2019 Dollars,High school completion (includes equivalency),36240
+2004,Female,Constant 2019 Dollars,High school completion (includes equivalency),35230
+2005,Female,Constant 2019 Dollars,High school completion (includes equivalency),34410
+2006,Female,Constant 2019 Dollars,High school completion (includes equivalency),33910
+2007,Female,Constant 2019 Dollars,High school completion (includes equivalency),33590
+2008,Female,Constant 2019 Dollars,High school completion (includes equivalency),33700
+2009,Female,Constant 2019 Dollars,High school completion (includes equivalency),34740
+2010,Female,Constant 2019 Dollars,High school completion (includes equivalency),35010
+2011,Female,Constant 2019 Dollars,High school completion (includes equivalency),34110
+2012,Female,Constant 2019 Dollars,High school completion (includes equivalency),33860
+2013,Female,Constant 2019 Dollars,High school completion (includes equivalency),33800
+2014,Female,Constant 2019 Dollars,High school completion (includes equivalency),33100
+2015,Female,Constant 2019 Dollars,High school completion (includes equivalency),33710
+2016,Female,Constant 2019 Dollars,High school completion (includes equivalency),33600
+2017,Female,Constant 2019 Dollars,High school completion (includes equivalency),33630
+2018,Female,Constant 2019 Dollars,High school completion (includes equivalency),33210
+2019,Female,Constant 2019 Dollars,High school completion (includes equivalency),35100
+1990,Male,Current Dollar,"Some college, no degree",31730
+1995,Male,Current Dollar,"Some college, no degree",33880
+2000,Male,Current Dollar,"Some college, no degree",40340
+2001,Male,Current Dollar,"Some college, no degree",41050
+2002,Male,Current Dollar,"Some college, no degree",40850
+2003,Male,Current Dollar,"Some college, no degree",41350
+2004,Male,Current Dollar,"Some college, no degree",41900
+2005,Male,Current Dollar,"Some college, no degree",42420
+2006,Male,Current Dollar,"Some college, no degree",43830
+2007,Male,Current Dollar,"Some college, no degree",44900
+2008,Male,Current Dollar,"Some college, no degree",45820
+2009,Male,Current Dollar,"Some college, no degree",47100
+2010,Male,Current Dollar,"Some college, no degree",46430
+2011,Male,Current Dollar,"Some college, no degree",47070
+2012,Male,Current Dollar,"Some college, no degree",47190
+2013,Male,Current Dollar,"Some college, no degree",47650
+2014,Male,Current Dollar,"Some college, no degree",46900
+2015,Male,Current Dollar,"Some college, no degree",49670
+2016,Male,Current Dollar,"Some college, no degree",49240
+2017,Male,Current Dollar,"Some college, no degree",50850
+2018,Male,Current Dollar,"Some college, no degree",51690
+2019,Male,Current Dollar,"Some college, no degree",53810
+1990,Female,Current Dollar,"Some college, no degree",22230
+1995,Female,Current Dollar,"Some college, no degree",24000
+2000,Female,Current Dollar,"Some college, no degree",28700
+2001,Female,Current Dollar,"Some college, no degree",30420
+2002,Female,Current Dollar,"Some college, no degree",29400
+2003,Female,Current Dollar,"Some college, no degree",30140
+2004,Female,Current Dollar,"Some college, no degree",30820
+2005,Female,Current Dollar,"Some college, no degree",31400
+2006,Female,Current Dollar,"Some college, no degree",31950
+2007,Female,Current Dollar,"Some college, no degree",32840
+2008,Female,Current Dollar,"Some college, no degree",32630
+2009,Female,Current Dollar,"Some college, no degree",34090
+2010,Female,Current Dollar,"Some college, no degree",33400
+2011,Female,Current Dollar,"Some college, no degree",34590
+2012,Female,Current Dollar,"Some college, no degree",35060
+2013,Female,Current Dollar,"Some college, no degree",35240
+2014,Female,Current Dollar,"Some college, no degree",34380
+2015,Female,Current Dollar,"Some college, no degree",36140
+2016,Female,Current Dollar,"Some college, no degree",36880
+2017,Female,Current Dollar,"Some college, no degree",36620
+2018,Female,Current Dollar,"Some college, no degree",38840
+2019,Female,Current Dollars,"Some college, no degree",40810
+1990,Male,Constant 2019 Dollars,"Some college, no degree",62090
+1995,Male,Constant 2019 Dollars,"Some college, no degree",56850
+2000,Male,Constant 2019 Dollars,"Some college, no degree",59890
+2001,Male,Constant 2019 Dollars,"Some college, no degree",59260
+2002,Male,Constant 2019 Dollars,"Some college, no degree",58060
+2003,Male,Constant 2019 Dollars,"Some college, no degree",57460
+2004,Male,Constant 2019 Dollars,"Some college, no degree",56710
+2005,Male,Constant 2019 Dollars,"Some college, no degree",55530
+2006,Male,Constant 2019 Dollars,"Some college, no degree",55590
+2007,Male,Constant 2019 Dollars,"Some college, no degree",55360
+2008,Male,Constant 2019 Dollars,"Some college, no degree",54410
+2009,Male,Constant 2019 Dollars,"Some college, no degree",56120
+2010,Male,Constant 2019 Dollars,"Some college, no degree",54440
+2011,Male,Constant 2019 Dollars,"Some college, no degree",53500
+2012,Male,Constant 2019 Dollars,"Some college, no degree",52540
+2013,Male,Constant 2019 Dollars,"Some college, no degree",52290
+2014,Male,Constant 2019 Dollars,"Some college, no degree",50640
+2015,Male,Constant 2019 Dollars,"Some college, no degree",53580
+2016,Male,Constant 2019 Dollars,"Some college, no degree",52450
+2017,Male,Constant 2019 Dollars,"Some college, no degree",53030
+2018,Male,Constant 2019 Dollars,"Some college, no degree",52630
+2019,Male,Constant 2019 Dollars,"Some college, no degree",53810
+1990,Female,Constant 2019 Dollars,"Some college, no degree",43490
+1995,Female,Constant 2019 Dollars,"Some college, no degree",40260
+2000,Female,Constant 2019 Dollars,"Some college, no degree",42610
+2001,Female,Constant 2019 Dollars,"Some college, no degree",43920
+2002,Female,Constant 2019 Dollars,"Some college, no degree",41790
+2003,Female,Constant 2019 Dollars,"Some college, no degree",41890
+2004,Female,Constant 2019 Dollars,"Some college, no degree",41710
+2005,Female,Constant 2019 Dollars,"Some college, no degree",41100
+2006,Female,Constant 2019 Dollars,"Some college, no degree",40520
+2007,Female,Constant 2019 Dollars,"Some college, no degree",40490
+2008,Female,Constant 2019 Dollars,"Some college, no degree",38740
+2009,Female,Constant 2019 Dollars,"Some college, no degree",40620
+2010,Female,Constant 2019 Dollars,"Some college, no degree",39160
+2011,Female,Constant 2019 Dollars,"Some college, no degree",39320
+2012,Female,Constant 2019 Dollars,"Some college, no degree",39040
+2013,Female,Constant 2019 Dollars,"Some college, no degree",38680
+2014,Female,Constant 2019 Dollars,"Some college, no degree",37120
+2015,Female,Constant 2019 Dollars,"Some college, no degree",38990
+2016,Female,Constant 2019 Dollars,"Some college, no degree",39290
+2017,Female,Constant 2019 Dollars,"Some college, no degree",38200
+2018,Female,Constant 2019 Dollars,"Some college, no degree",39540
+2019,Female,Constant 2019 Dollars,"Some college, no degree",40810
+1990,Male,Current Dollar,Associate's degree,NA
+1995,Male,Current Dollar,Associate's degree,35200
+2000,Male,Current Dollar,Associate's degree,41950
+2001,Male,Current Dollar,Associate's degree,42780
+2002,Male,Current Dollar,Associate's degree,42860
+2003,Male,Current Dollar,Associate's degree,42870
+2004,Male,Current Dollar,Associate's degree,44400
+2005,Male,Current Dollar,Associate's degree,47180
+2006,Male,Current Dollar,Associate's degree,47070
+2007,Male,Current Dollar,Associate's degree,49040
+2008,Male,Current Dollar,Associate's degree,50150
+2009,Male,Current Dollar,Associate's degree,50300
+2010,Male,Current Dollar,Associate's degree,50280
+2011,Male,Current Dollar,Associate's degree,50930
+2012,Male,Current Dollar,Associate's degree,50960
+2013,Male,Current Dollar,Associate's degree,51000
+2014,Male,Current Dollar,Associate's degree,51110
+2015,Male,Current Dollar,Associate's degree,52070
+2016,Male,Current Dollar,Associate's degree,52120
+2017,Male,Current Dollar,Associate's degree,54700
+2018,Male,Current Dollar,Associate's degree,56720
+2019,Male,Current Dollar,Associate's degree,58800
+1990,Female,Current Dollar,Associate's degree,NA
+1995,Female,Current Dollar,Associate's degree,27310
+2000,Female,Current Dollar,Associate's degree,31070
+2001,Female,Current Dollar,Associate's degree,32150
+2002,Female,Current Dollar,Associate's degree,31630
+2003,Female,Current Dollar,Associate's degree,32250
+2004,Female,Current Dollar,Associate's degree,33480
+2005,Female,Current Dollar,Associate's degree,33940
+2006,Female,Current Dollar,Associate's degree,35160
+2007,Female,Current Dollar,Associate's degree,36330
+2008,Female,Current Dollar,Associate's degree,36760
+2009,Female,Current Dollar,Associate's degree,37270
+2010,Female,Current Dollar,Associate's degree,37770
+2011,Female,Current Dollar,Associate's degree,39290
+2012,Female,Current Dollar,Associate's degree,37320
+2013,Female,Current Dollar,Associate's degree,37700
+2014,Female,Current Dollar,Associate's degree,37480
+2015,Female,Current Dollar,Associate's degree,40190
+2016,Female,Current Dollar,Associate's degree,40220
+2017,Female,Current Dollar,Associate's degree,40640
+2018,Female,Current Dollar,Associate's degree,41490
+2019,Female,Current Dollars,Associate's degree,42300
+1990,Male,Constant 2019 Dollars,Associate's degree,NA
+1995,Male,Constant 2019 Dollars,Associate's degree,59060
+2000,Male,Constant 2019 Dollars,Associate's degree,62280
+2001,Male,Constant 2019 Dollars,Associate's degree,61760
+2002,Male,Constant 2019 Dollars,Associate's degree,60910
+2003,Male,Constant 2019 Dollars,Associate's degree,59580
+2004,Male,Constant 2019 Dollars,Associate's degree,60100
+2005,Male,Constant 2019 Dollars,Associate's degree,61760
+2006,Male,Constant 2019 Dollars,Associate's degree,59700
+2007,Male,Constant 2019 Dollars,Associate's degree,60470
+2008,Male,Constant 2019 Dollars,Associate's degree,59550
+2009,Male,Constant 2019 Dollars,Associate's degree,59940
+2010,Male,Constant 2019 Dollars,Associate's degree,58950
+2011,Male,Constant 2019 Dollars,Associate's degree,57880
+2012,Male,Constant 2019 Dollars,Associate's degree,56750
+2013,Male,Constant 2019 Dollars,Associate's degree,55970
+2014,Male,Constant 2019 Dollars,Associate's degree,55200
+2015,Male,Constant 2019 Dollars,Associate's degree,56170
+2016,Male,Constant 2019 Dollars,Associate's degree,55520
+2017,Male,Constant 2019 Dollars,Associate's degree,57050
+2018,Male,Constant 2019 Dollars,Associate's degree,57750
+2019,Male,Constant 2019 Dollars,Associate's degree,58800
+1990,Female,Constant 2019 Dollars,Associate's degree,NA
+1995,Female,Constant 2019 Dollars,Associate's degree,45820
+2000,Female,Constant 2019 Dollars,Associate's degree,46130
+2001,Female,Constant 2019 Dollars,Associate's degree,46420
+2002,Female,Constant 2019 Dollars,Associate's degree,44950
+2003,Female,Constant 2019 Dollars,Associate's degree,44820
+2004,Female,Constant 2019 Dollars,Associate's degree,45320
+2005,Female,Constant 2019 Dollars,Associate's degree,44430
+2006,Female,Constant 2019 Dollars,Associate's degree,44590
+2007,Female,Constant 2019 Dollars,Associate's degree,44800
+2008,Female,Constant 2019 Dollars,Associate's degree,43650
+2009,Female,Constant 2019 Dollars,Associate's degree,44410
+2010,Female,Constant 2019 Dollars,Associate's degree,44290
+2011,Female,Constant 2019 Dollars,Associate's degree,44650
+2012,Female,Constant 2019 Dollars,Associate's degree,41560
+2013,Female,Constant 2019 Dollars,Associate's degree,41380
+2014,Female,Constant 2019 Dollars,Associate's degree,40470
+2015,Female,Constant 2019 Dollars,Associate's degree,43350
+2016,Female,Constant 2019 Dollars,Associate's degree,42840
+2017,Female,Constant 2019 Dollars,Associate's degree,42390
+2018,Female,Constant 2019 Dollars,Associate's degree,42240
+2019,Female,Constant 2019 Dollars,Associate's degree,42300
+1990,Male,Current Dollar,Bachelor's degree,39240
+1995,Male,Current Dollar,Bachelor's degree,45270
+2000,Male,Current Dollar,Bachelor's degree,56330
+2001,Male,Current Dollar,Bachelor's degree,55930
+2002,Male,Current Dollar,Bachelor's degree,56080
+2003,Male,Current Dollar,Bachelor's degree,56500
+2004,Male,Current Dollar,Bachelor's degree,57220
+2005,Male,Current Dollar,Bachelor's degree,60020
+2006,Male,Current Dollar,Bachelor's degree,60910
+2007,Male,Current Dollar,Bachelor's degree,62090
+2008,Male,Current Dollar,Bachelor's degree,65800
+2009,Male,Current Dollar,Bachelor's degree,62440
+2010,Male,Current Dollar,Bachelor's degree,63740
+2011,Male,Current Dollar,Bachelor's degree,66200
+2012,Male,Current Dollar,Bachelor's degree,66150
+2013,Male,Current Dollar,Bachelor's degree,67240
+2014,Male,Current Dollar,Bachelor's degree,68160
+2015,Male,Current Dollar,Bachelor's degree,71390
+2016,Male,Current Dollar,Bachelor's degree,71630
+2017,Male,Current Dollar,Bachelor's degree,71990
+2018,Male,Current Dollar,Bachelor's degree,75150
+2019,Male,Current Dollar,Bachelor's degree,77090
+1990,Female,Current Dollar,Bachelor's degree,28020
+1995,Female,Current Dollar,Bachelor's degree,32050
+2000,Female,Current Dollar,Bachelor's degree,40420
+2001,Female,Current Dollar,Bachelor's degree,40990
+2002,Female,Current Dollar,Bachelor's degree,40850
+2003,Female,Current Dollar,Bachelor's degree,41330
+2004,Female,Current Dollar,Bachelor's degree,41680
+2005,Female,Current Dollar,Bachelor's degree,42170
+2006,Female,Current Dollar,Bachelor's degree,45410
+2007,Female,Current Dollar,Bachelor's degree,45770
+2008,Female,Current Dollar,Bachelor's degree,47030
+2009,Female,Current Dollar,Bachelor's degree,46830
+2010,Female,Current Dollar,Bachelor's degree,47440
+2011,Female,Current Dollar,Bachelor's degree,49110
+2012,Female,Current Dollar,Bachelor's degree,50170
+2013,Female,Current Dollar,Bachelor's degree,50750
+2014,Female,Current Dollar,Bachelor's degree,51350
+2015,Female,Current Dollar,Bachelor's degree,51680
+2016,Female,Current Dollar,Bachelor's degree,52030
+2017,Female,Current Dollar,Bachelor's degree,52440
+2018,Female,Current Dollar,Bachelor's degree,56680
+2019,Female,Current Dollars,Bachelor's degree,57420
+1990,Male,Constant 2019 Dollars,Bachelor's degree,76780
+1995,Male,Constant 2019 Dollars,Bachelor's degree,75940
+2000,Male,Constant 2019 Dollars,Bachelor's degree,83640
+2001,Male,Constant 2019 Dollars,Bachelor's degree,80750
+2002,Male,Constant 2019 Dollars,Bachelor's degree,79700
+2003,Male,Constant 2019 Dollars,Bachelor's degree,78520
+2004,Male,Constant 2019 Dollars,Bachelor's degree,77450
+2005,Male,Constant 2019 Dollars,Bachelor's degree,78570
+2006,Male,Constant 2019 Dollars,Bachelor's degree,77240
+2007,Male,Constant 2019 Dollars,Bachelor's degree,76550
+2008,Male,Constant 2019 Dollars,Bachelor's degree,78130
+2009,Male,Constant 2019 Dollars,Bachelor's degree,74410
+2010,Male,Constant 2019 Dollars,Bachelor's degree,74730
+2011,Male,Constant 2019 Dollars,Bachelor's degree,75240
+2012,Male,Constant 2019 Dollars,Bachelor's degree,73660
+2013,Male,Constant 2019 Dollars,Bachelor's degree,73790
+2014,Male,Constant 2019 Dollars,Bachelor's degree,73610
+2015,Male,Constant 2019 Dollars,Bachelor's degree,77000
+2016,Male,Constant 2019 Dollars,Bachelor's degree,76300
+2017,Male,Constant 2019 Dollars,Bachelor's degree,75090
+2018,Male,Constant 2019 Dollars,Bachelor's degree,76510
+2019,Male,Constant 2019 Dollars,Bachelor's degree,77090
+1990,Female,Constant 2019 Dollars,Bachelor's degree,54820
+1995,Female,Constant 2019 Dollars,Bachelor's degree,53770
+2000,Female,Constant 2019 Dollars,Bachelor's degree,60000
+2001,Female,Constant 2019 Dollars,Bachelor's degree,59190
+2002,Female,Constant 2019 Dollars,Bachelor's degree,58060
+2003,Female,Constant 2019 Dollars,Bachelor's degree,57430
+2004,Female,Constant 2019 Dollars,Bachelor's degree,56420
+2005,Female,Constant 2019 Dollars,Bachelor's degree,55210
+2006,Female,Constant 2019 Dollars,Bachelor's degree,57590
+2007,Female,Constant 2019 Dollars,Bachelor's degree,56440
+2008,Female,Constant 2019 Dollars,Bachelor's degree,55840
+2009,Female,Constant 2019 Dollars,Bachelor's degree,55810
+2010,Female,Constant 2019 Dollars,Bachelor's degree,55610
+2011,Female,Constant 2019 Dollars,Bachelor's degree,55810
+2012,Female,Constant 2019 Dollars,Bachelor's degree,55870
+2013,Female,Constant 2019 Dollars,Bachelor's degree,55690
+2014,Female,Constant 2019 Dollars,Bachelor's degree,55450
+2015,Female,Constant 2019 Dollars,Bachelor's degree,55750
+2016,Female,Constant 2019 Dollars,Bachelor's degree,55420
+2017,Female,Constant 2019 Dollars,Bachelor's degree,54690
+2018,Female,Constant 2019 Dollars,Bachelor's degree,57710
+2019,Female,Constant 2019 Dollars,Bachelor's degree,57420
+1990,Male,Current Dollar,Master's degree,NA
+1995,Male,Current Dollar,Master's degree,55220
+2000,Male,Current Dollar,Master's degree,68320
+2001,Male,Current Dollar,Master's degree,70900
+2002,Male,Current Dollar,Master's degree,67280
+2003,Male,Current Dollar,Master's degree,70640
+2004,Male,Current Dollar,Master's degree,71530
+2005,Male,Current Dollar,Master's degree,75030
+2006,Male,Current Dollar,Master's degree,75430
+2007,Male,Current Dollar,Master's degree,76280
+2008,Male,Current Dollar,Master's degree,80960
+2009,Male,Current Dollar,Master's degree,79340
+2010,Male,Current Dollar,Master's degree,80960
+2011,Male,Current Dollar,Master's degree,83030
+2012,Male,Current Dollar,Master's degree,85120
+2013,Male,Current Dollar,Master's degree,86310
+2014,Male,Current Dollar,Master's degree,84760
+2015,Male,Current Dollar,Master's degree,86740
+2016,Male,Current Dollar,Master's degree,88430
+2017,Male,Current Dollar,Master's degree,91600
+2018,Male,Current Dollar,Master's degree,99620
+2019,Male,Current Dollar,Master's degree,100560
+1990,Female,Current Dollar,Master's degree,NA
+1995,Female,Current Dollar,Master's degree,40260
+2000,Female,Current Dollar,Master's degree,50140
+2001,Female,Current Dollar,Master's degree,50670
+2002,Female,Current Dollar,Master's degree,48890
+2003,Female,Current Dollar,Master's degree,50160
+2004,Female,Current Dollar,Master's degree,51320
+2005,Female,Current Dollar,Master's degree,51410
+2006,Female,Current Dollar,Master's degree,52440
+2007,Female,Current Dollar,Master's degree,55430
+2008,Female,Current Dollar,Master's degree,57510
+2009,Female,Current Dollar,Master's degree,61070
+2010,Female,Current Dollar,Master's degree,59100
+2011,Female,Current Dollar,Master's degree,60300
+2012,Female,Current Dollar,Master's degree,60930
+2013,Female,Current Dollar,Master's degree,61280
+2014,Female,Current Dollar,Master's degree,60830
+2015,Female,Current Dollar,Master's degree,62380
+2016,Female,Current Dollar,Master's degree,64910
+2017,Female,Current Dollar,Master's degree,68510
+2018,Female,Current Dollar,Master's degree,66740
+2019,Female,Current Dollars,Master's degree,70810
+1990,Male,Constant 2019 Dollars,Master's degree,NA
+1995,Male,Constant 2019 Dollars,Master's degree,92640
+2000,Male,Constant 2019 Dollars,Master's degree,101430
+2001,Male,Constant 2019 Dollars,Master's degree,102370
+2002,Male,Constant 2019 Dollars,Master's degree,95630
+2003,Male,Constant 2019 Dollars,Master's degree,98170
+2004,Male,Constant 2019 Dollars,Master's degree,96820
+2005,Male,Constant 2019 Dollars,Master's degree,98220
+2006,Male,Constant 2019 Dollars,Master's degree,95660
+2007,Male,Constant 2019 Dollars,Master's degree,94060
+2008,Male,Constant 2019 Dollars,Master's degree,96140
+2009,Male,Constant 2019 Dollars,Master's degree,94550
+2010,Male,Constant 2019 Dollars,Master's degree,94920
+2011,Male,Constant 2019 Dollars,Master's degree,94370
+2012,Male,Constant 2019 Dollars,Master's degree,94780
+2013,Male,Constant 2019 Dollars,Master's degree,94720
+2014,Male,Constant 2019 Dollars,Master's degree,91530
+2015,Male,Constant 2019 Dollars,Master's degree,93560
+2016,Male,Constant 2019 Dollars,Master's degree,94200
+2017,Male,Constant 2019 Dollars,Master's degree,95540
+2018,Male,Constant 2019 Dollars,Master's degree,101420
+2019,Male,Constant 2019 Dollars,Master's degree,100560
+1990,Female,Constant 2019 Dollars,Master's degree,NA
+1995,Female,Constant 2019 Dollars,Master's degree,67550
+2000,Female,Constant 2019 Dollars,Master's degree,74440
+2001,Female,Constant 2019 Dollars,Master's degree,73160
+2002,Female,Constant 2019 Dollars,Master's degree,69490
+2003,Female,Constant 2019 Dollars,Master's degree,69710
+2004,Female,Constant 2019 Dollars,Master's degree,69460
+2005,Female,Constant 2019 Dollars,Master's degree,67300
+2006,Female,Constant 2019 Dollars,Master's degree,66500
+2007,Female,Constant 2019 Dollars,Master's degree,68340
+2008,Female,Constant 2019 Dollars,Master's degree,68290
+2009,Female,Constant 2019 Dollars,Master's degree,72770
+2010,Female,Constant 2019 Dollars,Master's degree,69290
+2011,Female,Constant 2019 Dollars,Master's degree,68540
+2012,Female,Constant 2019 Dollars,Master's degree,67840
+2013,Female,Constant 2019 Dollars,Master's degree,67250
+2014,Female,Constant 2019 Dollars,Master's degree,65690
+2015,Female,Constant 2019 Dollars,Master's degree,67280
+2016,Female,Constant 2019 Dollars,Master's degree,69140
+2017,Female,Constant 2019 Dollars,Master's degree,71450
+2018,Female,Constant 2019 Dollars,Master's degree,67950
+2019,Female,Constant 2019 Dollars,Master's degree,70810
+1990,Male,Current Dollar,Professional degree,NA
+1995,Male,Current Dollar,Professional degree,79670
+2000,Male,Current Dollar,Professional degree,99410
+2001,Male,Current Dollar,Professional degree,100000
+2002,Male,Current Dollar,Professional degree,100000
+2003,Male,Current Dollar,Professional degree,100000
+2004,Male,Current Dollar,Professional degree,100000
+2005,Male,Current Dollar,Professional degree,100000
+2006,Male,Current Dollar,Professional degree,100000
+2007,Male,Current Dollar,Professional degree,100000
+2008,Male,Current Dollar,Professional degree,100000
+2009,Male,Current Dollar,Professional degree,123240
+2010,Male,Current Dollar,Professional degree,115300
+2011,Male,Current Dollar,Professional degree,119470
+2012,Male,Current Dollar,Professional degree,116350
+2013,Male,Current Dollar,Professional degree,126730
+2014,Male,Current Dollar,Professional degree,121750
+2015,Male,Current Dollar,Professional degree,131190
+2016,Male,Current Dollar,Professional degree,117550
+2017,Male,Current Dollar,Professional degree,127230
+2018,Male,Current Dollar,Professional degree,135440
+2019,Male,Current Dollar,Professional degree,150100
+1990,Female,Current Dollar,Professional degree,NA
+1995,Female,Current Dollar,Professional degree,50000
+2000,Female,Current Dollar,Professional degree,58960
+2001,Female,Current Dollar,Professional degree,61750
+2002,Female,Current Dollar,Professional degree,57020
+2003,Female,Current Dollar,Professional degree,66490
+2004,Female,Current Dollar,Professional degree,75040
+2005,Female,Current Dollar,Professional degree,80460
+2006,Female,Current Dollar,Professional degree,76240
+2007,Female,Current Dollar,Professional degree,71100
+2008,Female,Current Dollar,Professional degree,71300
+2009,Female,Current Dollar,Professional degree,83910
+2010,Female,Current Dollar,Professional degree,76740
+2011,Female,Current Dollar,Professional degree,80720
+2012,Female,Current Dollar,Professional degree,94470
+2013,Female,Current Dollar,Professional degree,85400
+2014,Female,Current Dollar,Professional degree,91810
+2015,Female,Current Dollar,Professional degree,82470
+2016,Female,Current Dollar,Professional degree,92030
+2017,Female,Current Dollar,Professional degree,100180
+2018,Female,Current Dollar,Professional degree,99780
+2019,Female,Current Dollars,Professional degree,102460
+1990,Male,Constant 2019 Dollars,Professional degree,NA
+1995,Male,Constant 2019 Dollars,Professional degree,133660
+2000,Male,Constant 2019 Dollars,Professional degree,147590
+2001,Male,Constant 2019 Dollars,Professional degree,144380
+2002,Male,Constant 2019 Dollars,Professional degree,142130
+2003,Male,Constant 2019 Dollars,Professional degree,138980
+2004,Male,Constant 2019 Dollars,Professional degree,135350
+2005,Male,Constant 2019 Dollars,Professional degree,130910
+2006,Male,Constant 2019 Dollars,Professional degree,126820
+2007,Male,Constant 2019 Dollars,Professional degree,123300
+2008,Male,Constant 2019 Dollars,Professional degree,118740
+2009,Male,Constant 2019 Dollars,Professional degree,146860
+2010,Male,Constant 2019 Dollars,Professional degree,135180
+2011,Male,Constant 2019 Dollars,Professional degree,135790
+2012,Male,Constant 2019 Dollars,Professional degree,129560
+2013,Male,Constant 2019 Dollars,Professional degree,139070
+2014,Male,Constant 2019 Dollars,Professional degree,131490
+2015,Male,Constant 2019 Dollars,Professional degree,141510
+2016,Male,Constant 2019 Dollars,Professional degree,125210
+2017,Male,Constant 2019 Dollars,Professional degree,132700
+2018,Male,Constant 2019 Dollars,Professional degree,137890
+2019,Male,Constant 2019 Dollars,Professional degree,150100
+1990,Female,Constant 2019 Dollars,Professional degree,NA
+1995,Female,Constant 2019 Dollars,Professional degree,83890
+2000,Female,Constant 2019 Dollars,Professional degree,87530
+2001,Female,Constant 2019 Dollars,Professional degree,89150
+2002,Female,Constant 2019 Dollars,Professional degree,81040
+2003,Female,Constant 2019 Dollars,Professional degree,92410
+2004,Female,Constant 2019 Dollars,Professional degree,101560
+2005,Female,Constant 2019 Dollars,Professional degree,105330
+2006,Female,Constant 2019 Dollars,Professional degree,96690
+2007,Female,Constant 2019 Dollars,Professional degree,87670
+2008,Female,Constant 2019 Dollars,Professional degree,84660
+2009,Female,Constant 2019 Dollars,Professional degree,99990
+2010,Female,Constant 2019 Dollars,Professional degree,89970
+2011,Female,Constant 2019 Dollars,Professional degree,91740
+2012,Female,Constant 2019 Dollars,Professional degree,105200
+2013,Female,Constant 2019 Dollars,Professional degree,93720
+2014,Female,Constant 2019 Dollars,Professional degree,99150
+2015,Female,Constant 2019 Dollars,Professional degree,88960
+2016,Female,Constant 2019 Dollars,Professional degree,98030
+2017,Female,Constant 2019 Dollars,Professional degree,104480
+2018,Female,Constant 2019 Dollars,Professional degree,101590
+2019,Female,Constant 2019 Dollars,Professional degree,102460
+1990,Male,Current Dollar,Doctor's degree,NA
+1995,Male,Current Dollar,Doctor's degree,65340
+2000,Male,Current Dollar,Doctor's degree,80250
+2001,Male,Current Dollar,Doctor's degree,86970
+2002,Male,Current Dollar,Doctor's degree,83310
+2003,Male,Current Dollar,Doctor's degree,87130
+2004,Male,Current Dollar,Doctor's degree,82400
+2005,Male,Current Dollar,Doctor's degree,85860
+2006,Male,Current Dollar,Doctor's degree,100000
+2007,Male,Current Dollar,Doctor's degree,92090
+2008,Male,Current Dollar,Doctor's degree,100000
+2009,Male,Current Dollar,Doctor's degree,100740
+2010,Male,Current Dollar,Doctor's degree,101220
+2011,Male,Current Dollar,Doctor's degree,100770
+2012,Male,Current Dollar,Doctor's degree,106470
+2013,Male,Current Dollar,Doctor's degree,105280
+2014,Male,Current Dollar,Doctor's degree,100710
+2015,Male,Current Dollar,Doctor's degree,102340
+2016,Male,Current Dollar,Doctor's degree,120430
+2017,Male,Current Dollar,Doctor's degree,118450
+2018,Male,Current Dollar,Doctor's degree,115790
+2019,Male,Current Dollar,Doctor's degree,128650
+1990,Female,Current Dollar,Doctor's degree,NA
+1995,Female,Current Dollar,Doctor's degree,48140
+2000,Female,Current Dollar,Doctor's degree,57080
+2001,Female,Current Dollar,Doctor's degree,62120
+2002,Female,Current Dollar,Doctor's degree,65720
+2003,Female,Current Dollar,Doctor's degree,67210
+2004,Female,Current Dollar,Doctor's degree,68880
+2005,Female,Current Dollar,Doctor's degree,66850
+2006,Female,Current Dollar,Doctor's degree,70520
+2007,Female,Current Dollar,Doctor's degree,68990
+2008,Female,Current Dollar,Doctor's degree,74030
+2009,Female,Current Dollar,Doctor's degree,76580
+2010,Female,Current Dollar,Doctor's degree,77390
+2011,Female,Current Dollar,Doctor's degree,77460
+2012,Female,Current Dollar,Doctor's degree,77900
+2013,Female,Current Dollar,Doctor's degree,75090
+2014,Female,Current Dollar,Doctor's degree,80540
+2015,Female,Current Dollar,Doctor's degree,82310
+2016,Female,Current Dollar,Doctor's degree,86370
+2017,Female,Current Dollar,Doctor's degree,92030
+2018,Female,Current Dollar,Doctor's degree,95170
+2019,Female,Current Dollars,Doctor's degree,101170
+1990,Male,Constant 2019 Dollars,Doctor's degree,NA
+1995,Male,Constant 2019 Dollars,Doctor's degree,109620
+2000,Male,Constant 2019 Dollars,Doctor's degree,119140
+2001,Male,Constant 2019 Dollars,Doctor's degree,125560
+2002,Male,Constant 2019 Dollars,Doctor's degree,118400
+2003,Male,Constant 2019 Dollars,Doctor's degree,121090
+2004,Male,Constant 2019 Dollars,Doctor's degree,111530
+2005,Male,Constant 2019 Dollars,Doctor's degree,112400
+2006,Male,Constant 2019 Dollars,Doctor's degree,126820
+2007,Male,Constant 2019 Dollars,Doctor's degree,113550
+2008,Male,Constant 2019 Dollars,Doctor's degree,118740
+2009,Male,Constant 2019 Dollars,Doctor's degree,120050
+2010,Male,Constant 2019 Dollars,Doctor's degree,118680
+2011,Male,Constant 2019 Dollars,Doctor's degree,114530
+2012,Male,Constant 2019 Dollars,Doctor's degree,118550
+2013,Male,Constant 2019 Dollars,Doctor's degree,115540
+2014,Male,Constant 2019 Dollars,Doctor's degree,108760
+2015,Male,Constant 2019 Dollars,Doctor's degree,110380
+2016,Male,Constant 2019 Dollars,Doctor's degree,128280
+2017,Male,Constant 2019 Dollars,Doctor's degree,123540
+2018,Male,Constant 2019 Dollars,Doctor's degree,117890
+2019,Male,Constant 2019 Dollars,Doctor's degree,128650
+1990,Female,Constant 2019 Dollars,Doctor's degree,NA
+1995,Female,Constant 2019 Dollars,Doctor's degree,80770
+2000,Female,Constant 2019 Dollars,Doctor's degree,84750
+2001,Female,Constant 2019 Dollars,Doctor's degree,89700
+2002,Female,Constant 2019 Dollars,Doctor's degree,93400
+2003,Female,Constant 2019 Dollars,Doctor's degree,93410
+2004,Female,Constant 2019 Dollars,Doctor's degree,93220
+2005,Female,Constant 2019 Dollars,Doctor's degree,87520
+2006,Female,Constant 2019 Dollars,Doctor's degree,89430
+2007,Female,Constant 2019 Dollars,Doctor's degree,85060
+2008,Female,Constant 2019 Dollars,Doctor's degree,87900
+2009,Female,Constant 2019 Dollars,Doctor's degree,91260
+2010,Female,Constant 2019 Dollars,Doctor's degree,90740
+2011,Female,Constant 2019 Dollars,Doctor's degree,88040
+2012,Female,Constant 2019 Dollars,Doctor's degree,86750
+2013,Female,Constant 2019 Dollars,Doctor's degree,82410
+2014,Female,Constant 2019 Dollars,Doctor's degree,86980
+2015,Female,Constant 2019 Dollars,Doctor's degree,88780
+2016,Female,Constant 2019 Dollars,Doctor's degree,92000
+2017,Female,Constant 2019 Dollars,Doctor's degree,95990
+2018,Female,Constant 2019 Dollars,Doctor's degree,96900
+2019,Female,Constant 2019 Dollars,Doctor's degree,101170

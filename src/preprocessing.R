@@ -18,6 +18,7 @@ write_csv(newdf,"/Users/lingyunfan/all_repos/data_viz_cmpt/BeautifulBars/data/ne
 # create mapping for unique id to color, depends on sex
 library(RColorBrewer)
 library(scales)
+library(plotly)
 MAPPING <- newdf%>% distinct(education,sex)
 RS_COLS =  brewer.pal(9,"Set1")
 RS_COLS = RS_COLS[1:n_distinct(MAPPING$sex)]
@@ -48,7 +49,7 @@ df_gap$year<-ifelse(df_gap$sex=="Male",df_gap$year-0.15,df_gap$year+0.15)
 male<-df_gap%>%spread(education,avg_income)%>%filter(sex=="Male")
 female<-df_gap%>%spread(education,avg_income)%>%filter(sex=="Female")
 
-df_gap%>%ggplot()+
+lines<-df_gap%>%ggplot()+
   geom_smooth(aes(year,avg_income,color=sex),size=0,span=1)+
   scale_color_manual(values=c("darkred","steelblue"))+
   geom_segment(data=male,aes(x=year,xend=year,y=`High school completion (includes equivalency)`,yend=`Bachelor's degree`),colour = "steelblue",size=1.5)+
@@ -63,3 +64,4 @@ df_gap%>%ggplot()+
 
 write_csv(newdf,"/Users/lingyunfan/all_repos/data_viz_cmpt/BeautifulBars/data/new_long_inc_data.csv")
 
+ggplotly(lines)

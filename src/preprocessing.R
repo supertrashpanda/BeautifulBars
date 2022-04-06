@@ -28,6 +28,7 @@ names(PLOT_COLS) = MAPPING$uniq_id
 
 newdf$idtf<-paste(newdf$sex,newdf$education)
 
+#lines 
 ggplot(newdf[which(newdf$money_measure=="Current Dollars"),])+
   geom_line(stat="smooth",aes(year,avg_income,color=as.factor(idtf)),se=FALSE,span=0.3,alpha=0.7,size=0.8)+
   theme_minimal()+
@@ -49,7 +50,8 @@ df_gap$year<-ifelse(df_gap$sex=="Male",df_gap$year-0.15,df_gap$year+0.15)
 male<-df_gap%>%spread(education,avg_income)%>%filter(sex=="Male")
 female<-df_gap%>%spread(education,avg_income)%>%filter(sex=="Female")
 
-lines<-df_gap%>%ggplot()+
+#gaps
+gaps<-df_gap%>%ggplot()+
   geom_smooth(aes(year,avg_income,color=sex),size=0,span=1)+
   scale_color_manual(values=c("darkred","steelblue"))+
   geom_segment(data=male,aes(x=year,xend=year,y=`High school completion (includes equivalency)`,yend=`Bachelor's degree`),colour = "steelblue",size=1.5)+
@@ -64,4 +66,6 @@ lines<-df_gap%>%ggplot()+
 
 write_csv(newdf,"/Users/lingyunfan/all_repos/data_viz_cmpt/BeautifulBars/data/new_long_inc_data.csv")
 
-ggplotly(lines)
+ggplotly(gaps)
+
+

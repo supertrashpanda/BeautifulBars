@@ -64,8 +64,7 @@ gaps<-df_gap%>%ggplot()+
   theme_minimal()+
   theme(axis.text.x = element_text(angle=45,size=6))
 
+
+newdf<-read_csv("/Users/lingyunfan/all_repos/data_viz_cmpt/BeautifulBars/data/new_long_inc_data.csv")
+newdf$education<-ifelse(newdf$education=="High school completion (includes equivalency)","High school completion",newdf$education)
 write_csv(newdf,"/Users/lingyunfan/all_repos/data_viz_cmpt/BeautifulBars/data/new_long_inc_data.csv")
-
-ggplotly(gaps)
-
-

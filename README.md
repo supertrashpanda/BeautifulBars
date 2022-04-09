@@ -3,7 +3,7 @@ For NISS DataViz Competition 2022
 
 ## What we are doing
 
-__The first visulization for pairwise comparison between all degrees is deployed [here](https://supertrashpanda.shinyapps.io/shiny_app/)__
+__The first visulization for pairwise comparison between all degrees is deployed [here](https://supertrashpanda.shinyapps.io/shiny_app/)__. Open to all comments and suggests.
 
 The outstanding issues:
 1. 考虑此图用ggplotly()而非ggplot()，但ggplotly()图例混乱，不知如何自定义修正

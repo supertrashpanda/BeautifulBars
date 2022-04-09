@@ -1,6 +1,8 @@
 # BeautifulBars
 For NISS DataViz Competition 2022
 
+## What we are doing
+
 __The first visulization for pairwise comparison between all degrees is deployed [here](https://supertrashpanda.shinyapps.io/shiny_app/)__
 
 The outstanding issues:

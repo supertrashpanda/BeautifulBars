@@ -29,7 +29,7 @@ ui <- fluidPage(
       sliderInput("yearend",
                   label = "",
                   min = 1989,
-                  max = 2021,
+                  max = 2020,
                   value =c(1999.49,2021),
                   sep=""),
       selectInput(inputId = "education1", label = "Choose one education level:", 
@@ -111,7 +111,7 @@ server <- function(input, output,session) {
                      aes_string(x="year", xend="year",y=colnames(df_gap()$female)[5],yend=colnames(df_gap()$female)[6]),colour = "hotpink2",size=0.5)+
         geom_point(aes(year,avg_income,color=sex,shape=education),size=1.5,alpha=1,fill="white")+
         scale_shape_manual(values=c(21, 16))+
-        scale_x_continuous(breaks=seq(1989, 2021, 2),minor_breaks=seq(1989, 2021, 2))+
+        scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
 
         scale_y_continuous(breaks=seq(0, 200000, 50000),minor_breaks=seq(0, 200000, 50000))+
         ylim(0,200000)+

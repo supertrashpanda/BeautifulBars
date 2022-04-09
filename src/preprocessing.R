@@ -67,4 +67,12 @@ gaps<-df_gap%>%ggplot()+
 
 newdf<-read_csv("/Users/lingyunfan/all_repos/data_viz_cmpt/BeautifulBars/data/new_long_inc_data.csv")
 newdf$education<-ifelse(newdf$education=="High school completion (includes equivalency)","High school completion",newdf$education)
+library(lubridate)
+year(2000)
+newdf$year<-as.character(newdf$year)
+?lapply
+class(newdf$year)
 write_csv(newdf,"/Users/lingyunfan/all_repos/data_viz_cmpt/BeautifulBars/data/new_long_inc_data.csv")
+
+make.names("Fdfd df")
+round(2)

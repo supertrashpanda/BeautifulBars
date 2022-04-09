@@ -61,12 +61,12 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram ----
 server <- function(input, output,session) {
   
-  observe({
-    options=list("Less than 9th grade" = "Less than 9th grade", "Some high school, no completion" = "Some high school, no completion", "High school completion" = "High school completion",
-                 "Some college, no degree" = "Some college, no degree","Associate's degree"="Associate's degree","Bachelor's degree"="Bachelor's degree","Master's degree"="Master's degree",
-                 "Professional degree"="Professional degree","Doctor's degree"="Doctor's degree")
-    updateSelectInput(session, "education2", choices =options[options!=input$education1])
-  })
+  # observe({
+  #   options=list("Less than 9th grade" = "Less than 9th grade", "Some high school, no completion" = "Some high school, no completion", "High school completion" = "High school completion",
+  #                "Some college, no degree" = "Some college, no degree","Associate's degree"="Associate's degree","Bachelor's degree"="Bachelor's degree","Master's degree"="Master's degree",
+  #                "Professional degree"="Professional degree","Doctor's degree"="Doctor's degree")
+  #   updateSelectInput(session, "education2", choices =options[options!=input$education1])
+  # })
  
   df_gap<-reactive({
     if ((input$male)&(!input$female)) {newdf<-newdf[newdf$sex=='Male',]}

@@ -50,6 +50,7 @@ ui <- fluidPage(
     
     # Main panel for displaying outputs ----
     mainPanel(
+      HTML('<center><img src="banner.png" width="300"></center>'),
       plotOutput(outputId = "plot"),
       htmlOutput("txtout")
       

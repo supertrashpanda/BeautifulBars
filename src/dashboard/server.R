@@ -49,10 +49,10 @@ output$txtout <- renderUI({
 output$male <- renderValueBox({
   valueBox(
     value = scales::dollar(abs(round(gap1(),0))),
-    subtitle = "Income Gap for Male",
+    subtitle = "Income Gap for Men",
     icon = icon("male"),
     width = 4,
-    color = "light-blue",
+    color = "aqua",
     href = NULL
   )
 })
@@ -60,7 +60,7 @@ output$male <- renderValueBox({
 output$female <- renderValueBox({
   valueBox(
     value = scales::dollar(abs(round(gap2(),0))),
-    subtitle = "Income Gap for Female",
+    subtitle = "Income Gap for Women",
     icon = icon("female"),
     width = 4,
     color = "maroon",
@@ -71,10 +71,10 @@ output$female <- renderValueBox({
 output$box3 <- renderValueBox({
   valueBox(
     value = scales::dollar(abs(round(gap1(),0)) - (abs(round(gap2(),0)))),
-    subtitle = "Gender Gap",
+    subtitle = "Gender Pay Gap",
     icon = icon("venus-mars"),
     width = 4,
-    color = "purple",
+    color = "light-blue",
     href = NULL
   )
 })

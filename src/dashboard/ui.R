@@ -1,13 +1,13 @@
 dashboardPage(
   dashboardHeader(title = "Education Pays Off"),
   dashboardSidebar(
-    collapsed = TRUE,
+    collapsed = FALSE,
     h5("Compare median earnings of people with different degree levels by sex over the years"),
     sliderInput("yearend",
                 label = "",
                 min = 1989,
-                max = 2020,
-                value =c(1999.49,2020),
+                max = 2021,
+                value =c(1999.49,2021),
                 sep=""),
     selectInput(inputId = "education1", label = "Choose one education level:",
                 choices = list("Less than 9th grade" = "Less than 9th grade", "Some high school, no completion" = "Some high school, no completion", "High school completion" = "High school completion",
@@ -62,15 +62,15 @@ dashboardPage(
     
     fluidRow(
       box(
-        width = 7, solidHeader = TRUE,
+        width = 9, solidHeader = TRUE,
         status="primary",
-        title = "Education Pays Off",
+        title = paste("Annual Salary Difference Between Workers with The Two Education Levels"),
         plotOutput(outputId = "plot", height = "35em"),
         height = "40em"
         # htmlOutput("txtout")
       ),
       
-      column(width = 5,
+      column(width=3,
              box(
                width = NULL,
                solidHeader = TRUE,

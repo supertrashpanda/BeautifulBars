@@ -5,6 +5,8 @@ For NISS DataViz Competition 2022
 
 __The first visulization for pairwise comparison between all degrees is deployed [here](https://supertrashpanda.shinyapps.io/shiny_app/)__. Open to all comments and suggests.
 
+__See the newest dashboard beautified by Jianing [here](https://supertrashpanda.shinyapps.io/Dashboard_Jianing/)__. 
+
 The outstanding issues:
 1. 考虑此图用ggplotly()而非ggplot()，但ggplotly()图例混乱，不知如何自定义修正
 2. 考虑添加新特性：可更改改货币度量衡，新度量衡Current Dollars

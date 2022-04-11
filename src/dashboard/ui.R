@@ -2,7 +2,7 @@ dashboardPage(
   dashboardHeader(title = "Education Pays Off"),
   dashboardSidebar(
     collapsed = FALSE,
-    h5("Compare median earnings of people with different degree levels by sex over the years"),
+    h4("Compare median earnings of people with different degree levels by sex during the following period:"),
     sliderInput("yearend",
                 label = "",
                 min = 1989,

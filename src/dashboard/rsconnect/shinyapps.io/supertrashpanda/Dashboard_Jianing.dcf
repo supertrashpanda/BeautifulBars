@@ -5,9 +5,9 @@ account: supertrashpanda
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 6063825
-bundleId: 5786666
+bundleId: 5788353
 url: https://supertrashpanda.shinyapps.io/Dashboard_Jianing/
-when: 1649685739.56166
-lastSyncTime: 1649685739.56167
+when: 1649714116.0325
+lastSyncTime: 1649714116.03251
 asMultiple: FALSE
 asStatic: FALSE

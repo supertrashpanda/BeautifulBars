@@ -1,4 +1,14 @@
-function(input, output, session) {
+
+server<-function(input, output, session) {
+  
+  observeEvent(input$yearend,{
+    if((input$yearend[1] == input$yearend[2])|(input$yearend[1]>=2020)){
+      updateSliderInput(session, "yearend", value=c(2019,2020))
+    }
+    else if(input$yearend[1] == input$yearend[2]){
+      updateSliderInput(session, "yearend", value=c(input$yearend[1],(input$yearend[1]+1)))
+    }
+  })
   
   df_gap = reactive({
     if ((input$male)&(!input$female)) {newdf<-newdf[newdf$sex=='Male',]}
@@ -7,8 +17,6 @@ function(input, output, session) {
     
     a <- newdf[which((newdf$education%in%c(input$education1,input$education2))&(newdf$money_measure=="Constant 2019 Dollars")),]%>%
       select(-idtf)
-    
-    a$year <- ifelse(a$sex=="Male",a$year-0.1,a$year+0.1)
     a <- a[which((a$year>=input$yearend[1])&(a$year<=input$yearend[2])),]
     
     male <- a %>%
@@ -40,9 +48,9 @@ function(input, output, session) {
   
   sex_gap<- reactive({
     if(input$education1==input$education2){
-    inc1<-mean(newdf[which((newdf$education==input$education1)&(newdf$sex=="Female")),"avg_income"],na.rm = TRUE)
-    inc2<-mean(newdf[which((newdf$education==input$education1)&(newdf$sex=="Male")),"avg_income"],na.rm=TRUE)
-    return(inc2-inc1)}
+      inc1<-mean(newdf[which((newdf$education==input$education1)&(newdf$sex=="Female")),"avg_income"],na.rm = TRUE)
+      inc2<-mean(newdf[which((newdf$education==input$education1)&(newdf$sex=="Male")),"avg_income"],na.rm=TRUE)
+      return(inc2-inc1)}
     else{return(0)}
   })
   
@@ -92,9 +100,8 @@ function(input, output, session) {
     if(input$education1==input$education2){
       df_gap()$a%>%
         ggplot()+
-        geom_smooth(aes(year,avg_income),size=0,span=1,alpha=0.1)+
-        scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
-        geom_point(aes(year,avg_income,color=sex),size=1.5,alpha=1,fill="white")+
+        geom_line(aes(year,avg_income,color=sex),size=1.5,alpha=0.8)+
+        scale_color_manual(labels=c("Female","Male"),values=c("hotpink2","steelblue3"))+
         scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
         ylim(0,200000)+
         geom_hline(yintercept=0,alpha=0.5,size=1)+
@@ -107,21 +114,18 @@ function(input, output, session) {
     else{
       df_gap()$a%>%
         ggplot()+
-        geom_smooth(aes(year,avg_income,fill=education),size=0,span=1,alpha=0.1)+
-        scale_fill_manual(values=c("grey","grey"))+
-        scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
-        geom_segment(data=df_gap()$male,
-                     aes_string(x="year", xend="year",y=colnames(df_gap()$male)[5],yend=colnames(df_gap()$male)[6]),colour = "steelblue3",size=0.5)+
-        geom_segment(data=df_gap()$female,
-                     aes_string(x="year", xend="year",y=colnames(df_gap()$female)[5],yend=colnames(df_gap()$female)[6]),colour = "hotpink2",size=0.5)+
-        geom_point(aes(year,avg_income,color=sex,shape=education),size=1.5,alpha=1,fill="white")+
-        scale_shape_manual(values=c(21, 16))+
+        geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
+        scale_color_manual(labels=c("Female","Male"),values=c("hotpink2","steelblue3"))+
+        scale_size_manual(values=c(1,2))+
+        #scale_linetype_manual(values=c("solid","dotted"))+
+        geom_ribbon(data=df_gap()$male,aes_string(x="year",ymin =colnames(df_gap()$male)[5], ymax = colnames(df_gap()$male)[6]), fill = "steelblue3", alpha = .2)+
+        geom_ribbon(data=df_gap()$female,aes_string(x="year",ymin =colnames(df_gap()$female)[5], ymax = colnames(df_gap()$male)[6]), fill = "hotpink2", alpha = .2)+
         scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
         # scale_y_continuous(breaks=seq(0, 200000, 50000),minor_breaks=seq(0, 200000, 50000))+
         ylim(0,200000)+
         geom_hline(yintercept=0,alpha=0.5,size=1)+
         labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
-             fill="Education Levels",color="Gender")+
+             linetype="Education Levels",color="Gender")+
         theme_minimal()+
         theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
               legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
@@ -152,7 +156,6 @@ function(input, output, session) {
     df_gap()$a %>%
       ggplot(aes(x = year, y = avg_income, fill = education)) + 
       geom_bar(stat="identity", position = "dodge") + 
-      scale_fill_brewer(palette = "Set1") +
       theme_minimal()+
       theme(legend.position = "bottom",
             legend.text = element_text(size=8)) +
@@ -160,5 +163,5 @@ function(input, output, session) {
                         name = "Education")+
       labs(x="Year",y="Median Annual Income")
   )
-}  
   
+}

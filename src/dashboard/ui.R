@@ -7,7 +7,7 @@ dashboardPage(
                 label = "",
                 min = 1989,
                 max = 2021,
-                value =c(1999.49,2021),
+                value =c(2000,2021),
                 sep=""),
     selectInput(inputId = "education1", label = "Choose one education level:",
                 choices = list("Less than 9th grade" = "Less than 9th grade", "Some high school, no completion" = "Some high school, no completion", "High school completion" = "High school completion",

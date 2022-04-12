@@ -2,7 +2,7 @@
 server<-function(input, output, session) {
   
   observeEvent(input$yearend,{
-    if((input$yearend[1] == input$yearend[2])|(input$yearend[1]>=2020)){
+    if(input$yearend[1]>=2020){
       updateSliderInput(session, "yearend", value=c(2019,2020))
     }
     else if(input$yearend[1] == input$yearend[2]){

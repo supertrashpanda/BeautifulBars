@@ -1,9 +1,9 @@
 dashboardPage(
-  dashboardHeader(title = "Education Pays Off"),
+
+  dashboardHeader(title =span("Does Education Pay off?",style="font-size:17px;")),
   dashboardSidebar(
     collapsed = FALSE,
-    tags$h4("Compare median earnings of people with different degree levels by sex during the following period:",
-            style = "padding: 10px;"),
+    tags$h4("Visulize the income gap between people with 2 different degree levels by sex during the following period:",style = "padding: 10px;"),
     sliderInput("yearend",
                 label = "",
                 min = 1989,
@@ -66,9 +66,10 @@ dashboardPage(
       tabBox(
         width = 8,
         height = "40em",
-        title = tagList(shiny::icon("bar-chart-o"), "Visualization"),
+
+        title = tagList(shiny::icon("bar-chart-o")),
         tabPanel("Tab1",
-                 plotOutput(outputId = "plot", height = "35em")
+                 plotlyOutput(outputId = "plot", height = "35em")
         ),
         tabPanel("Tab2", 
                  "Tab content 2")
@@ -89,19 +90,22 @@ dashboardPage(
         # solidHeader = TRUE,
         # status="primary",
         # title = paste("How many years"),
-        h1("HOW MANY YEARS CAN YOU PAYOFF YOUR TUITION?", 
-           style = "font-weight: bold; color:#005266; font-family: Impact, fantasy;line-height: 35px !important;padding: 5px; margin-top: 0;"),
-        h5("The box above illustrates the number of years one should work to cover the opportunity cost for pursuing a higher degree after recieving the degree.", 
+
+        h3("The Payback Period of the Additional Education", 
+           style = "font-weight: bold; color:#005266; font-family: Impact, fantasy;line-height: 25px !important;padding: 4px; margin-top: 0;"),
+        h5("Based on the information in the left sidebar and you input below, the box above automatically computes the number of years one needs to work (after graduating with the higher degree) to cover the opportunity cost of pursuing the higher degree after achieving the lower education level.", 
            style = "padding: 5px; color:#006080;font-family:Arial, sans-serif; "),
         hr(),
+        selectInput(inputId = "sex", label = "Gender of Worker",
+                    choices = list("Male", "Female")),
         textInput("sumfee",
-                  label = "Cumulated Tuition Fee to pursue a higher degree",
-                  value ="4000"),
+                  label = "Cumulated tuition fee in pursuing the higher degree (in USDs)",
+                  value ="120000"),
         textInput("year",
-                  label = "Number of years needed to recieve the higher degree",
-                  value = "5"),
-        selectInput(inputId = "sex", label = "Gender",
-                    choices = list("Male", "Female"))
+                  label = "Number of years needed to obtain the higher degree",
+                  value = "4")
+        
+
         )
       )
       

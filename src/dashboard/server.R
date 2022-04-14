@@ -11,9 +11,9 @@ server<-function(input, output, session) {
   })
   
   df_gap = reactive({
-    if ((input$male)&(!input$female)) {newdf<-newdf[newdf$sex=='Male',]}
-    if ((!input$male)&(input$female)) {newdf<-newdf[newdf$sex=='Female',]}
-    if((!input$male)&(!input$female)) {newdf<-newdf[newdf$sex=='',]}
+    if ((input$male)&(!input$female)) {newdf<-df[df$sex=='Male',]}
+    if ((!input$male)&(input$female)) {newdf<-df[df$sex=='Female',]}
+    if((!input$male)&(!input$female)) {newdf<-df[df$sex=='',]}
     
     a <- newdf[which((newdf$education%in%c(input$education1,input$education2))&(newdf$money_measure=="Constant 2019 Dollars")),]%>%
       select(-idtf)
@@ -34,15 +34,15 @@ server<-function(input, output, session) {
   
   
   gap1 <- reactive({
-    inc1<-mean(df_gap()$a[which((df_gap()$a$education==input$education1)&(df_gap()$a$sex=="Male")),"avg_income"],na.rm = TRUE)
-    inc2<-mean(df_gap()$a[which((df_gap()$a$education==input$education2)&(df_gap()$a$sex=="Male")),"avg_income"],na.rm = TRUE)
+    inc1<-mean(df[which((df$money_measure=="Constant 2019 Dollars")&(df$education==input$education1)&(df$sex=="Male")&(df$year>=input$yearend[1])&(df$year<=input$yearend[2])),"avg_income"],na.rm = TRUE)
+    inc2<-mean(df[which((df$money_measure=="Constant 2019 Dollars")&(df$education==input$education2)&(df$sex=="Male")&(df$year>=input$yearend[1])&(df$year<=input$yearend[2])),"avg_income"],na.rm = TRUE)
     return(inc2-inc1)
   })
   
   
   gap2 <- reactive({
-    inc1<-mean(df_gap()$a[which((df_gap()$a$education==input$education1)&(df_gap()$a$sex=="Female")),"avg_income"],na.rm = TRUE)
-    inc2<-mean(df_gap()$a[which((df_gap()$a$education==input$education2)&(df_gap()$a$sex=="Female")),"avg_income"],na.rm = TRUE)
+    inc1<-mean(df[which((df$money_measure=="Constant 2019 Dollars")&(df$education==input$education1)&(df$sex=="Female")&(df$year>=input$yearend[1])&(df$year<=input$yearend[2])),"avg_income"],na.rm = TRUE)
+    inc2<-mean(df[which((df$money_measure=="Constant 2019 Dollars")&(df$education==input$education2)&(df$sex=="Female")&(df$year>=input$yearend[1])&(df$year<=input$yearend[2])),"avg_income"],na.rm = TRUE)
     return(inc2-inc1)
   })
   
@@ -58,23 +58,22 @@ server<-function(input, output, session) {
     sumfee<-as.numeric(input$sumfee)
     year <- as.numeric(input$year)
     sex <- input$sex
+    inc1<-mean(df[which((df$money_measure=="Constant 2019 Dollars")&(df$education==input$education1)&(df$sex=="Male")&(df$year>=input$yearend[1])&(df$year<=input$yearend[2])),"avg_income"],na.rm = TRUE)
+    inc2<-mean(df[which((df$money_measure=="Constant 2019 Dollars")&(df$education==input$education1)&(df$sex=="Female")&(df$year>=input$yearend[1])&(df$year<=input$yearend[2])),"avg_income"],na.rm = TRUE)
+    if(sex=="Male"){return((inc1*year + sumfee)/gap1())}
+    else{return((inc2*year + sumfee)/gap2())}
     inc1<-mean(df_gap()$a[which((df_gap()$a$education==input$education1)&(df_gap()$a$sex==input$sex)),"avg_income"],na.rm = TRUE)
     inc2<-mean(df_gap()$a[which((df_gap()$a$education==input$education2)&(df_gap()$a$sex==input$sex)),"avg_income"],na.rm = TRUE)
     return((inc1*year + sumfee)/(inc2-inc1))
+
   })
   
-  
-  output$txtout <- renderUI({
-    str1 <- paste("The income gap between workers with education levels of '",input$education1,"' and  '",input$education2,"':",sep="")
-    str2 <- paste("Male: $", abs(round(gap1(),2)),sep="")
-    str3 <- paste("Female: $", abs(round(gap2(),2)),sep="")
-    HTML(paste(str1, str2,str3, sep = '<br/>'))
-  })
-  
+
   output$male <- renderValueBox({
     valueBox(
+      
       value = scales::dollar(abs(round(gap1(),0))),
-      subtitle = "Income Gap for Men",
+      subtitle = tags$p("Annual Income Gap for Men (multi-year average)",style="font-size:110%;"),
       icon = icon("male"),
       width = 4,
       color = "aqua",
@@ -85,7 +84,7 @@ server<-function(input, output, session) {
   output$female <- renderValueBox({
     valueBox(
       value = scales::dollar(abs(round(gap2(),0))),
-      subtitle = "Income Gap for Women",
+      subtitle = tags$p("Annual Income Gap for Women (multi-year average)",style="font-size:108%;"),
       icon = icon("female"),
       width = 4,
       color = "maroon",
@@ -96,7 +95,7 @@ server<-function(input, output, session) {
   output$box3 <- renderValueBox({
     valueBox(
       value = if(input$education1==input$education2){"NA"}else{abs(round(payoff(),1))},
-      subtitle = "Expected Number of Years",
+      subtitle = tags$p("Expected Payback Period (Years)",style="font-size:120%;"),
       icon = icon("user-graduate"),
       width = 4,
       color = "light-blue",
@@ -105,41 +104,87 @@ server<-function(input, output, session) {
   })
   
   
-  output$plot <- renderPlot({
+  output$plot <- renderPlotly({
     if(input$education1==input$education2){
-      df_gap()$a%>%
+      ggplotly(df_gap()$a%>%
         ggplot()+
         geom_line(aes(year,avg_income,color=sex),size=1.5,alpha=0.8)+
         scale_color_manual(labels=c("Female","Male"),values=c("hotpink2","steelblue3"))+
         scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
-        ylim(0,200000)+
+        ylim(0,170000)+
         geom_hline(yintercept=0,alpha=0.5,size=1)+
-        labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",color="Gender")+
+        labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",color="Gender",
+             title="")+
         theme_minimal()+
         theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
               legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
               panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank())
+      )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)
     }
-    else{
-      df_gap()$a%>%
-        ggplot()+
-        geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
-        scale_color_manual(labels=c("Female","Male"),values=c("hotpink2","steelblue3"))+
-        scale_size_manual(values=c(1,2))+
-        #scale_linetype_manual(values=c("solid","dotted"))+
-        geom_ribbon(data=df_gap()$male,aes_string(x="year",ymin =colnames(df_gap()$male)[5], ymax = colnames(df_gap()$male)[6]), fill = "steelblue3", alpha = .2)+
-        geom_ribbon(data=df_gap()$female,aes_string(x="year",ymin =colnames(df_gap()$female)[5], ymax = colnames(df_gap()$male)[6]), fill = "hotpink2", alpha = .2)+
-        scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
-        # scale_y_continuous(breaks=seq(0, 200000, 50000),minor_breaks=seq(0, 200000, 50000))+
-        ylim(0,200000)+
-        geom_hline(yintercept=0,alpha=0.5,size=1)+
-        labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
-             linetype="Education Levels",color="Gender")+
-        theme_minimal()+
-        theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
-              legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
-              panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank())
-    }
+    else if((input$male)&(input$female)){
+      ggplotly(df_gap()$a%>%
+                 ggplot()+
+                 geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
+                 scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
+                 scale_size_manual(values=c(1,2))+
+                 geom_ribbon(data=df_gap()$male,aes_string(x="year",ymin =colnames(df_gap()$male)[5], ymax = colnames(df_gap()$male)[6]), fill = "steelblue3", alpha = .2)+
+                 geom_ribbon(data=df_gap()$female,aes_string(x="year",ymin =colnames(df_gap()$female)[5], ymax = colnames(df_gap()$male)[6]), fill = "hotpink2", alpha = .2)+
+                 scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
+                 ylim(0,170000)+
+                 geom_hline(yintercept=0,alpha=0.5,size=1)+
+                 labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
+                      size="Education Levels",color="Gender",title="")+
+                 theme_minimal()+
+                 theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
+                       legend.box = "horizontal",axis.text.x = element_text(size=6,angle=45),
+                       panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+                       text = element_text(size = 10))
+      )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)}
+    
+  else if ((!input$male)&(!input$female)){
+    ggplotly(ggplot() +
+               theme_minimal()+
+               ylim(0,170000)+
+               geom_hline(yintercept=0,alpha=0.5,size=1)
+               
+    )
+  }
+  else if ((input$male)&(!input$female)){ggplotly(df_gap()$a%>%
+                        ggplot()+
+                        geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
+                        scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
+                        scale_size_manual(values=c(1,2))+
+                        geom_ribbon(data=df_gap()$male,aes_string(x="year",ymin =colnames(df_gap()$male)[5], ymax = colnames(df_gap()$male)[6]), fill = "steelblue3", alpha = .2)+
+                        scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
+                        ylim(0,170000)+
+                        geom_hline(yintercept=0,alpha=0.5,size=1)+
+                        labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
+                             size="Education Levels",color="Gender",title="")+
+                        theme_minimal()+
+                        theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
+                              legend.box = "horizontal",axis.text.x = element_text(size=6,angle=45),
+                              panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+                              text = element_text(size = 10))
+  )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)} 
+    
+else{ggplotly(df_gap()$a%>%
+                       ggplot()+
+                       geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
+                       scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
+                       scale_size_manual(values=c(1,2))+
+                       geom_ribbon(data=df_gap()$female,aes_string(x="year",ymin =colnames(df_gap()$female)[5], ymax = colnames(df_gap()$male)[6]), fill = "hotpink2", alpha = .2)+
+                       scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
+                       ylim(0,170000)+
+                       geom_hline(yintercept=0,alpha=0.5,size=1)+
+                       labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
+                            size="Education Levels",color="Gender",title="")+
+                       theme_minimal()+
+                       theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
+                             legend.box = "horizontal",axis.text.x = element_text(size=6,angle=45),
+                             panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+                             text = element_text(size = 10))
+)%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)}
+
   })
   
   output$gender = renderPlot(

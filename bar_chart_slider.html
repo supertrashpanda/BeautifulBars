@@ -61,7 +61,7 @@ var now_bin = 0; // last year
 var USER_TIME = now_bin;
 
 
-
+//  tick in $()k unit
 var margin = {top: 30, right: 20, bottom: 30, left: 10},
   	width = parseInt(d3.select('#chart').style('width'), 10),
   	width = width - margin.left - margin.right,
@@ -93,7 +93,7 @@ var chart = d3.select('#chart').append('svg')
   .append('g')
     .attr('transform', 'translate(' + [margin.left, margin.top] + ')');
 	
-// controls
+// controls [0,20]
 var time_slider = d3.slider().min(0).max(20).ticks(0).stepValues(d3.range(0,20)).value(USER_TIME)
 	.callback(brushed);
 
@@ -245,7 +245,7 @@ function resize() {
 }
 
 
-// Convert bin numbers 0 to 47 to time segments in words
+// Convert bin numbers 0 to 20 to year 2000 to 2020 in words
 function binNumberToWords(bin_num) {
 	
 	var time_span = bin_num + 2000

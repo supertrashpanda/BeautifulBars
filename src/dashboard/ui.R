@@ -1,8 +1,10 @@
 dashboardPage(
-  dashboardHeader(title = "Education Pays Off"),
+
+  dashboardHeader(title =span("Does Education Pay off?",style="font-size:17px;")),
   dashboardSidebar(
     collapsed = FALSE,
-    h4("Compare median earnings of people with different degree levels by sex during the following period:"),
+    tags$h4("Visulize the income gap between people with 2 different degree levels by sex during the following period:",
+            style = "padding: 10px;"),
     sliderInput("yearend",
                 label = "",
                 min = 1989,
@@ -22,7 +24,8 @@ dashboardPage(
     checkboxInput("male","Male", TRUE),
     checkboxInput("female","Female", TRUE),
     hr(),
-    helpText("Data from the National Center for Education Statistics")
+    helpText("Data from the National Center for Education Statistics",
+             style = "left: 0.8em; position: relative;")
   ),
   
   dashboardBody(
@@ -61,40 +64,73 @@ dashboardPage(
     ),
     
     fluidRow(
-      box(
-        width = 9, solidHeader = TRUE,
-        status="primary",
-        title = paste("Annual Salary Difference Between Workers with The Two Education Levels"),
-        plotOutput(outputId = "plot", height = "35em"),
-        height = "40em"
-        # htmlOutput("txtout")
+      tabBox(
+        width = 8,
+        height = "40em",
+        title = tagList(shiny::icon("bar-chart-o")),
+        tabPanel("Tab1",
+                 plotlyOutput(outputId = "plot", height = "35em")
+        ),
+        tabPanel("Tab2", 
+                 "Tab content 2")
       ),
       
-      column(width=3,
-             box(
-               width = NULL,
-               solidHeader = TRUE,
-               status="primary",
-               title = "Gender Analysis",
-               plotOutput(outputId = "gender", height = "15em"),
-               height = "19em"
-             ),
-             
-             box(
-               width = NULL,
-               solidHeader = TRUE,
-               status="primary",
-               title = "Education Matters",
-               plotOutput(outputId = "education", height = "15em"),
-               height = "19em"
-             )
-             
+      # box(
+      #   width = 8, solidHeader = TRUE,
+      #   status="primary",
+      #   title = paste("Annual Salary Difference Between Workers with The Two Education Levels"),
+      #   plotOutput(outputId = "plot", height = "35em"),
+      #   height = "40em"
+      #   # htmlOutput("txtout")
+      # ),
+      
+      box(
+        width = 4,
+        height = "40em",
+        # solidHeader = TRUE,
+        # status="primary",
+        # title = paste("How many years"),
+        h3("The Payback Period of the Additional Education", 
+           style = "font-weight: bold; color:#005266; font-family: Impact, fantasy;line-height: 25px !important;padding: 4px; margin-top: 0;"),
+        h5("Based on the information in the left sidebar and you input below, the box above automatically computes the number of years one needs to work (after graduating with the higher degree) to cover the opportunity cost of pursuing the higher degree after achieving the lower education level.", 
+           style = "padding: 5px; color:#006080;font-family:Arial, sans-serif; "),
+        hr(),
+        selectInput(inputId = "sex", label = "Gender of Worker",
+                    choices = list("Male", "Female")),
+        textInput("sumfee",
+                  label = "Cumulated tuition fee in pursuing the higher degree (in USDs)",
+                  value ="120000"),
+        textInput("year",
+                  label = "Number of years needed to obtain the higher degree",
+                  value = "4")
+        
+        )
       )
-    )
-    
+      
+      # column(width=3,
+      #        box(
+      #          width = NULL,
+      #          solidHeader = TRUE,
+      #          status="primary",
+      #          title = "Gender Analysis",
+      #          plotOutput(outputId = "gender", height = "15em"),
+      #          height = "19em"
+      #        ),
+      #        
+      #        box(
+      #          width = NULL,
+      #          solidHeader = TRUE,
+      #          status="primary",
+    #          title = "Education Matters",
+    #          plotOutput(outputId = "Education", height = "15em"),
+    #          height = "19em"
+    #        )
+    #        
+    # )
   )
   
 )
+
 
 
 

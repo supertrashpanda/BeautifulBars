@@ -71,7 +71,6 @@ server<-function(input, output, session) {
 
   output$male <- renderValueBox({
     valueBox(
-      
       value = scales::dollar(abs(round(gap1(),0))),
       subtitle = tags$p("Annual Income Gap for Men (multi-year average)",style="font-size:110%;"),
       icon = icon("male"),
@@ -188,7 +187,7 @@ else{ggplotly(df_gap()$a%>%
   })
   
   output$gender = renderPlot(
-    df_gap()$a%>%
+    df_gap()$a %>%
       ggplot(aes(x = year, y = avg_income, fill = sex)) + 
       geom_bar(stat="identity", position = "dodge") + 
       theme_minimal() +

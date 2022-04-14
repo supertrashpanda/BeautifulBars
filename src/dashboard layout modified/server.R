@@ -54,6 +54,15 @@ server<-function(input, output, session) {
     else{return(0)}
   })
   
+  payoff <- reactive({
+    sumfee<-as.numeric(input$sumfee)
+    year <- as.numeric(input$year)
+    sex <- input$sex
+    inc1<-mean(df_gap()$a[which((df_gap()$a$education==input$education1)&(df_gap()$a$sex==input$sex)),"avg_income"],na.rm = TRUE)
+    inc2<-mean(df_gap()$a[which((df_gap()$a$education==input$education2)&(df_gap()$a$sex==input$sex)),"avg_income"],na.rm = TRUE)
+    return((inc1*year + sumfee)/(inc2-inc1))
+  })
+  
   
   output$txtout <- renderUI({
     str1 <- paste("The income gap between workers with education levels of '",input$education1,"' and  '",input$education2,"':",sep="")
@@ -86,9 +95,9 @@ server<-function(input, output, session) {
   
   output$box3 <- renderValueBox({
     valueBox(
-      value = if(input$education1!=input$education2){"NA"}else{scales::dollar(abs(round(sex_gap())))},
-      subtitle = "Gender Pay Gap",
-      icon = icon("venus-mars"),
+      value = if(input$education1==input$education2){"NA"}else{abs(round(payoff(),1))},
+      subtitle = "Expected Number of Years",
+      icon = icon("user-graduate"),
       width = 4,
       color = "light-blue",
       href = NULL

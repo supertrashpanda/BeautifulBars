@@ -165,6 +165,7 @@ server <- function(input, output, session) {
     return(inc2-inc1)}
     else{return(0)}
   })
+  
   payoff <- reactive({
     sumfee<-as.numeric(input$sumfee)
     year <- as.numeric(input$year)

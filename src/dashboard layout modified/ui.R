@@ -2,7 +2,8 @@ dashboardPage(
   dashboardHeader(title = "Education Pays Off"),
   dashboardSidebar(
     collapsed = FALSE,
-    h4("Compare median earnings of people with different degree levels by sex during the following period:"),
+    tags$h4("Compare median earnings of people with different degree levels by sex during the following period:",
+            style = "padding: 10px;"),
     sliderInput("yearend",
                 label = "",
                 min = 1989,
@@ -22,7 +23,8 @@ dashboardPage(
     checkboxInput("male","Male", TRUE),
     checkboxInput("female","Female", TRUE),
     hr(),
-    helpText("Data from the National Center for Education Statistics")
+    helpText("Data from the National Center for Education Statistics",
+             style = "left: 0.8em; position: relative;")
   ),
   
   dashboardBody(
@@ -61,40 +63,72 @@ dashboardPage(
     ),
     
     fluidRow(
-      box(
-        width = 9, solidHeader = TRUE,
-        status="primary",
-        title = paste("Annual Salary Difference Between Workers with The Two Education Levels"),
-        plotOutput(outputId = "plot", height = "35em"),
-        height = "40em"
-        # htmlOutput("txtout")
+      tabBox(
+        width = 8,
+        height = "40em",
+        title = tagList(shiny::icon("bar-chart-o"), "Visualization"),
+        tabPanel("Tab1",
+                 plotOutput(outputId = "plot", height = "35em")
+        ),
+        tabPanel("Tab2", 
+                 "Tab content 2")
       ),
       
-      column(width=3,
-             box(
-               width = NULL,
-               solidHeader = TRUE,
-               status="primary",
-               title = "Gender Analysis",
-               plotOutput(outputId = "gender", height = "15em"),
-               height = "19em"
-             ),
-             
-             box(
-               width = NULL,
-               solidHeader = TRUE,
-               status="primary",
-               title = "Education Matters",
-               plotOutput(outputId = "education", height = "15em"),
-               height = "19em"
-             )
-             
+      # box(
+      #   width = 8, solidHeader = TRUE,
+      #   status="primary",
+      #   title = paste("Annual Salary Difference Between Workers with The Two Education Levels"),
+      #   plotOutput(outputId = "plot", height = "35em"),
+      #   height = "40em"
+      #   # htmlOutput("txtout")
+      # ),
+      
+      box(
+        width = 4,
+        height = "40em",
+        # solidHeader = TRUE,
+        # status="primary",
+        # title = paste("How many years"),
+        h1("HOW MANY YEARS CAN YOU PAYOFF YOUR TUITION?", 
+           style = "font-weight: bold; color:#005266; font-family: Impact, fantasy;line-height: 35px !important;padding: 5px; margin-top: 0;"),
+        h5("The box above illustrates the number of years one should work to cover the opportunity cost for pursuing a higher degree after recieving the degree.", 
+           style = "padding: 5px; color:#006080;font-family:Arial, sans-serif; "),
+        hr(),
+        textInput("sumfee",
+                  label = "Cumulated Tuition Fee to pursue a higher degree",
+                  value ="4000"),
+        textInput("year",
+                  label = "Number of years needed to recieve the higher degree",
+                  value = "5"),
+        selectInput(inputId = "sex", label = "Gender",
+                    choices = list("Male", "Female"))
+        )
       )
-    )
-    
+      
+      # column(width=3,
+      #        box(
+      #          width = NULL,
+      #          solidHeader = TRUE,
+      #          status="primary",
+      #          title = "Gender Analysis",
+      #          plotOutput(outputId = "gender", height = "15em"),
+      #          height = "19em"
+      #        ),
+      #        
+      #        box(
+      #          width = NULL,
+      #          solidHeader = TRUE,
+      #          status="primary",
+    #          title = "Education Matters",
+    #          plotOutput(outputId = "Education", height = "15em"),
+    #          height = "19em"
+    #        )
+    #        
+    # )
   )
   
 )
+
 
 
 

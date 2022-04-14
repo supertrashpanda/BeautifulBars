@@ -92,7 +92,7 @@ dashboardPage(
         # title = paste("How many years"),
         h3("The Payback Period of the Additional Education", 
            style = "font-weight: bold; color:#005266; font-family: Impact, fantasy;line-height: 25px !important;padding: 4px; margin-top: 0;"),
-        h5("Based on the information in the left sidebar and you input below, the box above automatically computes the number of years one needs to work (after graduating with the higher degree) to cover the opportunity cost of pursuing the higher degree after achieving the lower education level.", 
+        h5("Based on the information in the left sidebar and the user input below, the box above automatically computes the expected number of years one needs to work (after graduating with the higher degree) to cover the opportunity cost of pursuing the higher degree after achieving the lower education level (Assuming one lands a job right after graduation).", 
            style = "padding: 5px; color:#006080;font-family:Arial, sans-serif; "),
         hr(),
         selectInput(inputId = "sex", label = "Gender of Worker",

@@ -62,6 +62,10 @@ server<-function(input, output, session) {
     inc2<-mean(df[which((df$money_measure=="Constant 2019 Dollars")&(df$education==input$education1)&(df$sex=="Female")&(df$year>=input$yearend[1])&(df$year<=input$yearend[2])),"avg_income"],na.rm = TRUE)
     if(sex=="Male"){return((inc1*year + sumfee)/gap1())}
     else{return((inc2*year + sumfee)/gap2())}
+    inc1<-mean(df_gap()$a[which((df_gap()$a$education==input$education1)&(df_gap()$a$sex==input$sex)),"avg_income"],na.rm = TRUE)
+    inc2<-mean(df_gap()$a[which((df_gap()$a$education==input$education2)&(df_gap()$a$sex==input$sex)),"avg_income"],na.rm = TRUE)
+    return((inc1*year + sumfee)/(inc2-inc1))
+
   })
   
 

@@ -3,8 +3,7 @@ dashboardPage(
   dashboardHeader(title =span("Does Education Pay off?",style="font-size:17px;")),
   dashboardSidebar(
     collapsed = FALSE,
-    tags$h4("Visulize the income gap between people with 2 different degree levels by sex during the following period:",
-            style = "padding: 10px;"),
+    tags$h4("Visulize the income gap between people with 2 different degree levels by sex during the following period:",style = "padding: 10px;"),
     sliderInput("yearend",
                 label = "",
                 min = 1989,
@@ -67,6 +66,7 @@ dashboardPage(
       tabBox(
         width = 8,
         height = "40em",
+
         title = tagList(shiny::icon("bar-chart-o")),
         tabPanel("Tab1",
                  plotlyOutput(outputId = "plot", height = "35em")
@@ -90,6 +90,7 @@ dashboardPage(
         # solidHeader = TRUE,
         # status="primary",
         # title = paste("How many years"),
+
         h3("The Payback Period of the Additional Education", 
            style = "font-weight: bold; color:#005266; font-family: Impact, fantasy;line-height: 25px !important;padding: 4px; margin-top: 0;"),
         h5("Based on the information in the left sidebar and you input below, the box above automatically computes the number of years one needs to work (after graduating with the higher degree) to cover the opportunity cost of pursuing the higher degree after achieving the lower education level.", 
@@ -104,6 +105,7 @@ dashboardPage(
                   label = "Number of years needed to obtain the higher degree",
                   value = "4")
         
+
         )
       )
       

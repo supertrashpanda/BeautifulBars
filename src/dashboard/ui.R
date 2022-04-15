@@ -1,9 +1,9 @@
 dashboardPage(
 
-  dashboardHeader(title =span("Does Education Pay off?",style="font-size:17px;")),
+  dashboardHeader(title =span("Does Education Pay off?",style="font-size:20px;font-family: Impact, fantasy;")),
   dashboardSidebar(
     collapsed = FALSE,
-    tags$h4("Visulize the income gap between people with 2 different degree levels by sex during the following period:",style = "padding: 10px;"),
+    tags$h4("To visualize the income gap between people with 2 different degree levels by sex during this period:",style = "padding: 10px;"),
     sliderInput("yearend",
                 label = "",
                 min = 1989,
@@ -28,35 +28,8 @@ dashboardPage(
   ),
   
   dashboardBody(
-    # h3("Compare median earnings of people with different degree levels by sex over the years"),
-    # fluidRow(
-    #   column(width = 3,
-    #          sliderInput("yearend",label = "",min = 1989, max = 2020,value =c(1999.49,2020), sep="")
-    #   ),
-    #   column(width = 3, 
-    #          selectInput(inputId = "education2", label = "First Education:", 
-    #                      choices = list("Less than 9th grade" = "Less than 9th grade", "Some high school, no completion" = "Some high school, no completion", "High school completion" = "High school completion",
-    #                                     "Some college, no degree" = "Some college, no degree","Associate's degree"="Associate's degree","Bachelor's degree"="Bachelor's degree","Master's degree"="Master's degree",
-    #                                     "Professional degree"="Professional degree","Doctor's degree"="Doctor's degree"), 
-    #                      selected = "Bachelor's degree")
-    #   ),
-    #   column(width = 3, 
-    #          selectInput(inputId = "education2", label = "Second Education:", 
-    #                      choices = list("Less than 9th grade" = "Less than 9th grade", "Some high school, no completion" = "Some high school, no completion", "High school completion" = "High school completion",
-    #                                     "Some college, no degree" = "Some college, no degree","Associate's degree"="Associate's degree","Bachelor's degree"="Bachelor's degree","Master's degree"="Master's degree",
-    #                                     "Professional degree"="Professional degree","Doctor's degree"="Doctor's degree"), 
-    #                      selected = "Bachelor's degree")
-    #   ),
-    #   column(width = 2, 
-    #          checkboxInput("male","Male", TRUE)
-    #   ),
-    #   
-    #   column(width = 2, 
-    #          checkboxInput("female","Female", TRUE)
-    #   )
-    # ),
-    
     fluidRow(
+      tags$head(tags$style(HTML(".small-box {height: 120px};"))),
       valueBoxOutput("male"),
       valueBoxOutput("female"),
       valueBoxOutput("box3")
@@ -92,17 +65,17 @@ dashboardPage(
         # title = paste("How many years"),
 
         h3("The Payback Period of the Additional Education", 
-           style = "font-weight: bold; color:#005266; font-family: Impact, fantasy;line-height: 25px !important;padding: 4px; margin-top: 0;"),
-        h5("Based on the information in the left sidebar and the user input below, the box above automatically computes the expected number of years one needs to work (after graduating with the higher degree) to cover the opportunity cost of pursuing the higher degree after achieving the lower education level (Assuming one lands a job right after graduation).", 
-           style = "padding: 5px; color:#006080;font-family:Arial, sans-serif; "),
+           style = "font-weight: bold; color:#005266; font-family: Impact, fantasy;line-height: 23px !important;padding: 4px; margin-top: 0;"),
+        tags$style("intro {padding:0px; color:#006080; line-height: -1px }"),
+        HTML("<intro>Given the two different degree levels in the left sidebar and the information the user inputs below, the box above automatically computes <b>the expected number of years one needs to work</b> (after graduating with the higher degree) to cover the <b>opportunity cost of pursuing the higher degree after achieving the lower education level</b> (Assuming the person lands a job right after graduation).</intro>"),
         hr(),
         selectInput(inputId = "sex", label = "Gender of Worker",
                     choices = list("Male", "Female")),
         textInput("sumfee",
-                  label = "Cumulated tuition fee in pursuing the higher degree (in USDs)",
+                  label = "Accumulated tuition fee in pursuing the higher degree (in USDs)",
                   value ="120000"),
         textInput("year",
-                  label = "Number of years needed to obtain the higher degree",
+                  label = "Number of years needed to obtain the higher degree for someone with the lower degree",
                   value = "4")
         
 

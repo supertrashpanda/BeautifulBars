@@ -71,7 +71,7 @@ server<-function(input, output, session) {
 
   output$male <- renderValueBox({
     valueBox(
-      value = scales::dollar(abs(round(gap1(),0))),
+      value = tags$p(scales::dollar(abs(round(gap1(),0))),style="font-size:38px;font-family: Impact, fantasy;"),
       subtitle = tags$p("Annual Income Gap for Men (multi-year average)",style="font-size:110%;"),
       icon = icon("male"),
       width = 4,
@@ -82,8 +82,8 @@ server<-function(input, output, session) {
   
   output$female <- renderValueBox({
     valueBox(
-      value = scales::dollar(abs(round(gap2(),0))),
-      subtitle = tags$p("Annual Income Gap for Women (multi-year average)",style="font-size:108%;"),
+      value = tags$p(scales::dollar(abs(round(gap2(),0))),style="font-size:38px;font-family: Impact, fantasy;"),
+      subtitle = tags$p("Annual Income Gap for Women (multi-year average)",style="font-size:100%"),
       icon = icon("female"),
       width = 4,
       color = "maroon",
@@ -93,10 +93,16 @@ server<-function(input, output, session) {
   
   output$box3 <- renderValueBox({
     valueBox(
-      value = if(input$education1==input$education2){"NA"}else{abs(round(payoff(),1))},
+      value = if(input$education1==input$education2){
+        tags$p("NA",style="font-size:38px;font-family: Impact, fantasy;")
+        }
+      else{
+        tags$p(abs(round(payoff(),1)),style="font-size:38px;font-family: Impact, fantasy;")
+        },
       subtitle = tags$p("Expected Payback Period (Years)",style="font-size:120%;"),
       icon = icon("user-graduate"),
       width = 4,
+      
       color = "light-blue",
       href = NULL
     )

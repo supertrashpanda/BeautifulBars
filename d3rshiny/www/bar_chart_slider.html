@@ -2,8 +2,8 @@
 <head>
 <title>Time Use</title>
 <link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style/skeleton-2.css" type="text/css" media="screen" />
 <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-<script src="//flowingdata.com/js/pym.min.js"></script>
 </head>
 <div id="main-wrapper">
 <div id="controls">
@@ -13,12 +13,17 @@
 <div id="timevalue"></div>
 <div id="timeslider" class="sliderholder"></div>
 </div>
-<div class="sentence">this salary of&nbsp;</div>
+<div class="sentence">this salary in&nbsp;</div>
+<div id="dollar" class="dropdown-wrapper" , tabindex="2" style="float:left;z-index:9">
+<span>constant 2019</span>
+<ul class="dropdown"></ul>
+</div>
+<div class="sentence">dollars of&nbsp;</div>
 <div id="sex" class="dropdown-wrapper" , tabindex="1" style="float:left;z-index:10">
 <span>Sex</span>
 <ul class="dropdown"></ul>
 </div>
-<div class="sentence">earn with the degree below.</div>
+<div class="sentence">earned with the degree below.</div>
 <div class="clr"></div>
 </div>
 </div>
@@ -29,7 +34,7 @@
 <script src="js/d3.slider.js"></script>
 <script>
 // the data
-var data_loc = "data/cleaned_data_d3.csv";
+var data_loc = "data/final_d3.csv";
 var activity_descriptions = {
 	"Less than 9th grade": "< 9th grade",
 	"Some high school": "Some high school",
@@ -46,7 +51,10 @@ var sexes = {
 	"Male": "males",
 };
 
-
+var dollars = {
+    "Current": "current",
+    "Constant": "constant 2019"
+}
 
 // Data storage for easier access
 var pctsByKey = [];
@@ -54,7 +62,9 @@ var curr_pcts;
 
 // User settings
 var USER_SEX = 'Female';
-var USER_KEY = USER_SEX
+var USER_DOLLAR = 'Constant';
+
+var USER_KEY = USER_SEX + USER_DOLLAR
 
 var now_bin = 0; // last year
 
@@ -62,10 +72,10 @@ var USER_TIME = now_bin;
 
 
 //  tick in $()k unit
-var margin = {top: 30, right: 20, bottom: 30, left: 10},
+var margin = {top: 30, right: 20, bottom: 30, left: 20},
   	width = parseInt(d3.select('#chart').style('width'), 10),
   	width = width - margin.left - margin.right,
-	height = 600, // Will change.
+	  height = 600, // Will change.
   	barHeight = 25,
 	spacing = 10,
    	percent = d3.format('$.2s'),
@@ -118,13 +128,34 @@ d3.csv(data_loc, typeAndSet, function(error, data) {
         d3.select("#sex #" + USER_SEX).classed("current", false);   // Show previously hidden 
         
         USER_SEX = d;
-		USER_KEY = USER_SEX;
+		USER_KEY = USER_SEX + USER_DOLLAR;
         sex_changed = true;
         update();
     });	
-	
-	
-	
+		
+	// Measure dropdown menu
+    var dropdown_dollar = d3.select("#controls #dollar");
+	dropdown_dollar.select("span").text(dollars[USER_DOLLAR]);
+    dropdown_dollar.on("click", function() {
+        d3.select(this).classed("active", !d3.select(this).classed("active"));
+    });
+    var dropdown_dollar_li = dropdown_dollar.select(".dropdown").selectAll("li")
+        .data(Object.keys(dollars))
+      .enter().append("li")
+        .attr("id", function(d) { return "a"+d; })
+        .classed("current", function(d) { return d == USER_DOLLAR ? true : false; })
+        .text(function(d) { return dollars[d]; });
+    dropdown_dollar_li.on("click", function(d) {
+        d3.select("#dollar span").text(dollars[d]);
+        d3.select(this).classed("current", true); // Hide currently selected metric from menu
+        d3.select("#dollar #a" + USER_DOLLAR).classed("current", false);   // Show previously hidden 
+        
+        USER_DOLLAR = d;
+		USER_KEY = USER_SEX + USER_DOLLAR;
+        sex_changed = true;
+        update();
+    });
+
 	y.domain(d3.range(pctsByKey[USER_KEY].length))
 		.rangeBands([0, pctsByKey[USER_KEY].length * barHeight]);
 	
@@ -153,7 +184,7 @@ d3.csv(data_loc, typeAndSet, function(error, data) {
 		.data(pctsByKey[USER_KEY])
       .enter().append('g')
         .attr('class', 'bar')
-        .attr('transform', function(d, i) { return 'translate(0,'  + y(i) + ')'; });
+        .attr('transform', function(d, i) { return 'translate(0,'  + y(i) + ')'; })
 	
 	bars.append('rect')
         .attr('class', 'background')
@@ -164,19 +195,53 @@ d3.csv(data_loc, typeAndSet, function(error, data) {
         .attr('class', 'percent')
         .attr('height', y.rangeBand())
         .attr('width', function(d) { return x(d[USER_TIME]); })
-	
+        .on("mouseover", onMouseOver)
+        .on("mouseout", onMouseOut);
+        
 	bars.append('text')
         .text(function(d) { return activity_descriptions[d.Degree]; })
         .attr('class', 'name')
         .attr('y', y.rangeBand() - 8)
         .attr('x', spacing);
-	
-	
+
 	update();
 	
-	var pymChild = new pym.Child();
-	
 }); // @end d3.csv()
+
+function onMouseOver(actual, i){
+      d3.select(this)
+        .transition()
+        .duration(300)
+        .attr('opacity', 0.6)
+
+      bars.append('text')
+        .attr('class', 'divergence')
+        .attr('x',  function(d) { return x(d[USER_TIME]) + 35; })
+        .attr('y',  y.rangeBand() - 8)
+        .attr('fill', 'white')
+        .attr('text-anchor', 'middle')
+        .text((a, idx) => {
+          const divergence = ((x(a[USER_TIME]) - x(actual[USER_TIME]))/x(actual[USER_TIME])*100).toFixed(1)
+ 
+          let text = ''
+          if (divergence > 0) text += '+'
+          text += `${divergence}%`
+
+          return idx !== i ? text : '';
+        })
+
+    }
+    
+function onMouseOut(){
+  d3.select(this)
+    .transition()
+    .duration(300)
+    .attr('opacity', 1)
+    .attr('height', y.rangeBand())
+    .attr('width', function(d) { return x(d[USER_TIME]); })
+
+    chart.selectAll('.divergence').remove()
+}
 
 
 function brushed() {
@@ -237,7 +302,7 @@ function resize() {
         .attr('width', width);
 
     chart.selectAll('rect.percent')
-        .attr('width', function(d) { return x(d['b'+USER_TIME]); });
+        .attr('width', function(d) { return x(d[USER_TIME]); });
 
     // update axes
     chart.select('.x.axis.top').call(xAxis.orient('top'));
@@ -257,11 +322,11 @@ function binNumberToWords(bin_num) {
 
 function typeAndSet(d) {
 	for (property in d) {
-		if (property != "Sex" && property != "Degree" ) {
+		if (property != "Sex" && property != "Measure" && property != "Degree" ) {
 			d[property] = +d[property]
 		}
 	}
-	var key = d.Sex;
+	var key = d.Sex + d.Measure;
 	if (!pctsByKey.hasOwnProperty(key)) {
 		pctsByKey[key] = [];
 	}

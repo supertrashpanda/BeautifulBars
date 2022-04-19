@@ -661,7 +661,7 @@ year,sex,money_measure,education,avg_income,color,idtf,error
 2019,Female,Current Dollars,Professional degree,102460,steelblue,Female Professional degree,9619
 1990,Male,Constant 2019 Dollars,Professional degree,NA,darkred,Male Professional degree,NA
 1995,Male,Constant 2019 Dollars,Professional degree,133660,darkred,Male Professional degree,4332
-2000,Male,Constant 2019 Dollars,Professional degree,147590,darkred,Male Professional degree,30928
+2000,Male,Constant 2019 Dollars,Professional degree,147590,darkred,Male Professional degree,NA
 2001,Male,Constant 2019 Dollars,Professional degree,144380,darkred,Male Professional degree,NA
 2002,Male,Constant 2019 Dollars,Professional degree,142130,darkred,Male Professional degree,NA
 2003,Male,Constant 2019 Dollars,Professional degree,138980,darkred,Male Professional degree,NA

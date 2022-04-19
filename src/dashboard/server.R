@@ -11,6 +11,7 @@ server<-function(input, output, session) {
   })
   
   df_gap = reactive({
+    newdf=df
     if ((input$male)&(!input$female)) {newdf<-df[df$sex=='Male',]}
     if ((!input$male)&(input$female)) {newdf<-df[df$sex=='Female',]}
     if((!input$male)&(!input$female)) {newdf<-df[df$sex=='',]}
@@ -19,12 +20,12 @@ server<-function(input, output, session) {
       select(-idtf)
     a <- a[which((a$year>=input$yearend[1])&(a$year<=input$yearend[2])),]
     
-    male <- a %>%
+    male <- a %>%select(-error)%>%
       spread(education,avg_income)%>%filter(sex=="Male")
     
     names(male) <- make.names(names(male),unique = TRUE)
     
-    female <- a %>%
+    female <- a %>%select(-error)%>%
       spread(education,avg_income)%>%filter(sex=="Female")
     
     names(female) <- make.names(names(female),unique = TRUE)
@@ -72,7 +73,7 @@ server<-function(input, output, session) {
   output$male <- renderValueBox({
     valueBox(
       value = tags$p(scales::dollar(abs(round(gap1(),0))),style="font-size:38px;font-family: Impact, fantasy;"),
-      subtitle = tags$p("Annual Income Gap for Men (multi-year average)",style="font-size:110%;"),
+      subtitle = tags$p("Wage Gap for Men (multi-year average)",style="font-size:120%;"),
       icon = icon("male"),
       width = 4,
       color = "aqua",
@@ -83,7 +84,7 @@ server<-function(input, output, session) {
   output$female <- renderValueBox({
     valueBox(
       value = tags$p(scales::dollar(abs(round(gap2(),0))),style="font-size:38px;font-family: Impact, fantasy;"),
-      subtitle = tags$p("Annual Income Gap for Women (multi-year average)",style="font-size:100%"),
+      subtitle = tags$p("Wage Gap for Women (multi-year average)",style="font-size:110%"),
       icon = icon("female"),
       width = 4,
       color = "maroon",
@@ -111,22 +112,78 @@ server<-function(input, output, session) {
   
   output$plot <- renderPlotly({
     if(input$education1==input$education2){
+      if((!input$male)&(!input$female)){    ggplotly(ggplot() +
+                                                     theme_minimal()+
+                                                    scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
+                                                     geom_hline(yintercept=0,alpha=0.5,size=1))+
+          theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
+                legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
+                panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+                text = element_text(size = 12, colour = "grey25",family = "Arial"),
+                axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
+        }
+      
+      else if(input$error){      ggplotly(df_gap()$a%>%
+                                       ggplot()+
+                                       geom_line(aes(year,avg_income,color=sex),size=1.5,alpha=0.8)+
+                                       geom_pointrange(aes(year,avg_income,ymin=avg_income-error, ymax=avg_income+error), width=0.5,
+                                                       position=position_dodge(0.05),alpha=0.3,fatten=0)+
+                                       scale_color_manual(labels=c("Female","Male"),values=c("hotpink2","steelblue3"))+
+                                       scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
+                                         scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
+                                       geom_hline(yintercept=0,alpha=0.5,size=1)+
+                                       labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",color="Gender",
+                                            title="")+
+                                       theme_minimal()+
+                                       theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
+                                             legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
+                                             panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+                                             text = element_text(size = 12, colour = "grey25",family = "Arial"),
+                                             axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
+      )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)}
+      else{
       ggplotly(df_gap()$a%>%
         ggplot()+
         geom_line(aes(year,avg_income,color=sex),size=1.5,alpha=0.8)+
         scale_color_manual(labels=c("Female","Male"),values=c("hotpink2","steelblue3"))+
         scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
-        ylim(0,170000)+
+          scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
         geom_hline(yintercept=0,alpha=0.5,size=1)+
         labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",color="Gender",
              title="")+
         theme_minimal()+
         theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
               legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
-              panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank())
-      )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)
+              panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+              text = element_text(size = 12, colour = "grey25",family = "Arial"),
+              axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
+      )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)}
     }
+    
     else if((input$male)&(input$female)){
+      if(input$error){
+        ggplotly(df_gap()$a%>%
+                   ggplot()+
+                   geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
+                   geom_pointrange(aes(year,avg_income,ymin=avg_income-error, ymax=avg_income+error), width=0.5,
+                                   position=position_dodge(0.05),alpha=0.3,fatten=0)+
+                   scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
+                   scale_size_manual(values=c(1,2))+
+                   geom_ribbon(data=df_gap()$male,aes_string(x="year",ymin =colnames(df_gap()$male)[5], ymax = colnames(df_gap()$male)[6]), fill = "steelblue3", alpha = .2)+
+                   geom_ribbon(data=df_gap()$female,aes_string(x="year",ymin =colnames(df_gap()$female)[5], ymax = colnames(df_gap()$male)[6]), fill = "hotpink2", alpha = .2)+
+                   scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
+                   scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
+                   geom_hline(yintercept=0,alpha=0.5,size=1)+
+                   labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
+                        size="Education Levels",color="Gender",title="")+
+                   theme_minimal()+
+                   theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
+                         legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
+                         panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+                         text = element_text(size = 12, colour = "grey25",family = "Arial"),
+                         axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
+        )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)}
+      else{
       ggplotly(df_gap()$a%>%
                  ggplot()+
                  geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
@@ -135,60 +192,119 @@ server<-function(input, output, session) {
                  geom_ribbon(data=df_gap()$male,aes_string(x="year",ymin =colnames(df_gap()$male)[5], ymax = colnames(df_gap()$male)[6]), fill = "steelblue3", alpha = .2)+
                  geom_ribbon(data=df_gap()$female,aes_string(x="year",ymin =colnames(df_gap()$female)[5], ymax = colnames(df_gap()$male)[6]), fill = "hotpink2", alpha = .2)+
                  scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
-                 ylim(0,170000)+
+                 scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
                  geom_hline(yintercept=0,alpha=0.5,size=1)+
                  labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
                       size="Education Levels",color="Gender",title="")+
                  theme_minimal()+
                  theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
-                       legend.box = "horizontal",axis.text.x = element_text(size=6,angle=45),
+                       legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
                        panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
-                       text = element_text(size = 10))
+                       text = element_text(size = 12, colour = "grey25",family = "Arial"),
+                       axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
       )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)}
+        }
     
   else if ((!input$male)&(!input$female)){
     ggplotly(ggplot() +
                theme_minimal()+
-               ylim(0,170000)+
-               geom_hline(yintercept=0,alpha=0.5,size=1)
+               scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
+               geom_hline(yintercept=0,alpha=0.5,size=1)+
+               theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
+                     legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
+                     panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+                     text = element_text(size = 12, colour = "grey25",family = "Arial"),
+                     axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
+               
                
     )
   }
-  else if ((input$male)&(!input$female)){ggplotly(df_gap()$a%>%
+  else if ((input$male)&(!input$female)){
+    if(input$error){
+      ggplotly(df_gap()$a%>%
+                 ggplot()+
+                 geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
+                 geom_pointrange(aes(year,avg_income,ymin=avg_income-error, ymax=avg_income+error), width=0.5,
+                                 position=position_dodge(0.05),alpha=0.3,fatten=0)+
+                 scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
+                 scale_size_manual(values=c(1,2))+
+                 geom_ribbon(data=df_gap()$male,aes_string(x="year",ymin =colnames(df_gap()$male)[5], ymax = colnames(df_gap()$male)[6]), fill = "steelblue3", alpha = .2)+
+                 scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
+                 scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
+                 geom_hline(yintercept=0,alpha=0.5,size=1)+
+                 labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
+                      size="Education Levels",color="Gender",title="")+
+                 theme_minimal()+
+                 theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
+                       legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
+                       panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+                       text = element_text(size = 12, colour = "grey25",family = "Arial"),
+                       axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
+      )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)
+    }
+    else{
+    ggplotly(df_gap()$a%>%
                         ggplot()+
                         geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
                         scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
                         scale_size_manual(values=c(1,2))+
                         geom_ribbon(data=df_gap()$male,aes_string(x="year",ymin =colnames(df_gap()$male)[5], ymax = colnames(df_gap()$male)[6]), fill = "steelblue3", alpha = .2)+
                         scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
-                        ylim(0,170000)+
+               scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
                         geom_hline(yintercept=0,alpha=0.5,size=1)+
                         labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
                              size="Education Levels",color="Gender",title="")+
                         theme_minimal()+
                         theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
-                              legend.box = "horizontal",axis.text.x = element_text(size=6,angle=45),
+                              legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
                               panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
-                              text = element_text(size = 10))
-  )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)} 
+                              text = element_text(size = 12, colour = "grey25",family = "Arial"),
+                              axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
+    )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)}
+      } 
     
-else{ggplotly(df_gap()$a%>%
+else{if(input$error){
+  ggplotly(df_gap()$a%>%
+             ggplot()+
+             geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
+             geom_pointrange(aes(year,avg_income,ymin=avg_income-error, ymax=avg_income+error), width=0.5,
+                             position=position_dodge(0.05),alpha=0.3,fatten=0)+
+             scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
+             scale_size_manual(values=c(1,2))+
+             geom_ribbon(data=df_gap()$female,aes_string(x="year",ymin =colnames(df_gap()$female)[5], ymax = colnames(df_gap()$male)[6]), fill = "hotpink2", alpha = .2)+
+             scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
+             scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
+             geom_hline(yintercept=0,alpha=0.5,size=1)+
+             labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
+                  size="Education Levels",color="Gender",title="")+
+             theme_minimal()+
+             theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
+                   legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
+                   panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
+                   text = element_text(size = 12, colour = "grey25",family = "Arial"),
+                   axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
+  )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)
+}
+  else{
+  ggplotly(df_gap()$a%>%
                        ggplot()+
                        geom_line(aes(year,avg_income,color=sex,size=education),alpha=0.8)+
                        scale_color_manual(values=c("Female"="hotpink2","Male"="steelblue3"))+
                        scale_size_manual(values=c(1,2))+
                        geom_ribbon(data=df_gap()$female,aes_string(x="year",ymin =colnames(df_gap()$female)[5], ymax = colnames(df_gap()$male)[6]), fill = "hotpink2", alpha = .2)+
                        scale_x_continuous(breaks=seq(1989, 2021, 1),minor_breaks=seq(1989, 2021, 1))+
-                       ylim(0,170000)+
+             scale_y_continuous(limits=c(0,170000),labels=label_number(suffix ="K", scale=1e-3))+
                        geom_hline(yintercept=0,alpha=0.5,size=1)+
                        labs(x="Year",y="Median Annual Income (in fixed 2019 dollars)",shape="Education Levels",
                             size="Education Levels",color="Gender",title="")+
                        theme_minimal()+
                        theme(legend.position = c(0.6, 0.95),legend.justification=c(0.5, 1),
-                             legend.box = "horizontal",axis.text.x = element_text(size=6,angle=45),
+                             legend.box = "horizontal",axis.text.x = element_text(size=8,angle=45),
                              panel.grid.minor.y = element_blank(),panel.grid.major.x = element_blank(),
-                             text = element_text(size = 10))
-)%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)}
+                             text = element_text(size = 12, colour = "grey25",family = "Arial"),
+                             axis.text.y = element_text(colour = "grey25",family = "Arial",size=10))
+  )%>%layout(legend = list(orientation = "h",y=4))%>% config(displayModeBar = F)}
+    }
 
   })
   
@@ -204,12 +320,7 @@ else{ggplotly(df_gap()$a%>%
                         name = "Gender")
   )
   
-  # output$genderly = renderPlotly(
-  #   df_gap()$a %>%
-  #     select(year, sex, avg_income) %>%
-  #     spread(sex, avg_income) %>%
-  #     plot_ly(x = ~year, y = ~avg_income, type = 'bar')
-  # )
+
   
   output$education = renderPlot(
     df_gap()$a %>%

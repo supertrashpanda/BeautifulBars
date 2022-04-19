@@ -1,793 +1,793 @@
 year,sex,money_measure,education,avg_income,color,idtf,error
-1990,Male,Current Dollars,Less than 9th grade,17390,darkred,Male Less than 9th grade,(---)
-1995,Male,Current Dollars,Less than 9th grade,18350,darkred,Male Less than 9th grade,(545)
-2000,Male,Current Dollars,Less than 9th grade,20790,darkred,Male Less than 9th grade,(376)
-2001,Male,Current Dollars,Less than 9th grade,21360,darkred,Male Less than 9th grade,(235)
-2002,Male,Current Dollars,Less than 9th grade,20920,darkred,Male Less than 9th grade,(213)
-2003,Male,Current Dollars,Less than 9th grade,21220,darkred,Male Less than 9th grade,(227)
-2004,Male,Current Dollars,Less than 9th grade,21660,darkred,Male Less than 9th grade,(191)
-2005,Male,Current Dollars,Less than 9th grade,22330,darkred,Male Less than 9th grade,(220)
-2006,Male,Current Dollars,Less than 9th grade,22710,darkred,Male Less than 9th grade,(398)
-2007,Male,Current Dollars,Less than 9th grade,23380,darkred,Male Less than 9th grade,(544)
-2008,Male,Current Dollars,Less than 9th grade,24260,darkred,Male Less than 9th grade,(631)
-2009,Male,Current Dollars,Less than 9th grade,23950,darkred,Male Less than 9th grade,(394)
-2010,Male,Current Dollars,Less than 9th grade,24450,darkred,Male Less than 9th grade,(597)
-2011,Male,Current Dollars,Less than 9th grade,25220,darkred,Male Less than 9th grade,(23)
-2012,Male,Current Dollars,Less than 9th grade,25130,darkred,Male Less than 9th grade,(440)
-2013,Male,Current Dollars,Less than 9th grade,26160,darkred,Male Less than 9th grade,(531)
-2014,Male,Current Dollars,Less than 9th grade,26580,darkred,Male Less than 9th grade,(382)
-2015,Male,Current Dollars,Less than 9th grade,27160,darkred,Male Less than 9th grade,(460)
-2016,Male,Current Dollars,Less than 9th grade,30350,darkred,Male Less than 9th grade,(500)
-2017,Male,Current Dollars,Less than 9th grade,31000,darkred,Male Less than 9th grade,(369)
-2018,Male,Current Dollars,Less than 9th grade,31800,darkred,Male Less than 9th grade,(420)
-2019,Male,Current Dollars,Less than 9th grade,32140,darkred,Male Less than 9th grade,(531)
-1990,Female,Current Dollars,Less than 9th grade,12250,steelblue,Female Less than 9th grade,(---)
-1995,Female,Current Dollars,Less than 9th grade,13580,steelblue,Female Less than 9th grade,(490)
-2000,Female,Current Dollars,Less than 9th grade,15800,steelblue,Female Less than 9th grade,(327)
-2001,Female,Current Dollars,Less than 9th grade,16690,steelblue,Female Less than 9th grade,(255)
-2002,Female,Current Dollars,Less than 9th grade,16510,steelblue,Female Less than 9th grade,(297)
-2003,Female,Current Dollars,Less than 9th grade,16910,steelblue,Female Less than 9th grade,(256)
-2004,Female,Current Dollars,Less than 9th grade,17020,steelblue,Female Less than 9th grade,(241)
-2005,Female,Current Dollars,Less than 9th grade,16140,steelblue,Female Less than 9th grade,(250)
-2006,Female,Current Dollars,Less than 9th grade,18130,steelblue,Female Less than 9th grade,(408)
-2007,Female,Current Dollars,Less than 9th grade,18260,steelblue,Female Less than 9th grade,(461)
-2008,Female,Current Dollars,Less than 9th grade,18630,steelblue,Female Less than 9th grade,(494)
-2009,Female,Current Dollars,Less than 9th grade,18480,steelblue,Female Less than 9th grade,(451)
-2010,Female,Current Dollars,Less than 9th grade,18240,steelblue,Female Less than 9th grade,(592)
-2011,Female,Current Dollars,Less than 9th grade,20100,steelblue,Female Less than 9th grade,(250)
-2012,Female,Current Dollars,Less than 9th grade,20060,steelblue,Female Less than 9th grade,(514)
-2013,Female,Current Dollars,Less than 9th grade,19840,steelblue,Female Less than 9th grade,(502)
-2014,Female,Current Dollars,Less than 9th grade,20990,steelblue,Female Less than 9th grade,(279)
-2015,Female,Current Dollars,Less than 9th grade,21050,steelblue,Female Less than 9th grade,(275)
-2016,Female,Current Dollars,Less than 9th grade,22210,steelblue,Female Less than 9th grade,(485)
-2017,Female,Current Dollars,Less than 9th grade,22360,steelblue,Female Less than 9th grade,(533)
-2018,Female,Current Dollars,Less than 9th grade,22970,steelblue,Female Less than 9th grade,"(1,042)"
-2019,Female,Current Dollars,Less than 9th grade,24560,steelblue,Female Less than 9th grade,(595)
-1990,Male,Constant 2019 Dollars,Less than 9th grade,34030,darkred,Male Less than 9th grade,(---)
-1995,Male,Constant 2019 Dollars,Less than 9th grade,30790,darkred,Male Less than 9th grade,(914)
-2000,Male,Constant 2019 Dollars,Less than 9th grade,30860,darkred,Male Less than 9th grade,(558)
-2001,Male,Constant 2019 Dollars,Less than 9th grade,30840,darkred,Male Less than 9th grade,(339)
-2002,Male,Constant 2019 Dollars,Less than 9th grade,29730,darkred,Male Less than 9th grade,(303)
-2003,Male,Constant 2019 Dollars,Less than 9th grade,29490,darkred,Male Less than 9th grade,(315)
-2004,Male,Constant 2019 Dollars,Less than 9th grade,29320,darkred,Male Less than 9th grade,(259)
-2005,Male,Constant 2019 Dollars,Less than 9th grade,29230,darkred,Male Less than 9th grade,(288)
-2006,Male,Constant 2019 Dollars,Less than 9th grade,28800,darkred,Male Less than 9th grade,(505)
-2007,Male,Constant 2019 Dollars,Less than 9th grade,28820,darkred,Male Less than 9th grade,(671)
-2008,Male,Constant 2019 Dollars,Less than 9th grade,28800,darkred,Male Less than 9th grade,(749)
-2009,Male,Constant 2019 Dollars,Less than 9th grade,28530,darkred,Male Less than 9th grade,(470)
-2010,Male,Constant 2019 Dollars,Less than 9th grade,28670,darkred,Male Less than 9th grade,(700)
-2011,Male,Constant 2019 Dollars,Less than 9th grade,28670,darkred,Male Less than 9th grade,(26)
-2012,Male,Constant 2019 Dollars,Less than 9th grade,27980,darkred,Male Less than 9th grade,(490)
-2013,Male,Constant 2019 Dollars,Less than 9th grade,28710,darkred,Male Less than 9th grade,(583)
-2014,Male,Constant 2019 Dollars,Less than 9th grade,28710,darkred,Male Less than 9th grade,(413)
-2015,Male,Constant 2019 Dollars,Less than 9th grade,29290,darkred,Male Less than 9th grade,(496)
-2016,Male,Constant 2019 Dollars,Less than 9th grade,32330,darkred,Male Less than 9th grade,(533)
-2017,Male,Constant 2019 Dollars,Less than 9th grade,32330,darkred,Male Less than 9th grade,(385)
-2018,Male,Constant 2019 Dollars,Less than 9th grade,32380,darkred,Male Less than 9th grade,(428)
-2019,Male,Constant 2019 Dollars,Less than 9th grade,32140,darkred,Male Less than 9th grade,(531)
-1990,Female,Constant 2019 Dollars,Less than 9th grade,23970,steelblue,Female Less than 9th grade,(---)
-1995,Female,Constant 2019 Dollars,Less than 9th grade,22780,steelblue,Female Less than 9th grade,(822)
-2000,Female,Constant 2019 Dollars,Less than 9th grade,23450,steelblue,Female Less than 9th grade,(485)
-2001,Female,Constant 2019 Dollars,Less than 9th grade,24100,steelblue,Female Less than 9th grade,(368)
-2002,Female,Constant 2019 Dollars,Less than 9th grade,23470,steelblue,Female Less than 9th grade,(422)
-2003,Female,Constant 2019 Dollars,Less than 9th grade,23500,steelblue,Female Less than 9th grade,(356)
-2004,Female,Constant 2019 Dollars,Less than 9th grade,23040,steelblue,Female Less than 9th grade,(326)
-2005,Female,Constant 2019 Dollars,Less than 9th grade,21130,steelblue,Female Less than 9th grade,(327)
-2006,Female,Constant 2019 Dollars,Less than 9th grade,23000,steelblue,Female Less than 9th grade,(517)
-2007,Female,Constant 2019 Dollars,Less than 9th grade,22520,steelblue,Female Less than 9th grade,(568)
-2008,Female,Constant 2019 Dollars,Less than 9th grade,22130,steelblue,Female Less than 9th grade,(587)
-2009,Female,Constant 2019 Dollars,Less than 9th grade,22020,steelblue,Female Less than 9th grade,(537)
-2010,Female,Constant 2019 Dollars,Less than 9th grade,21380,steelblue,Female Less than 9th grade,(694)
-2011,Female,Constant 2019 Dollars,Less than 9th grade,22850,steelblue,Female Less than 9th grade,(284)
-2012,Female,Constant 2019 Dollars,Less than 9th grade,22340,steelblue,Female Less than 9th grade,(572)
-2013,Female,Constant 2019 Dollars,Less than 9th grade,21770,steelblue,Female Less than 9th grade,(551)
-2014,Female,Constant 2019 Dollars,Less than 9th grade,22670,steelblue,Female Less than 9th grade,(301)
-2015,Female,Constant 2019 Dollars,Less than 9th grade,22710,steelblue,Female Less than 9th grade,(297)
-2016,Female,Constant 2019 Dollars,Less than 9th grade,23660,steelblue,Female Less than 9th grade,(517)
-2017,Female,Constant 2019 Dollars,Less than 9th grade,23320,steelblue,Female Less than 9th grade,(556)
-2018,Female,Constant 2019 Dollars,Less than 9th grade,23380,steelblue,Female Less than 9th grade,"(1,061)"
-2019,Female,Constant 2019 Dollars,Less than 9th grade,24560,steelblue,Female Less than 9th grade,(595)
-1990,Male,Current Dollars,"Some high school, no completion",20900,darkred,"Male Some high school, no completion",(---)
-1995,Male,Current Dollars,"Some high school, no completion",22190,darkred,"Male Some high school, no completion",(342)
-2000,Male,Current Dollars,"Some high school, no completion",25100,darkred,"Male Some high school, no completion",(436)
-2001,Male,Current Dollars,"Some high school, no completion",26210,darkred,"Male Some high school, no completion",(251)
-2002,Male,Current Dollars,"Some high school, no completion",25900,darkred,"Male Some high school, no completion",(207)
-2003,Male,Current Dollars,"Some high school, no completion",26470,darkred,"Male Some high school, no completion",(280)
-2004,Male,Current Dollars,"Some high school, no completion",26280,darkred,"Male Some high school, no completion",(234)
-2005,Male,Current Dollars,"Some high school, no completion",27190,darkred,"Male Some high school, no completion",(237)
-2006,Male,Current Dollars,"Some high school, no completion",27650,darkred,"Male Some high school, no completion",(573)
-2007,Male,Current Dollars,"Some high school, no completion",29320,darkred,"Male Some high school, no completion",(590)
-2008,Male,Current Dollars,"Some high school, no completion",29680,darkred,"Male Some high school, no completion",(458)
-2009,Male,Current Dollars,"Some high school, no completion",28020,darkred,"Male Some high school, no completion",(542)
-2010,Male,Current Dollars,"Some high school, no completion",29440,darkred,"Male Some high school, no completion",(684)
-2011,Male,Current Dollars,"Some high school, no completion",30420,darkred,"Male Some high school, no completion",(300)
-2012,Male,Current Dollars,"Some high school, no completion",30330,darkred,"Male Some high school, no completion",(430)
-2013,Male,Current Dollars,"Some high school, no completion",30570,darkred,"Male Some high school, no completion",(551)
-2014,Male,Current Dollars,"Some high school, no completion",30840,darkred,"Male Some high school, no completion",(382)
-2015,Male,Current Dollars,"Some high school, no completion",32140,darkred,"Male Some high school, no completion",(320)
-2016,Male,Current Dollars,"Some high school, no completion",32490,darkred,"Male Some high school, no completion","(1,237)"
-2017,Male,Current Dollars,"Some high school, no completion",34620,darkred,"Male Some high school, no completion","(1,249)"
-2018,Male,Current Dollars,"Some high school, no completion",35600,darkred,"Male Some high school, no completion",(406)
-2019,Male,Current Dollars,"Some high school, no completion",37150,darkred,"Male Some high school, no completion",(826)
-1990,Female,Current Dollars,"Some high school, no completion",14430,steelblue,"Female Some high school, no completion",(---)
-1995,Female,Current Dollars,"Some high school, no completion",15830,steelblue,"Female Some high school, no completion",(293)
-2000,Female,Current Dollars,"Some high school, no completion",17920,steelblue,"Female Some high school, no completion",(434)
-2001,Female,Current Dollars,"Some high school, no completion",19160,steelblue,"Female Some high school, no completion",(359)
-2002,Female,Current Dollars,"Some high school, no completion",19310,steelblue,"Female Some high school, no completion",(360)
-2003,Female,Current Dollars,"Some high school, no completion",18940,steelblue,"Female Some high school, no completion",(327)
-2004,Female,Current Dollars,"Some high school, no completion",19160,steelblue,"Female Some high school, no completion",(319)
-2005,Female,Current Dollars,"Some high school, no completion",20130,steelblue,"Female Some high school, no completion",(274)
-2006,Female,Current Dollars,"Some high school, no completion",20130,steelblue,"Female Some high school, no completion",(270)
-2007,Female,Current Dollars,"Some high school, no completion",20400,steelblue,"Female Some high school, no completion",(292)
-2008,Female,Current Dollars,"Some high school, no completion",20410,steelblue,"Female Some high school, no completion",(295)
-2009,Female,Current Dollars,"Some high school, no completion",21230,steelblue,"Female Some high school, no completion",(301)
-2010,Female,Current Dollars,"Some high school, no completion",20880,steelblue,"Female Some high school, no completion",(334)
-2011,Female,Current Dollars,"Some high school, no completion",21110,steelblue,"Female Some high school, no completion",(131)
-2012,Female,Current Dollars,"Some high school, no completion",21390,steelblue,"Female Some high school, no completion",(285)
-2013,Female,Current Dollars,"Some high school, no completion",22250,steelblue,"Female Some high school, no completion",(544)
-2014,Female,Current Dollars,"Some high school, no completion",21990,steelblue,"Female Some high school, no completion",(322)
-2015,Female,Current Dollars,"Some high school, no completion",22670,steelblue,"Female Some high school, no completion",(714)
-2016,Female,Current Dollars,"Some high school, no completion",24800,steelblue,"Female Some high school, no completion",(562)
-2017,Female,Current Dollars,"Some high school, no completion",25450,steelblue,"Female Some high school, no completion",(459)
-2018,Female,Current Dollars,"Some high school, no completion",25140,steelblue,"Female Some high school, no completion",(576)
-2019,Female,Current Dollars,"Some high school, no completion",26740,steelblue,"Female Some high school, no completion",(337)
-1990,Male,Constant 2019 Dollars,"Some high school, no completion",40900,darkred,"Male Some high school, no completion",(---)
-1995,Male,Constant 2019 Dollars,"Some high school, no completion",37220,darkred,"Male Some high school, no completion",(574)
-2000,Male,Constant 2019 Dollars,"Some high school, no completion",37260,darkred,"Male Some high school, no completion",(647)
-2001,Male,Constant 2019 Dollars,"Some high school, no completion",37840,darkred,"Male Some high school, no completion",(362)
-2002,Male,Constant 2019 Dollars,"Some high school, no completion",36820,darkred,"Male Some high school, no completion",(294)
-2003,Male,Constant 2019 Dollars,"Some high school, no completion",36780,darkred,"Male Some high school, no completion",(389)
-2004,Male,Constant 2019 Dollars,"Some high school, no completion",35570,darkred,"Male Some high school, no completion",(317)
-2005,Male,Constant 2019 Dollars,"Some high school, no completion",35590,darkred,"Male Some high school, no completion",(310)
-2006,Male,Constant 2019 Dollars,"Some high school, no completion",35070,darkred,"Male Some high school, no completion",(727)
-2007,Male,Constant 2019 Dollars,"Some high school, no completion",36150,darkred,"Male Some high school, no completion",(727)
-2008,Male,Constant 2019 Dollars,"Some high school, no completion",35240,darkred,"Male Some high school, no completion",(544)
-2009,Male,Constant 2019 Dollars,"Some high school, no completion",33390,darkred,"Male Some high school, no completion",(646)
-2010,Male,Constant 2019 Dollars,"Some high school, no completion",34510,darkred,"Male Some high school, no completion",(802)
-2011,Male,Constant 2019 Dollars,"Some high school, no completion",34580,darkred,"Male Some high school, no completion",(341)
-2012,Male,Constant 2019 Dollars,"Some high school, no completion",33770,darkred,"Male Some high school, no completion",(479)
-2013,Male,Constant 2019 Dollars,"Some high school, no completion",33540,darkred,"Male Some high school, no completion",(605)
-2014,Male,Constant 2019 Dollars,"Some high school, no completion",33300,darkred,"Male Some high school, no completion",(413)
-2015,Male,Constant 2019 Dollars,"Some high school, no completion",34670,darkred,"Male Some high school, no completion",(345)
-2016,Male,Constant 2019 Dollars,"Some high school, no completion",34610,darkred,"Male Some high school, no completion","(1,318)"
-2017,Male,Constant 2019 Dollars,"Some high school, no completion",36110,darkred,"Male Some high school, no completion","(1,303)"
-2018,Male,Constant 2019 Dollars,"Some high school, no completion",36250,darkred,"Male Some high school, no completion",(413)
-2019,Male,Constant 2019 Dollars,"Some high school, no completion",37150,darkred,"Male Some high school, no completion",(826)
-1990,Female,Constant 2019 Dollars,"Some high school, no completion",28230,steelblue,"Female Some high school, no completion",(---)
-1995,Female,Constant 2019 Dollars,"Some high school, no completion",26550,steelblue,"Female Some high school, no completion",(492)
-2000,Female,Constant 2019 Dollars,"Some high school, no completion",26600,steelblue,"Female Some high school, no completion",(644)
-2001,Female,Constant 2019 Dollars,"Some high school, no completion",27660,steelblue,"Female Some high school, no completion",(518)
-2002,Female,Constant 2019 Dollars,"Some high school, no completion",27440,steelblue,"Female Some high school, no completion",(512)
-2003,Female,Constant 2019 Dollars,"Some high school, no completion",26320,steelblue,"Female Some high school, no completion",(454)
-2004,Female,Constant 2019 Dollars,"Some high school, no completion",25940,steelblue,"Female Some high school, no completion",(432)
-2005,Female,Constant 2019 Dollars,"Some high school, no completion",26350,steelblue,"Female Some high school, no completion",(359)
-2006,Female,Constant 2019 Dollars,"Some high school, no completion",25530,steelblue,"Female Some high school, no completion",(342)
-2007,Female,Constant 2019 Dollars,"Some high school, no completion",25150,steelblue,"Female Some high school, no completion",(360)
-2008,Female,Constant 2019 Dollars,"Some high school, no completion",24230,steelblue,"Female Some high school, no completion",(350)
-2009,Female,Constant 2019 Dollars,"Some high school, no completion",25290,steelblue,"Female Some high school, no completion",(359)
-2010,Female,Constant 2019 Dollars,"Some high school, no completion",24480,steelblue,"Female Some high school, no completion",(392)
-2011,Female,Constant 2019 Dollars,"Some high school, no completion",24000,steelblue,"Female Some high school, no completion",(149)
-2012,Female,Constant 2019 Dollars,"Some high school, no completion",23810,steelblue,"Female Some high school, no completion",(317)
-2013,Female,Constant 2019 Dollars,"Some high school, no completion",24420,steelblue,"Female Some high school, no completion",(597)
-2014,Female,Constant 2019 Dollars,"Some high school, no completion",23740,steelblue,"Female Some high school, no completion",(348)
-2015,Female,Constant 2019 Dollars,"Some high school, no completion",24450,steelblue,"Female Some high school, no completion",(770)
-2016,Female,Constant 2019 Dollars,"Some high school, no completion",26420,steelblue,"Female Some high school, no completion",(599)
-2017,Female,Constant 2019 Dollars,"Some high school, no completion",26550,steelblue,"Female Some high school, no completion",(479)
-2018,Female,Constant 2019 Dollars,"Some high school, no completion",25590,steelblue,"Female Some high school, no completion",(586)
-2019,Female,Constant 2019 Dollars,"Some high school, no completion",26740,steelblue,"Female Some high school, no completion",(337)
-1990,Male,Current Dollars,High school completion,26650,darkred,Male High school completion (includes equivalency),(---)
-1995,Male,Current Dollars,High school completion,29510,darkred,Male High school completion (includes equivalency),(358)
-2000,Male,Current Dollars,High school completion,34300,darkred,Male High school completion (includes equivalency),(457)
-2001,Male,Current Dollars,High school completion,34720,darkred,Male High school completion (includes equivalency),(299)
-2002,Male,Current Dollars,High school completion,33210,darkred,Male High school completion (includes equivalency),(311)
-2003,Male,Current Dollars,High school completion,35410,darkred,Male High school completion (includes equivalency),(168)
-2004,Male,Current Dollars,High school completion,35730,darkred,Male High school completion (includes equivalency),(148)
-2005,Male,Current Dollars,High school completion,36300,darkred,Male High school completion (includes equivalency),(141)
-2006,Male,Current Dollars,High school completion,37030,darkred,Male High school completion (includes equivalency),(164)
-2007,Male,Current Dollars,High school completion,37860,darkred,Male High school completion (includes equivalency),(406)
-2008,Male,Current Dollars,High school completion,39010,darkred,Male High school completion (includes equivalency),(399)
-2009,Male,Current Dollars,High school completion,39480,darkred,Male High school completion (includes equivalency),(379)
-2010,Male,Current Dollars,High school completion,40060,darkred,Male High school completion (includes equivalency),(237)
-2011,Male,Current Dollars,High school completion,40450,darkred,Male High school completion (includes equivalency),(87)
-2012,Male,Current Dollars,High school completion,40350,darkred,Male High school completion (includes equivalency),(194)
-2013,Male,Current Dollars,High school completion,40290,darkred,Male High school completion (includes equivalency),(227)
-2014,Male,Current Dollars,High school completion,40930,darkred,Male High school completion (includes equivalency),(197)
-2015,Male,Current Dollars,High school completion,41570,darkred,Male High school completion (includes equivalency),(184)
-2016,Male,Current Dollars,High school completion,41890,darkred,Male High school completion (includes equivalency),(180)
-2017,Male,Current Dollars,High school completion,42440,darkred,Male High school completion (includes equivalency),(524)
-2018,Male,Current Dollars,High school completion,45580,darkred,Male High school completion (includes equivalency),(300)
-2019,Male,Current Dollars,High school completion,46850,darkred,Male High school completion (includes equivalency),(378)
-1990,Female,Current Dollars,High school completion,18320,steelblue,Female High school completion (includes equivalency),(---)
-1995,Female,Current Dollars,High school completion,20460,steelblue,Female High school completion (includes equivalency),(162)
-2000,Female,Current Dollars,High school completion,24970,steelblue,Female High school completion (includes equivalency),(236)
-2001,Female,Current Dollars,High school completion,25300,steelblue,Female High school completion (includes equivalency),(132)
-2002,Female,Current Dollars,High school completion,25180,steelblue,Female High school completion (includes equivalency),(121)
-2003,Female,Current Dollars,High school completion,26070,steelblue,Female High school completion (includes equivalency),(118)
-2004,Female,Current Dollars,High school completion,26030,steelblue,Female High school completion (includes equivalency),(116)
-2005,Female,Current Dollars,High school completion,26290,steelblue,Female High school completion (includes equivalency),(134)
-2006,Female,Current Dollars,High school completion,26740,steelblue,Female High school completion (includes equivalency),(136)
-2007,Female,Current Dollars,High school completion,27240,steelblue,Female High school completion (includes equivalency),(133)
-2008,Female,Current Dollars,High school completion,28380,steelblue,Female High school completion (includes equivalency),(283)
-2009,Female,Current Dollars,High school completion,29150,steelblue,Female High school completion (includes equivalency),(273)
-2010,Female,Current Dollars,High school completion,29860,steelblue,Female High school completion (includes equivalency),(260)
-2011,Female,Current Dollars,High school completion,30010,steelblue,Female High school completion (includes equivalency),(145)
-2012,Female,Current Dollars,High school completion,30410,steelblue,Female High school completion (includes equivalency),(165)
-2013,Female,Current Dollars,High school completion,30800,steelblue,Female High school completion (includes equivalency),(173)
-2014,Female,Current Dollars,High school completion,30650,steelblue,Female High school completion (includes equivalency),(151)
-2015,Female,Current Dollars,High school completion,31250,steelblue,Female High school completion (includes equivalency),(138)
-2016,Female,Current Dollars,High school completion,31540,steelblue,Female High school completion (includes equivalency),(152)
-2017,Female,Current Dollars,High school completion,32240,steelblue,Female High school completion (includes equivalency),(199)
-2018,Female,Current Dollars,High school completion,32620,steelblue,Female High school completion (includes equivalency),(471)
-2019,Female,Current Dollars,High school completion,35100,steelblue,Female High school completion (includes equivalency),(307)
-1990,Male,Constant 2019 Dollars,High school completion,52150,darkred,Male High school completion (includes equivalency),(---)
-1995,Male,Constant 2019 Dollars,High school completion,49510,darkred,Male High school completion (includes equivalency),(601)
-2000,Male,Constant 2019 Dollars,High school completion,50930,darkred,Male High school completion (includes equivalency),(678)
-2001,Male,Constant 2019 Dollars,High school completion,50130,darkred,Male High school completion (includes equivalency),(432)
-2002,Male,Constant 2019 Dollars,High school completion,47200,darkred,Male High school completion (includes equivalency),(442)
-2003,Male,Constant 2019 Dollars,High school completion,49210,darkred,Male High school completion (includes equivalency),(233)
-2004,Male,Constant 2019 Dollars,High school completion,48350,darkred,Male High school completion (includes equivalency),(200)
-2005,Male,Constant 2019 Dollars,High school completion,47520,darkred,Male High school completion (includes equivalency),(185)
-2006,Male,Constant 2019 Dollars,High school completion,46960,darkred,Male High school completion (includes equivalency),(208)
-2007,Male,Constant 2019 Dollars,High school completion,46680,darkred,Male High school completion (includes equivalency),(501)
-2008,Male,Constant 2019 Dollars,High school completion,46320,darkred,Male High school completion (includes equivalency),(474)
-2009,Male,Constant 2019 Dollars,High school completion,47040,darkred,Male High school completion (includes equivalency),(452)
-2010,Male,Constant 2019 Dollars,High school completion,46960,darkred,Male High school completion (includes equivalency),(278)
-2011,Male,Constant 2019 Dollars,High school completion,45970,darkred,Male High school completion (includes equivalency),(99)
-2012,Male,Constant 2019 Dollars,High school completion,44930,darkred,Male High school completion (includes equivalency),(216)
-2013,Male,Constant 2019 Dollars,High school completion,44210,darkred,Male High school completion (includes equivalency),(249)
-2014,Male,Constant 2019 Dollars,High school completion,44200,darkred,Male High school completion (includes equivalency),(213)
-2015,Male,Constant 2019 Dollars,High school completion,44840,darkred,Male High school completion (includes equivalency),(198)
-2016,Male,Constant 2019 Dollars,High school completion,44620,darkred,Male High school completion (includes equivalency),(192)
-2017,Male,Constant 2019 Dollars,High school completion,44260,darkred,Male High school completion (includes equivalency),(547)
-2018,Male,Constant 2019 Dollars,High school completion,46400,darkred,Male High school completion (includes equivalency),(305)
-2019,Male,Constant 2019 Dollars,High school completion,46850,darkred,Male High school completion (includes equivalency),(378)
-1990,Female,Constant 2019 Dollars,High school completion,35840,steelblue,Female High school completion (includes equivalency),(---)
-1995,Female,Constant 2019 Dollars,High school completion,34330,steelblue,Female High school completion (includes equivalency),(272)
-2000,Female,Constant 2019 Dollars,High school completion,37070,steelblue,Female High school completion (includes equivalency),(350)
-2001,Female,Constant 2019 Dollars,High school completion,36530,steelblue,Female High school completion (includes equivalency),(191)
-2002,Female,Constant 2019 Dollars,High school completion,35790,steelblue,Female High school completion (includes equivalency),(172)
-2003,Female,Constant 2019 Dollars,High school completion,36240,steelblue,Female High school completion (includes equivalency),(164)
-2004,Female,Constant 2019 Dollars,High school completion,35230,steelblue,Female High school completion (includes equivalency),(157)
-2005,Female,Constant 2019 Dollars,High school completion,34410,steelblue,Female High school completion (includes equivalency),(175)
-2006,Female,Constant 2019 Dollars,High school completion,33910,steelblue,Female High school completion (includes equivalency),(172)
-2007,Female,Constant 2019 Dollars,High school completion,33590,steelblue,Female High school completion (includes equivalency),(164)
-2008,Female,Constant 2019 Dollars,High school completion,33700,steelblue,Female High school completion (includes equivalency),(336)
-2009,Female,Constant 2019 Dollars,High school completion,34740,steelblue,Female High school completion (includes equivalency),(325)
-2010,Female,Constant 2019 Dollars,High school completion,35010,steelblue,Female High school completion (includes equivalency),(305)
-2011,Female,Constant 2019 Dollars,High school completion,34110,steelblue,Female High school completion (includes equivalency),(165)
-2012,Female,Constant 2019 Dollars,High school completion,33860,steelblue,Female High school completion (includes equivalency),(184)
-2013,Female,Constant 2019 Dollars,High school completion,33800,steelblue,Female High school completion (includes equivalency),(190)
-2014,Female,Constant 2019 Dollars,High school completion,33100,steelblue,Female High school completion (includes equivalency),(163)
-2015,Female,Constant 2019 Dollars,High school completion,33710,steelblue,Female High school completion (includes equivalency),(149)
-2016,Female,Constant 2019 Dollars,High school completion,33600,steelblue,Female High school completion (includes equivalency),(162)
-2017,Female,Constant 2019 Dollars,High school completion,33630,steelblue,Female High school completion (includes equivalency),(208)
-2018,Female,Constant 2019 Dollars,High school completion,33210,steelblue,Female High school completion (includes equivalency),(480)
-2019,Female,Constant 2019 Dollars,High school completion,35100,steelblue,Female High school completion (includes equivalency),(307)
-1990,Male,Current Dollars,"Some college, no degree",31730,darkred,"Male Some college, no degree",(---)
-1995,Male,Current Dollars,"Some college, no degree",33880,darkred,"Male Some college, no degree",(517)
-2000,Male,Current Dollars,"Some college, no degree",40340,darkred,"Male Some college, no degree",(312)
-2001,Male,Current Dollars,"Some college, no degree",41050,darkred,"Male Some college, no degree",(214)
-2002,Male,Current Dollars,"Some college, no degree",40850,darkred,"Male Some college, no degree",(195)
-2003,Male,Current Dollars,"Some college, no degree",41350,darkred,"Male Some college, no degree",(182)
-2004,Male,Current Dollars,"Some college, no degree",41900,darkred,"Male Some college, no degree",(175)
-2005,Male,Current Dollars,"Some college, no degree",42420,darkred,"Male Some college, no degree",(323)
-2006,Male,Current Dollars,"Some college, no degree",43830,darkred,"Male Some college, no degree",(812)
-2007,Male,Current Dollars,"Some college, no degree",44900,darkred,"Male Some college, no degree",(585)
-2008,Male,Current Dollars,"Some college, no degree",45820,darkred,"Male Some college, no degree",(276)
-2009,Male,Current Dollars,"Some college, no degree",47100,darkred,"Male Some college, no degree",(347)
-2010,Male,Current Dollars,"Some college, no degree",46430,darkred,"Male Some college, no degree",(348)
-2011,Male,Current Dollars,"Some college, no degree",47070,darkred,"Male Some college, no degree",(78)
-2012,Male,Current Dollars,"Some college, no degree",47190,darkred,"Male Some college, no degree",(407)
-2013,Male,Current Dollars,"Some college, no degree",47650,darkred,"Male Some college, no degree",(739)
-2014,Male,Current Dollars,"Some college, no degree",46900,darkred,"Male Some college, no degree",(429)
-2015,Male,Current Dollars,"Some college, no degree",49670,darkred,"Male Some college, no degree",(708)
-2016,Male,Current Dollars,"Some college, no degree",49240,darkred,"Male Some college, no degree",(784)
-2017,Male,Current Dollars,"Some college, no degree",50850,darkred,"Male Some college, no degree",(274)
-2018,Male,Current Dollars,"Some college, no degree",51690,darkred,"Male Some college, no degree",(291)
-2019,Male,Current Dollars,"Some college, no degree",53810,darkred,"Male Some college, no degree","(1,484)"
-1990,Female,Current Dollars,"Some college, no degree",22230,steelblue,"Female Some college, no degree",(---)
-1995,Female,Current Dollars,"Some college, no degree",24000,steelblue,"Female Some college, no degree",(274)
-2000,Female,Current Dollars,"Some college, no degree",28700,steelblue,"Female Some college, no degree",(364)
-2001,Female,Current Dollars,"Some college, no degree",30420,steelblue,"Female Some college, no degree",(186)
-2002,Female,Current Dollars,"Some college, no degree",29400,steelblue,"Female Some college, no degree",(299)
-2003,Female,Current Dollars,"Some college, no degree",30140,steelblue,"Female Some college, no degree",(176)
-2004,Female,Current Dollars,"Some college, no degree",30820,steelblue,"Female Some college, no degree",(135)
-2005,Female,Current Dollars,"Some college, no degree",31400,steelblue,"Female Some college, no degree",(165)
-2006,Female,Current Dollars,"Some college, no degree",31950,steelblue,"Female Some college, no degree",(165)
-2007,Female,Current Dollars,"Some college, no degree",32840,steelblue,"Female Some college, no degree",(415)
-2008,Female,Current Dollars,"Some college, no degree",32630,steelblue,"Female Some college, no degree",(355)
-2009,Female,Current Dollars,"Some college, no degree",34090,steelblue,"Female Some college, no degree",(483)
-2010,Female,Current Dollars,"Some college, no degree",33400,steelblue,"Female Some college, no degree",(410)
-2011,Female,Current Dollars,"Some college, no degree",34590,steelblue,"Female Some college, no degree",(512)
-2012,Female,Current Dollars,"Some college, no degree",35060,steelblue,"Female Some college, no degree",(452)
-2013,Female,Current Dollars,"Some college, no degree",35240,steelblue,"Female Some college, no degree",(312)
-2014,Female,Current Dollars,"Some college, no degree",34380,steelblue,"Female Some college, no degree",(891)
-2015,Female,Current Dollars,"Some college, no degree",36140,steelblue,"Female Some college, no degree",(273)
-2016,Female,Current Dollars,"Some college, no degree",36880,steelblue,"Female Some college, no degree",(273)
-2017,Female,Current Dollars,"Some college, no degree",36620,steelblue,"Female Some college, no degree",(259)
-2018,Female,Current Dollars,"Some college, no degree",38840,steelblue,"Female Some college, no degree",(600)
-2019,Female,Current Dollars,"Some college, no degree",40810,steelblue,"Female Some college, no degree",(272)
-1990,Male,Constant 2019 Dollars,"Some college, no degree",62090,darkred,"Male Some college, no degree",(---)
-1995,Male,Constant 2019 Dollars,"Some college, no degree",56850,darkred,"Male Some college, no degree",(867)
-2000,Male,Constant 2019 Dollars,"Some college, no degree",59890,darkred,"Male Some college, no degree",(463)
-2001,Male,Constant 2019 Dollars,"Some college, no degree",59260,darkred,"Male Some college, no degree",(309)
-2002,Male,Constant 2019 Dollars,"Some college, no degree",58060,darkred,"Male Some college, no degree",(277)
-2003,Male,Constant 2019 Dollars,"Some college, no degree",57460,darkred,"Male Some college, no degree",(253)
-2004,Male,Constant 2019 Dollars,"Some college, no degree",56710,darkred,"Male Some college, no degree",(237)
-2005,Male,Constant 2019 Dollars,"Some college, no degree",55530,darkred,"Male Some college, no degree",(423)
-2006,Male,Constant 2019 Dollars,"Some college, no degree",55590,darkred,"Male Some college, no degree","(1,030)"
-2007,Male,Constant 2019 Dollars,"Some college, no degree",55360,darkred,"Male Some college, no degree",(721)
-2008,Male,Constant 2019 Dollars,"Some college, no degree",54410,darkred,"Male Some college, no degree",(328)
-2009,Male,Constant 2019 Dollars,"Some college, no degree",56120,darkred,"Male Some college, no degree",(414)
-2010,Male,Constant 2019 Dollars,"Some college, no degree",54440,darkred,"Male Some college, no degree",(408)
-2011,Male,Constant 2019 Dollars,"Some college, no degree",53500,darkred,"Male Some college, no degree",(89)
-2012,Male,Constant 2019 Dollars,"Some college, no degree",52540,darkred,"Male Some college, no degree",(453)
-2013,Male,Constant 2019 Dollars,"Some college, no degree",52290,darkred,"Male Some college, no degree",(811)
-2014,Male,Constant 2019 Dollars,"Some college, no degree",50640,darkred,"Male Some college, no degree",(463)
-2015,Male,Constant 2019 Dollars,"Some college, no degree",53580,darkred,"Male Some college, no degree",(764)
-2016,Male,Constant 2019 Dollars,"Some college, no degree",52450,darkred,"Male Some college, no degree",(835)
-2017,Male,Constant 2019 Dollars,"Some college, no degree",53030,darkred,"Male Some college, no degree",(286)
-2018,Male,Constant 2019 Dollars,"Some college, no degree",52630,darkred,"Male Some college, no degree",(296)
-2019,Male,Constant 2019 Dollars,"Some college, no degree",53810,darkred,"Male Some college, no degree","(1,484)"
-1990,Female,Constant 2019 Dollars,"Some college, no degree",43490,steelblue,"Female Some college, no degree",(---)
-1995,Female,Constant 2019 Dollars,"Some college, no degree",40260,steelblue,"Female Some college, no degree",(460)
-2000,Female,Constant 2019 Dollars,"Some college, no degree",42610,steelblue,"Female Some college, no degree",(540)
-2001,Female,Constant 2019 Dollars,"Some college, no degree",43920,steelblue,"Female Some college, no degree",(269)
-2002,Female,Constant 2019 Dollars,"Some college, no degree",41790,steelblue,"Female Some college, no degree",(425)
-2003,Female,Constant 2019 Dollars,"Some college, no degree",41890,steelblue,"Female Some college, no degree",(245)
-2004,Female,Constant 2019 Dollars,"Some college, no degree",41710,steelblue,"Female Some college, no degree",(183)
-2005,Female,Constant 2019 Dollars,"Some college, no degree",41100,steelblue,"Female Some college, no degree",(216)
-2006,Female,Constant 2019 Dollars,"Some college, no degree",40520,steelblue,"Female Some college, no degree",(209)
-2007,Female,Constant 2019 Dollars,"Some college, no degree",40490,steelblue,"Female Some college, no degree",(512)
-2008,Female,Constant 2019 Dollars,"Some college, no degree",38740,steelblue,"Female Some college, no degree",(422)
-2009,Female,Constant 2019 Dollars,"Some college, no degree",40620,steelblue,"Female Some college, no degree",(576)
-2010,Female,Constant 2019 Dollars,"Some college, no degree",39160,steelblue,"Female Some college, no degree",(481)
-2011,Female,Constant 2019 Dollars,"Some college, no degree",39320,steelblue,"Female Some college, no degree",(582)
-2012,Female,Constant 2019 Dollars,"Some college, no degree",39040,steelblue,"Female Some college, no degree",(503)
-2013,Female,Constant 2019 Dollars,"Some college, no degree",38680,steelblue,"Female Some college, no degree",(342)
-2014,Female,Constant 2019 Dollars,"Some college, no degree",37120,steelblue,"Female Some college, no degree",(962)
-2015,Female,Constant 2019 Dollars,"Some college, no degree",38990,steelblue,"Female Some college, no degree",(294)
-2016,Female,Constant 2019 Dollars,"Some college, no degree",39290,steelblue,"Female Some college, no degree",(291)
-2017,Female,Constant 2019 Dollars,"Some college, no degree",38200,steelblue,"Female Some college, no degree",(270)
-2018,Female,Constant 2019 Dollars,"Some college, no degree",39540,steelblue,"Female Some college, no degree",(611)
-2019,Female,Constant 2019 Dollars,"Some college, no degree",40810,steelblue,"Female Some college, no degree",(272)
-1990,Male,Current Dollars,Associate's degree,NA,darkred,Male Associate's degree,(†)
-1995,Male,Current Dollars,Associate's degree,35200,darkred,Male Associate's degree,(535)
-2000,Male,Current Dollars,Associate's degree,41950,darkred,Male Associate's degree,(460)
-2001,Male,Current Dollars,Associate's degree,42780,darkred,Male Associate's degree,(561)
-2002,Male,Current Dollars,Associate's degree,42860,darkred,Male Associate's degree,(673)
-2003,Male,Current Dollars,Associate's degree,42870,darkred,Male Associate's degree,(719)
-2004,Male,Current Dollars,Associate's degree,44400,darkred,Male Associate's degree,(931)
-2005,Male,Current Dollars,Associate's degree,47180,darkred,Male Associate's degree,(367)
-2006,Male,Current Dollars,Associate's degree,47070,darkred,Male Associate's degree,(390)
-2007,Male,Current Dollars,Associate's degree,49040,darkred,Male Associate's degree,(801)
-2008,Male,Current Dollars,Associate's degree,50150,darkred,Male Associate's degree,(344)
-2009,Male,Current Dollars,Associate's degree,50300,darkred,Male Associate's degree,(238)
-2010,Male,Current Dollars,Associate's degree,50280,darkred,Male Associate's degree,(245)
-2011,Male,Current Dollars,Associate's degree,50930,darkred,Male Associate's degree,(212)
-2012,Male,Current Dollars,Associate's degree,50960,darkred,Male Associate's degree,(329)
-2013,Male,Current Dollars,Associate's degree,51000,darkred,Male Associate's degree,(493)
-2014,Male,Current Dollars,Associate's degree,51110,darkred,Male Associate's degree,(345)
-2015,Male,Current Dollars,Associate's degree,52070,darkred,Male Associate's degree,(352)
-2016,Male,Current Dollars,Associate's degree,52120,darkred,Male Associate's degree,(462)
-2017,Male,Current Dollars,Associate's degree,54700,darkred,Male Associate's degree,"(1,414)"
-2018,Male,Current Dollars,Associate's degree,56720,darkred,Male Associate's degree,(598)
-2019,Male,Current Dollars,Associate's degree,58800,darkred,Male Associate's degree,"(1,555)"
-1990,Female,Current Dollars,Associate's degree,NA,steelblue,Female Associate's degree,(†)
-1995,Female,Current Dollars,Associate's degree,27310,steelblue,Female Associate's degree,(428)
-2000,Female,Current Dollars,Associate's degree,31070,steelblue,Female Associate's degree,(307)
-2001,Female,Current Dollars,Associate's degree,32150,steelblue,Female Associate's degree,(231)
-2002,Female,Current Dollars,Associate's degree,31630,steelblue,Female Associate's degree,(211)
-2003,Female,Current Dollars,Associate's degree,32250,steelblue,Female Associate's degree,(241)
-2004,Female,Current Dollars,Associate's degree,33480,steelblue,Female Associate's degree,(489)
-2005,Female,Current Dollars,Associate's degree,33940,steelblue,Female Associate's degree,(497)
-2006,Female,Current Dollars,Associate's degree,35160,steelblue,Female Associate's degree,(376)
-2007,Female,Current Dollars,Associate's degree,36330,steelblue,Female Associate's degree,(283)
-2008,Female,Current Dollars,Associate's degree,36760,steelblue,Female Associate's degree,(243)
-2009,Female,Current Dollars,Associate's degree,37270,steelblue,Female Associate's degree,(310)
-2010,Female,Current Dollars,Associate's degree,37770,steelblue,Female Associate's degree,(588)
-2011,Female,Current Dollars,Associate's degree,39290,steelblue,Female Associate's degree,(40)
-2012,Female,Current Dollars,Associate's degree,37320,steelblue,Female Associate's degree,(455)
-2013,Female,Current Dollars,Associate's degree,37700,steelblue,Female Associate's degree,(751)
-2014,Female,Current Dollars,Associate's degree,37480,steelblue,Female Associate's degree,(591)
-2015,Female,Current Dollars,Associate's degree,40190,steelblue,Female Associate's degree,(437)
-2016,Female,Current Dollars,Associate's degree,40220,steelblue,Female Associate's degree,(362)
-2017,Female,Current Dollars,Associate's degree,40640,steelblue,Female Associate's degree,(335)
-2018,Female,Current Dollars,Associate's degree,41490,steelblue,Female Associate's degree,(329)
-2019,Female,Current Dollars,Associate's degree,42300,steelblue,Female Associate's degree,(540)
-1990,Male,Constant 2019 Dollars,Associate's degree,NA,darkred,Male Associate's degree,(†)
-1995,Male,Constant 2019 Dollars,Associate's degree,59060,darkred,Male Associate's degree,(898)
-2000,Male,Constant 2019 Dollars,Associate's degree,62280,darkred,Male Associate's degree,(683)
-2001,Male,Constant 2019 Dollars,Associate's degree,61760,darkred,Male Associate's degree,(810)
-2002,Male,Constant 2019 Dollars,Associate's degree,60910,darkred,Male Associate's degree,(957)
-2003,Male,Constant 2019 Dollars,Associate's degree,59580,darkred,Male Associate's degree,(999)
-2004,Male,Constant 2019 Dollars,Associate's degree,60100,darkred,Male Associate's degree,"(1,260)"
-2005,Male,Constant 2019 Dollars,Associate's degree,61760,darkred,Male Associate's degree,(480)
-2006,Male,Constant 2019 Dollars,Associate's degree,59700,darkred,Male Associate's degree,(495)
-2007,Male,Constant 2019 Dollars,Associate's degree,60470,darkred,Male Associate's degree,(988)
-2008,Male,Constant 2019 Dollars,Associate's degree,59550,darkred,Male Associate's degree,(408)
-2009,Male,Constant 2019 Dollars,Associate's degree,59940,darkred,Male Associate's degree,(284)
-2010,Male,Constant 2019 Dollars,Associate's degree,58950,darkred,Male Associate's degree,(287)
-2011,Male,Constant 2019 Dollars,Associate's degree,57880,darkred,Male Associate's degree,(241)
-2012,Male,Constant 2019 Dollars,Associate's degree,56750,darkred,Male Associate's degree,(366)
-2013,Male,Constant 2019 Dollars,Associate's degree,55970,darkred,Male Associate's degree,(541)
-2014,Male,Constant 2019 Dollars,Associate's degree,55200,darkred,Male Associate's degree,(373)
-2015,Male,Constant 2019 Dollars,Associate's degree,56170,darkred,Male Associate's degree,(380)
-2016,Male,Constant 2019 Dollars,Associate's degree,55520,darkred,Male Associate's degree,(492)
-2017,Male,Constant 2019 Dollars,Associate's degree,57050,darkred,Male Associate's degree,"(1,475)"
-2018,Male,Constant 2019 Dollars,Associate's degree,57750,darkred,Male Associate's degree,(609)
-2019,Male,Constant 2019 Dollars,Associate's degree,58800,darkred,Male Associate's degree,"(1,555)"
-1990,Female,Constant 2019 Dollars,Associate's degree,NA,steelblue,Female Associate's degree,(†)
-1995,Female,Constant 2019 Dollars,Associate's degree,45820,steelblue,Female Associate's degree,(718)
-2000,Female,Constant 2019 Dollars,Associate's degree,46130,steelblue,Female Associate's degree,(456)
-2001,Female,Constant 2019 Dollars,Associate's degree,46420,steelblue,Female Associate's degree,(334)
-2002,Female,Constant 2019 Dollars,Associate's degree,44950,steelblue,Female Associate's degree,(300)
-2003,Female,Constant 2019 Dollars,Associate's degree,44820,steelblue,Female Associate's degree,(335)
-2004,Female,Constant 2019 Dollars,Associate's degree,45320,steelblue,Female Associate's degree,(662)
-2005,Female,Constant 2019 Dollars,Associate's degree,44430,steelblue,Female Associate's degree,(651)
-2006,Female,Constant 2019 Dollars,Associate's degree,44590,steelblue,Female Associate's degree,(477)
-2007,Female,Constant 2019 Dollars,Associate's degree,44800,steelblue,Female Associate's degree,(349)
-2008,Female,Constant 2019 Dollars,Associate's degree,43650,steelblue,Female Associate's degree,(289)
-2009,Female,Constant 2019 Dollars,Associate's degree,44410,steelblue,Female Associate's degree,(369)
-2010,Female,Constant 2019 Dollars,Associate's degree,44290,steelblue,Female Associate's degree,(689)
-2011,Female,Constant 2019 Dollars,Associate's degree,44650,steelblue,Female Associate's degree,(45)
-2012,Female,Constant 2019 Dollars,Associate's degree,41560,steelblue,Female Associate's degree,(507)
-2013,Female,Constant 2019 Dollars,Associate's degree,41380,steelblue,Female Associate's degree,(824)
-2014,Female,Constant 2019 Dollars,Associate's degree,40470,steelblue,Female Associate's degree,(638)
-2015,Female,Constant 2019 Dollars,Associate's degree,43350,steelblue,Female Associate's degree,(471)
-2016,Female,Constant 2019 Dollars,Associate's degree,42840,steelblue,Female Associate's degree,(386)
-2017,Female,Constant 2019 Dollars,Associate's degree,42390,steelblue,Female Associate's degree,(349)
-2018,Female,Constant 2019 Dollars,Associate's degree,42240,steelblue,Female Associate's degree,(335)
-2019,Female,Constant 2019 Dollars,Associate's degree,42300,steelblue,Female Associate's degree,(540)
-1990,Male,Current Dollars,Bachelor's degree,39240,darkred,Male Bachelor's degree,(---)
-1995,Male,Current Dollars,Bachelor's degree,45270,darkred,Male Bachelor's degree,(510)
-2000,Male,Current Dollars,Bachelor's degree,56330,darkred,Male Bachelor's degree,(573)
-2001,Male,Current Dollars,Bachelor's degree,55930,darkred,Male Bachelor's degree,(335)
-2002,Male,Current Dollars,Bachelor's degree,56080,darkred,Male Bachelor's degree,(385)
-2003,Male,Current Dollars,Bachelor's degree,56500,darkred,Male Bachelor's degree,(365)
-2004,Male,Current Dollars,Bachelor's degree,57220,darkred,Male Bachelor's degree,(393)
-2005,Male,Current Dollars,Bachelor's degree,60020,darkred,Male Bachelor's degree,(653)
-2006,Male,Current Dollars,Bachelor's degree,60910,darkred,Male Bachelor's degree,(235)
-2007,Male,Current Dollars,Bachelor's degree,62090,darkred,Male Bachelor's degree,(236)
-2008,Male,Current Dollars,Bachelor's degree,65800,darkred,Male Bachelor's degree,(388)
-2009,Male,Current Dollars,Bachelor's degree,62440,darkred,Male Bachelor's degree,(707)
-2010,Male,Current Dollars,Bachelor's degree,63740,darkred,Male Bachelor's degree,"(1,115)"
-2011,Male,Current Dollars,Bachelor's degree,66200,darkred,Male Bachelor's degree,(25)
-2012,Male,Current Dollars,Bachelor's degree,66150,darkred,Male Bachelor's degree,(570)
-2013,Male,Current Dollars,Bachelor's degree,67240,darkred,Male Bachelor's degree,(992)
-2014,Male,Current Dollars,Bachelor's degree,68160,darkred,Male Bachelor's degree,"(1,282)"
-2015,Male,Current Dollars,Bachelor's degree,71390,darkred,Male Bachelor's degree,(420)
-2016,Male,Current Dollars,Bachelor's degree,71630,darkred,Male Bachelor's degree,(383)
-2017,Male,Current Dollars,Bachelor's degree,71990,darkred,Male Bachelor's degree,(395)
-2018,Male,Current Dollars,Bachelor's degree,75150,darkred,Male Bachelor's degree,(959)
-2019,Male,Current Dollars,Bachelor's degree,77090,darkred,Male Bachelor's degree,(533)
-1990,Female,Current Dollars,Bachelor's degree,28020,steelblue,Female Bachelor's degree,(---)
-1995,Female,Current Dollars,Bachelor's degree,32050,steelblue,Female Bachelor's degree,(273)
-2000,Female,Current Dollars,Bachelor's degree,40420,steelblue,Female Bachelor's degree,(284)
-2001,Female,Current Dollars,Bachelor's degree,40990,steelblue,Female Bachelor's degree,(231)
-2002,Female,Current Dollars,Bachelor's degree,40850,steelblue,Female Bachelor's degree,(173)
-2003,Female,Current Dollars,Bachelor's degree,41330,steelblue,Female Bachelor's degree,(204)
-2004,Female,Current Dollars,Bachelor's degree,41680,steelblue,Female Bachelor's degree,(172)
-2005,Female,Current Dollars,Bachelor's degree,42170,steelblue,Female Bachelor's degree,(179)
-2006,Female,Current Dollars,Bachelor's degree,45410,steelblue,Female Bachelor's degree,(259)
-2007,Female,Current Dollars,Bachelor's degree,45770,steelblue,Female Bachelor's degree,(262)
-2008,Female,Current Dollars,Bachelor's degree,47030,steelblue,Female Bachelor's degree,(237)
-2009,Female,Current Dollars,Bachelor's degree,46830,steelblue,Female Bachelor's degree,(260)
-2010,Female,Current Dollars,Bachelor's degree,47440,steelblue,Female Bachelor's degree,(336)
-2011,Female,Current Dollars,Bachelor's degree,49110,steelblue,Female Bachelor's degree,(103)
-2012,Female,Current Dollars,Bachelor's degree,50170,steelblue,Female Bachelor's degree,(290)
-2013,Female,Current Dollars,Bachelor's degree,50750,steelblue,Female Bachelor's degree,(341)
-2014,Female,Current Dollars,Bachelor's degree,51350,steelblue,Female Bachelor's degree,(230)
-2015,Female,Current Dollars,Bachelor's degree,51680,steelblue,Female Bachelor's degree,(278)
-2016,Female,Current Dollars,Bachelor's degree,52030,steelblue,Female Bachelor's degree,(257)
-2017,Female,Current Dollars,Bachelor's degree,52440,steelblue,Female Bachelor's degree,(601)
-2018,Female,Current Dollars,Bachelor's degree,56680,steelblue,Female Bachelor's degree,(466)
-2019,Female,Current Dollars,Bachelor's degree,57420,steelblue,Female Bachelor's degree,(805)
-1990,Male,Constant 2019 Dollars,Bachelor's degree,76780,darkred,Male Bachelor's degree,(---)
-1995,Male,Constant 2019 Dollars,Bachelor's degree,75940,darkred,Male Bachelor's degree,(856)
-2000,Male,Constant 2019 Dollars,Bachelor's degree,83640,darkred,Male Bachelor's degree,(851)
-2001,Male,Constant 2019 Dollars,Bachelor's degree,80750,darkred,Male Bachelor's degree,(484)
-2002,Male,Constant 2019 Dollars,Bachelor's degree,79700,darkred,Male Bachelor's degree,(547)
-2003,Male,Constant 2019 Dollars,Bachelor's degree,78520,darkred,Male Bachelor's degree,(507)
-2004,Male,Constant 2019 Dollars,Bachelor's degree,77450,darkred,Male Bachelor's degree,(532)
-2005,Male,Constant 2019 Dollars,Bachelor's degree,78570,darkred,Male Bachelor's degree,(855)
-2006,Male,Constant 2019 Dollars,Bachelor's degree,77240,darkred,Male Bachelor's degree,(298)
-2007,Male,Constant 2019 Dollars,Bachelor's degree,76550,darkred,Male Bachelor's degree,(291)
-2008,Male,Constant 2019 Dollars,Bachelor's degree,78130,darkred,Male Bachelor's degree,(461)
-2009,Male,Constant 2019 Dollars,Bachelor's degree,74410,darkred,Male Bachelor's degree,(843)
-2010,Male,Constant 2019 Dollars,Bachelor's degree,74730,darkred,Male Bachelor's degree,"(1,307)"
-2011,Male,Constant 2019 Dollars,Bachelor's degree,75240,darkred,Male Bachelor's degree,(28)
-2012,Male,Constant 2019 Dollars,Bachelor's degree,73660,darkred,Male Bachelor's degree,(635)
-2013,Male,Constant 2019 Dollars,Bachelor's degree,73790,darkred,Male Bachelor's degree,"(1,089)"
-2014,Male,Constant 2019 Dollars,Bachelor's degree,73610,darkred,Male Bachelor's degree,"(1,384)"
-2015,Male,Constant 2019 Dollars,Bachelor's degree,77000,darkred,Male Bachelor's degree,(453)
-2016,Male,Constant 2019 Dollars,Bachelor's degree,76300,darkred,Male Bachelor's degree,(408)
-2017,Male,Constant 2019 Dollars,Bachelor's degree,75090,darkred,Male Bachelor's degree,(412)
-2018,Male,Constant 2019 Dollars,Bachelor's degree,76510,darkred,Male Bachelor's degree,(976)
-2019,Male,Constant 2019 Dollars,Bachelor's degree,77090,darkred,Male Bachelor's degree,(533)
-1990,Female,Constant 2019 Dollars,Bachelor's degree,54820,steelblue,Female Bachelor's degree,(---)
-1995,Female,Constant 2019 Dollars,Bachelor's degree,53770,steelblue,Female Bachelor's degree,(458)
-2000,Female,Constant 2019 Dollars,Bachelor's degree,60000,steelblue,Female Bachelor's degree,(422)
-2001,Female,Constant 2019 Dollars,Bachelor's degree,59190,steelblue,Female Bachelor's degree,(334)
-2002,Female,Constant 2019 Dollars,Bachelor's degree,58060,steelblue,Female Bachelor's degree,(246)
-2003,Female,Constant 2019 Dollars,Bachelor's degree,57430,steelblue,Female Bachelor's degree,(284)
-2004,Female,Constant 2019 Dollars,Bachelor's degree,56420,steelblue,Female Bachelor's degree,(233)
-2005,Female,Constant 2019 Dollars,Bachelor's degree,55210,steelblue,Female Bachelor's degree,(234)
-2006,Female,Constant 2019 Dollars,Bachelor's degree,57590,steelblue,Female Bachelor's degree,(328)
-2007,Female,Constant 2019 Dollars,Bachelor's degree,56440,steelblue,Female Bachelor's degree,(323)
-2008,Female,Constant 2019 Dollars,Bachelor's degree,55840,steelblue,Female Bachelor's degree,(281)
-2009,Female,Constant 2019 Dollars,Bachelor's degree,55810,steelblue,Female Bachelor's degree,(310)
-2010,Female,Constant 2019 Dollars,Bachelor's degree,55610,steelblue,Female Bachelor's degree,(394)
-2011,Female,Constant 2019 Dollars,Bachelor's degree,55810,steelblue,Female Bachelor's degree,(117)
-2012,Female,Constant 2019 Dollars,Bachelor's degree,55870,steelblue,Female Bachelor's degree,(323)
-2013,Female,Constant 2019 Dollars,Bachelor's degree,55690,steelblue,Female Bachelor's degree,(374)
-2014,Female,Constant 2019 Dollars,Bachelor's degree,55450,steelblue,Female Bachelor's degree,(248)
-2015,Female,Constant 2019 Dollars,Bachelor's degree,55750,steelblue,Female Bachelor's degree,(300)
-2016,Female,Constant 2019 Dollars,Bachelor's degree,55420,steelblue,Female Bachelor's degree,(274)
-2017,Female,Constant 2019 Dollars,Bachelor's degree,54690,steelblue,Female Bachelor's degree,(627)
-2018,Female,Constant 2019 Dollars,Bachelor's degree,57710,steelblue,Female Bachelor's degree,(474)
-2019,Female,Constant 2019 Dollars,Bachelor's degree,57420,steelblue,Female Bachelor's degree,(805)
-1990,Male,Current Dollars,Master's degree,NA,darkred,Male Master's degree,(†)
-1995,Male,Current Dollars,Master's degree,55220,darkred,Male Master's degree,(973)
-2000,Male,Current Dollars,Master's degree,68320,darkred,Male Master's degree,"(1,506)"
-2001,Male,Current Dollars,Master's degree,70900,darkred,Male Master's degree,(687)
-2002,Male,Current Dollars,Master's degree,67280,darkred,Male Master's degree,"(1,294)"
-2003,Male,Current Dollars,Master's degree,70640,darkred,Male Master's degree,(562)
-2004,Male,Current Dollars,Master's degree,71530,darkred,Male Master's degree,(490)
-2005,Male,Current Dollars,Master's degree,75030,darkred,Male Master's degree,"(1,229)"
-2006,Male,Current Dollars,Master's degree,75430,darkred,Male Master's degree,(859)
-2007,Male,Current Dollars,Master's degree,76280,darkred,Male Master's degree,(416)
-2008,Male,Current Dollars,Master's degree,80960,darkred,Male Master's degree,(468)
-2009,Male,Current Dollars,Master's degree,79340,darkred,Male Master's degree,"(1,568)"
-2010,Male,Current Dollars,Master's degree,80960,darkred,Male Master's degree,(453)
-2011,Male,Current Dollars,Master's degree,83030,darkred,Male Master's degree,(755)
-2012,Male,Current Dollars,Master's degree,85120,darkred,Male Master's degree,"(1,412)"
-2013,Male,Current Dollars,Master's degree,86310,darkred,Male Master's degree,"(1,429)"
-2014,Male,Current Dollars,Master's degree,84760,darkred,Male Master's degree,"(1,988)"
-2015,Male,Current Dollars,Master's degree,86740,darkred,Male Master's degree,"(1,632)"
-2016,Male,Current Dollars,Master's degree,88430,darkred,Male Master's degree,"(2,215)"
-2017,Male,Current Dollars,Master's degree,91600,darkred,Male Master's degree,(648)
-2018,Male,Current Dollars,Master's degree,99620,darkred,Male Master's degree,"(1,750)"
-2019,Male,Current Dollars,Master's degree,100560,darkred,Male Master's degree,(502)
-1990,Female,Current Dollars,Master's degree,NA,steelblue,Female Master's degree,(†)
-1995,Female,Current Dollars,Master's degree,40260,steelblue,Female Master's degree,(556)
-2000,Female,Current Dollars,Master's degree,50140,steelblue,Female Master's degree,(735)
-2001,Female,Current Dollars,Master's degree,50670,steelblue,Female Master's degree,(328)
-2002,Female,Current Dollars,Master's degree,48890,steelblue,Female Master's degree,(595)
-2003,Female,Current Dollars,Master's degree,50160,steelblue,Female Master's degree,(454)
-2004,Female,Current Dollars,Master's degree,51320,steelblue,Female Master's degree,(263)
-2005,Female,Current Dollars,Master's degree,51410,steelblue,Female Master's degree,(283)
-2006,Female,Current Dollars,Master's degree,52440,steelblue,Female Master's degree,(561)
-2007,Female,Current Dollars,Master's degree,55430,steelblue,Female Master's degree,(412)
-2008,Female,Current Dollars,Master's degree,57510,steelblue,Female Master's degree,(745)
-2009,Female,Current Dollars,Master's degree,61070,steelblue,Female Master's degree,(304)
-2010,Female,Current Dollars,Master's degree,59100,steelblue,Female Master's degree,"(1,021)"
-2011,Female,Current Dollars,Master's degree,60300,steelblue,Female Master's degree,(533)
-2012,Female,Current Dollars,Master's degree,60930,steelblue,Female Master's degree,(464)
-2013,Female,Current Dollars,Master's degree,61280,steelblue,Female Master's degree,(561)
-2014,Female,Current Dollars,Master's degree,60830,steelblue,Female Master's degree,(442)
-2015,Female,Current Dollars,Master's degree,62380,steelblue,Female Master's degree,"(1,135)"
-2016,Female,Current Dollars,Master's degree,64910,steelblue,Female Master's degree,"(1,091)"
-2017,Female,Current Dollars,Master's degree,68510,steelblue,Female Master's degree,"(1,524)"
-2018,Female,Current Dollars,Master's degree,66740,steelblue,Female Master's degree,(581)
-2019,Female,Current Dollars,Master's degree,70810,steelblue,Female Master's degree,(543)
-1990,Male,Constant 2019 Dollars,Master's degree,NA,darkred,Male Master's degree,(†)
-1995,Male,Constant 2019 Dollars,Master's degree,92640,darkred,Male Master's degree,"(1,632)"
-2000,Male,Constant 2019 Dollars,Master's degree,101430,darkred,Male Master's degree,"(2,236)"
-2001,Male,Constant 2019 Dollars,Master's degree,102370,darkred,Male Master's degree,(992)
-2002,Male,Constant 2019 Dollars,Master's degree,95630,darkred,Male Master's degree,"(1,839)"
-2003,Male,Constant 2019 Dollars,Master's degree,98170,darkred,Male Master's degree,(781)
-2004,Male,Constant 2019 Dollars,Master's degree,96820,darkred,Male Master's degree,(663)
-2005,Male,Constant 2019 Dollars,Master's degree,98220,darkred,Male Master's degree,"(1,609)"
-2006,Male,Constant 2019 Dollars,Master's degree,95660,darkred,Male Master's degree,"(1,089)"
-2007,Male,Constant 2019 Dollars,Master's degree,94060,darkred,Male Master's degree,(513)
-2008,Male,Constant 2019 Dollars,Master's degree,96140,darkred,Male Master's degree,(556)
-2009,Male,Constant 2019 Dollars,Master's degree,94550,darkred,Male Master's degree,"(1,869)"
-2010,Male,Constant 2019 Dollars,Master's degree,94920,darkred,Male Master's degree,(531)
-2011,Male,Constant 2019 Dollars,Master's degree,94370,darkred,Male Master's degree,(858)
-2012,Male,Constant 2019 Dollars,Master's degree,94780,darkred,Male Master's degree,"(1,572)"
-2013,Male,Constant 2019 Dollars,Master's degree,94720,darkred,Male Master's degree,"(1,568)"
-2014,Male,Constant 2019 Dollars,Master's degree,91530,darkred,Male Master's degree,"(2,147)"
-2015,Male,Constant 2019 Dollars,Master's degree,93560,darkred,Male Master's degree,"(1,760)"
-2016,Male,Constant 2019 Dollars,Master's degree,94200,darkred,Male Master's degree,"(2,359)"
-2017,Male,Constant 2019 Dollars,Master's degree,95540,darkred,Male Master's degree,(676)
-2018,Male,Constant 2019 Dollars,Master's degree,101420,darkred,Male Master's degree,"(1,782)"
-2019,Male,Constant 2019 Dollars,Master's degree,100560,darkred,Male Master's degree,(502)
-1990,Female,Constant 2019 Dollars,Master's degree,NA,steelblue,Female Master's degree,(†)
-1995,Female,Constant 2019 Dollars,Master's degree,67550,steelblue,Female Master's degree,(933)
-2000,Female,Constant 2019 Dollars,Master's degree,74440,steelblue,Female Master's degree,"(1,091)"
-2001,Female,Constant 2019 Dollars,Master's degree,73160,steelblue,Female Master's degree,(474)
-2002,Female,Constant 2019 Dollars,Master's degree,69490,steelblue,Female Master's degree,(846)
-2003,Female,Constant 2019 Dollars,Master's degree,69710,steelblue,Female Master's degree,(631)
-2004,Female,Constant 2019 Dollars,Master's degree,69460,steelblue,Female Master's degree,(356)
-2005,Female,Constant 2019 Dollars,Master's degree,67300,steelblue,Female Master's degree,(370)
-2006,Female,Constant 2019 Dollars,Master's degree,66500,steelblue,Female Master's degree,(711)
-2007,Female,Constant 2019 Dollars,Master's degree,68340,steelblue,Female Master's degree,(508)
-2008,Female,Constant 2019 Dollars,Master's degree,68290,steelblue,Female Master's degree,(885)
-2009,Female,Constant 2019 Dollars,Master's degree,72770,steelblue,Female Master's degree,(362)
-2010,Female,Constant 2019 Dollars,Master's degree,69290,steelblue,Female Master's degree,"(1,197)"
-2011,Female,Constant 2019 Dollars,Master's degree,68540,steelblue,Female Master's degree,(606)
-2012,Female,Constant 2019 Dollars,Master's degree,67840,steelblue,Female Master's degree,(517)
-2013,Female,Constant 2019 Dollars,Master's degree,67250,steelblue,Female Master's degree,(616)
-2014,Female,Constant 2019 Dollars,Master's degree,65690,steelblue,Female Master's degree,(477)
-2015,Female,Constant 2019 Dollars,Master's degree,67280,steelblue,Female Master's degree,"(1,224)"
-2016,Female,Constant 2019 Dollars,Master's degree,69140,steelblue,Female Master's degree,"(1,162)"
-2017,Female,Constant 2019 Dollars,Master's degree,71450,steelblue,Female Master's degree,"(1,590)"
-2018,Female,Constant 2019 Dollars,Master's degree,67950,steelblue,Female Master's degree,(592)
-2019,Female,Constant 2019 Dollars,Master's degree,70810,steelblue,Female Master's degree,(543)
-1990,Male,Current Dollars,Professional degree,NA,darkred,Male Professional degree,(†)
-1995,Male,Current Dollars,Professional degree,79670,darkred,Male Professional degree,"(2,582)"
-2000,Male,Current Dollars,Professional degree,99410,darkred,Male Professional degree,"(20,832)"
-2001,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,(---)
-2002,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,(---)
-2003,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,(---)
-2004,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,(---)
-2005,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,(---)
-2006,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,(---)
-2007,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,(---)
-2008,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,(---)
-2009,Male,Current Dollars,Professional degree,123240,darkred,Male Professional degree,"(2,539)"
-2010,Male,Current Dollars,Professional degree,115300,darkred,Male Professional degree,"(4,891)"
-2011,Male,Current Dollars,Professional degree,119470,darkred,Male Professional degree,"(1,917)"
-2012,Male,Current Dollars,Professional degree,116350,darkred,Male Professional degree,"(5,632)"
-2013,Male,Current Dollars,Professional degree,126730,darkred,Male Professional degree,"(8,647)"
-2014,Male,Current Dollars,Professional degree,121750,darkred,Male Professional degree,"(5,986)"
-2015,Male,Current Dollars,Professional degree,131190,darkred,Male Professional degree,"(7,197)"
-2016,Male,Current Dollars,Professional degree,117550,darkred,Male Professional degree,"(7,311)"
-2017,Male,Current Dollars,Professional degree,127230,darkred,Male Professional degree,"(5,441)"
-2018,Male,Current Dollars,Professional degree,135440,darkred,Male Professional degree,"(10,136)"
-2019,Male,Current Dollars,Professional degree,150100,darkred,Male Professional degree,"(7,151)"
-1990,Female,Current Dollars,Professional degree,NA,steelblue,Female Professional degree,(†)
-1995,Female,Current Dollars,Professional degree,50000,steelblue,Female Professional degree,"(2,532)"
-2000,Female,Current Dollars,Professional degree,58960,steelblue,Female Professional degree,"(3,552)"
-2001,Female,Current Dollars,Professional degree,61750,steelblue,Female Professional degree,"(3,976)"
-2002,Female,Current Dollars,Professional degree,57020,steelblue,Female Professional degree,"(2,421)"
-2003,Female,Current Dollars,Professional degree,66490,steelblue,Female Professional degree,"(3,469)"
-2004,Female,Current Dollars,Professional degree,75040,steelblue,Female Professional degree,"(2,436)"
-2005,Female,Current Dollars,Professional degree,80460,steelblue,Female Professional degree,"(2,774)"
-2006,Female,Current Dollars,Professional degree,76240,steelblue,Female Professional degree,"(2,488)"
-2007,Female,Current Dollars,Professional degree,71100,steelblue,Female Professional degree,(910)
-2008,Female,Current Dollars,Professional degree,71300,steelblue,Female Professional degree,"(2,859)"
-2009,Female,Current Dollars,Professional degree,83910,steelblue,Female Professional degree,"(3,210)"
-2010,Female,Current Dollars,Professional degree,76740,steelblue,Female Professional degree,"(2,723)"
-2011,Female,Current Dollars,Professional degree,80720,steelblue,Female Professional degree,(135)
-2012,Female,Current Dollars,Professional degree,94470,steelblue,Female Professional degree,"(6,655)"
-2013,Female,Current Dollars,Professional degree,85400,steelblue,Female Professional degree,"(6,196)"
-2014,Female,Current Dollars,Professional degree,91810,steelblue,Female Professional degree,"(8,587)"
-2015,Female,Current Dollars,Professional degree,82470,steelblue,Female Professional degree,"(5,049)"
-2016,Female,Current Dollars,Professional degree,92030,steelblue,Female Professional degree,"(4,468)"
-2017,Female,Current Dollars,Professional degree,100180,steelblue,Female Professional degree,"(4,817)"
-2018,Female,Current Dollars,Professional degree,99780,steelblue,Female Professional degree,"(7,090)"
-2019,Female,Current Dollars,Professional degree,102460,steelblue,Female Professional degree,"(9,619)"
-1990,Male,Constant 2019 Dollars,Professional degree,NA,darkred,Male Professional degree,(†)
-1995,Male,Constant 2019 Dollars,Professional degree,133660,darkred,Male Professional degree,"(4,332)"
-2000,Male,Constant 2019 Dollars,Professional degree,147590,darkred,Male Professional degree,"(30,928)"
-2001,Male,Constant 2019 Dollars,Professional degree,144380,darkred,Male Professional degree,(---)
-2002,Male,Constant 2019 Dollars,Professional degree,142130,darkred,Male Professional degree,(---)
-2003,Male,Constant 2019 Dollars,Professional degree,138980,darkred,Male Professional degree,(---)
-2004,Male,Constant 2019 Dollars,Professional degree,135350,darkred,Male Professional degree,(---)
-2005,Male,Constant 2019 Dollars,Professional degree,130910,darkred,Male Professional degree,(---)
-2006,Male,Constant 2019 Dollars,Professional degree,126820,darkred,Male Professional degree,(---)
-2007,Male,Constant 2019 Dollars,Professional degree,123300,darkred,Male Professional degree,(---)
-2008,Male,Constant 2019 Dollars,Professional degree,118740,darkred,Male Professional degree,(---)
-2009,Male,Constant 2019 Dollars,Professional degree,146860,darkred,Male Professional degree,"(3,026)"
-2010,Male,Constant 2019 Dollars,Professional degree,135180,darkred,Male Professional degree,"(5,734)"
-2011,Male,Constant 2019 Dollars,Professional degree,135790,darkred,Male Professional degree,"(2,179)"
-2012,Male,Constant 2019 Dollars,Professional degree,129560,darkred,Male Professional degree,"(6,271)"
-2013,Male,Constant 2019 Dollars,Professional degree,139070,darkred,Male Professional degree,"(9,490)"
-2014,Male,Constant 2019 Dollars,Professional degree,131490,darkred,Male Professional degree,"(6,464)"
-2015,Male,Constant 2019 Dollars,Professional degree,141510,darkred,Male Professional degree,"(7,763)"
-2016,Male,Constant 2019 Dollars,Professional degree,125210,darkred,Male Professional degree,"(7,788)"
-2017,Male,Constant 2019 Dollars,Professional degree,132700,darkred,Male Professional degree,"(5,675)"
-2018,Male,Constant 2019 Dollars,Professional degree,137890,darkred,Male Professional degree,"(10,320)"
-2019,Male,Constant 2019 Dollars,Professional degree,150100,darkred,Male Professional degree,"(7,151)"
-1990,Female,Constant 2019 Dollars,Professional degree,NA,steelblue,Female Professional degree,(†)
-1995,Female,Constant 2019 Dollars,Professional degree,83890,steelblue,Female Professional degree,"(4,248)"
-2000,Female,Constant 2019 Dollars,Professional degree,87530,steelblue,Female Professional degree,"(5,273)"
-2001,Female,Constant 2019 Dollars,Professional degree,89150,steelblue,Female Professional degree,"(5,741)"
-2002,Female,Constant 2019 Dollars,Professional degree,81040,steelblue,Female Professional degree,"(3,441)"
-2003,Female,Constant 2019 Dollars,Professional degree,92410,steelblue,Female Professional degree,"(4,821)"
-2004,Female,Constant 2019 Dollars,Professional degree,101560,steelblue,Female Professional degree,"(3,297)"
-2005,Female,Constant 2019 Dollars,Professional degree,105330,steelblue,Female Professional degree,"(3,631)"
-2006,Female,Constant 2019 Dollars,Professional degree,96690,steelblue,Female Professional degree,"(3,155)"
-2007,Female,Constant 2019 Dollars,Professional degree,87670,steelblue,Female Professional degree,"(1,122)"
-2008,Female,Constant 2019 Dollars,Professional degree,84660,steelblue,Female Professional degree,"(3,395)"
-2009,Female,Constant 2019 Dollars,Professional degree,99990,steelblue,Female Professional degree,"(3,825)"
-2010,Female,Constant 2019 Dollars,Professional degree,89970,steelblue,Female Professional degree,"(3,193)"
-2011,Female,Constant 2019 Dollars,Professional degree,91740,steelblue,Female Professional degree,(153)
-2012,Female,Constant 2019 Dollars,Professional degree,105200,steelblue,Female Professional degree,"(7,410)"
-2013,Female,Constant 2019 Dollars,Professional degree,93720,steelblue,Female Professional degree,"(6,800)"
-2014,Female,Constant 2019 Dollars,Professional degree,99150,steelblue,Female Professional degree,"(9,273)"
-2015,Female,Constant 2019 Dollars,Professional degree,88960,steelblue,Female Professional degree,"(5,446)"
-2016,Female,Constant 2019 Dollars,Professional degree,98030,steelblue,Female Professional degree,"(4,759)"
-2017,Female,Constant 2019 Dollars,Professional degree,104480,steelblue,Female Professional degree,"(5,024)"
-2018,Female,Constant 2019 Dollars,Professional degree,101590,steelblue,Female Professional degree,"(7,218)"
-2019,Female,Constant 2019 Dollars,Professional degree,102460,steelblue,Female Professional degree,"(9,619)"
-1990,Male,Current Dollars,Doctor's degree,NA,darkred,Male Doctor's degree,(†)
-1995,Male,Current Dollars,Doctor's degree,65340,darkred,Male Doctor's degree,"(2,188)"
-2000,Male,Current Dollars,Doctor's degree,80250,darkred,Male Doctor's degree,"(2,446)"
-2001,Male,Current Dollars,Doctor's degree,86970,darkred,Male Doctor's degree,"(3,013)"
-2002,Male,Current Dollars,Doctor's degree,83310,darkred,Male Doctor's degree,"(2,076)"
-2003,Male,Current Dollars,Doctor's degree,87130,darkred,Male Doctor's degree,"(2,528)"
-2004,Male,Current Dollars,Doctor's degree,82400,darkred,Male Doctor's degree,"(2,423)"
-2005,Male,Current Dollars,Doctor's degree,85860,darkred,Male Doctor's degree,"(3,061)"
-2006,Male,Current Dollars,Doctor's degree,100000,darkred,Male Doctor's degree,(---)
-2007,Male,Current Dollars,Doctor's degree,92090,darkred,Male Doctor's degree,"(1,894)"
-2008,Male,Current Dollars,Doctor's degree,100000,darkred,Male Doctor's degree,(---)
-2009,Male,Current Dollars,Doctor's degree,100740,darkred,Male Doctor's degree,(519)
-2010,Male,Current Dollars,Doctor's degree,101220,darkred,Male Doctor's degree,(653)
-2011,Male,Current Dollars,Doctor's degree,100770,darkred,Male Doctor's degree,(192)
-2012,Male,Current Dollars,Doctor's degree,106470,darkred,Male Doctor's degree,"(4,656)"
-2013,Male,Current Dollars,Doctor's degree,105280,darkred,Male Doctor's degree,"(4,631)"
-2014,Male,Current Dollars,Doctor's degree,100710,darkred,Male Doctor's degree,(852)
-2015,Male,Current Dollars,Doctor's degree,102340,darkred,Male Doctor's degree,"(4,801)"
-2016,Male,Current Dollars,Doctor's degree,120430,darkred,Male Doctor's degree,"(4,017)"
-2017,Male,Current Dollars,Doctor's degree,118450,darkred,Male Doctor's degree,"(4,152)"
-2018,Male,Current Dollars,Doctor's degree,115790,darkred,Male Doctor's degree,"(5,892)"
-2019,Male,Current Dollars,Doctor's degree,128650,darkred,Male Doctor's degree,"(4,977)"
-1990,Female,Current Dollars,Doctor's degree,NA,steelblue,Female Doctor's degree,(†)
-1995,Female,Current Dollars,Doctor's degree,48140,steelblue,Female Doctor's degree,"(2,373)"
-2000,Female,Current Dollars,Doctor's degree,57080,steelblue,Female Doctor's degree,"(2,999)"
-2001,Female,Current Dollars,Doctor's degree,62120,steelblue,Female Doctor's degree,"(2,228)"
-2002,Female,Current Dollars,Doctor's degree,65720,steelblue,Female Doctor's degree,"(2,268)"
-2003,Female,Current Dollars,Doctor's degree,67210,steelblue,Female Doctor's degree,"(2,462)"
-2004,Female,Current Dollars,Doctor's degree,68880,steelblue,Female Doctor's degree,"(2,450)"
-2005,Female,Current Dollars,Doctor's degree,66850,steelblue,Female Doctor's degree,"(2,490)"
-2006,Female,Current Dollars,Doctor's degree,70520,steelblue,Female Doctor's degree,"(1,779)"
-2007,Female,Current Dollars,Doctor's degree,68990,steelblue,Female Doctor's degree,"(2,155)"
-2008,Female,Current Dollars,Doctor's degree,74030,steelblue,Female Doctor's degree,"(2,144)"
-2009,Female,Current Dollars,Doctor's degree,76580,steelblue,Female Doctor's degree,(912)
-2010,Female,Current Dollars,Doctor's degree,77390,steelblue,Female Doctor's degree,"(2,174)"
-2011,Female,Current Dollars,Doctor's degree,77460,steelblue,Female Doctor's degree,(21)
-2012,Female,Current Dollars,Doctor's degree,77900,steelblue,Female Doctor's degree,"(3,616)"
-2013,Female,Current Dollars,Doctor's degree,75090,steelblue,Female Doctor's degree,"(3,515)"
-2014,Female,Current Dollars,Doctor's degree,80540,steelblue,Female Doctor's degree,"(2,875)"
-2015,Female,Current Dollars,Doctor's degree,82310,steelblue,Female Doctor's degree,"(3,752)"
-2016,Female,Current Dollars,Doctor's degree,86370,steelblue,Female Doctor's degree,"(4,485)"
-2017,Female,Current Dollars,Doctor's degree,92030,steelblue,Female Doctor's degree,"(3,137)"
-2018,Female,Current Dollars,Doctor's degree,95170,steelblue,Female Doctor's degree,"(5,083)"
-2019,Female,Current Dollars,Doctor's degree,101170,steelblue,Female Doctor's degree,(952)
-1990,Male,Constant 2019 Dollars,Doctor's degree,NA,darkred,Male Doctor's degree,(†)
-1995,Male,Constant 2019 Dollars,Doctor's degree,109620,darkred,Male Doctor's degree,"(3,671)"
-2000,Male,Constant 2019 Dollars,Doctor's degree,119140,darkred,Male Doctor's degree,"(3,631)"
-2001,Male,Constant 2019 Dollars,Doctor's degree,125560,darkred,Male Doctor's degree,"(4,350)"
-2002,Male,Constant 2019 Dollars,Doctor's degree,118400,darkred,Male Doctor's degree,"(2,951)"
-2003,Male,Constant 2019 Dollars,Doctor's degree,121090,darkred,Male Doctor's degree,"(3,513)"
-2004,Male,Constant 2019 Dollars,Doctor's degree,111530,darkred,Male Doctor's degree,"(3,280)"
-2005,Male,Constant 2019 Dollars,Doctor's degree,112400,darkred,Male Doctor's degree,"(4,007)"
-2006,Male,Constant 2019 Dollars,Doctor's degree,126820,darkred,Male Doctor's degree,(---)
-2007,Male,Constant 2019 Dollars,Doctor's degree,113550,darkred,Male Doctor's degree,"(2,335)"
-2008,Male,Constant 2019 Dollars,Doctor's degree,118740,darkred,Male Doctor's degree,(---)
-2009,Male,Constant 2019 Dollars,Doctor's degree,120050,darkred,Male Doctor's degree,(618)
-2010,Male,Constant 2019 Dollars,Doctor's degree,118680,darkred,Male Doctor's degree,(766)
-2011,Male,Constant 2019 Dollars,Doctor's degree,114530,darkred,Male Doctor's degree,(218)
-2012,Male,Constant 2019 Dollars,Doctor's degree,118550,darkred,Male Doctor's degree,"(5,185)"
-2013,Male,Constant 2019 Dollars,Doctor's degree,115540,darkred,Male Doctor's degree,"(5,082)"
-2014,Male,Constant 2019 Dollars,Doctor's degree,108760,darkred,Male Doctor's degree,(920)
-2015,Male,Constant 2019 Dollars,Doctor's degree,110380,darkred,Male Doctor's degree,"(5,179)"
-2016,Male,Constant 2019 Dollars,Doctor's degree,128280,darkred,Male Doctor's degree,"(4,279)"
-2017,Male,Constant 2019 Dollars,Doctor's degree,123540,darkred,Male Doctor's degree,"(4,330)"
-2018,Male,Constant 2019 Dollars,Doctor's degree,117890,darkred,Male Doctor's degree,"(5,999)"
-2019,Male,Constant 2019 Dollars,Doctor's degree,128650,darkred,Male Doctor's degree,"(4,977)"
-1990,Female,Constant 2019 Dollars,Doctor's degree,NA,steelblue,Female Doctor's degree,(†)
-1995,Female,Constant 2019 Dollars,Doctor's degree,80770,steelblue,Female Doctor's degree,"(3,981)"
-2000,Female,Constant 2019 Dollars,Doctor's degree,84750,steelblue,Female Doctor's degree,"(4,452)"
-2001,Female,Constant 2019 Dollars,Doctor's degree,89700,steelblue,Female Doctor's degree,"(3,217)"
-2002,Female,Constant 2019 Dollars,Doctor's degree,93400,steelblue,Female Doctor's degree,"(3,224)"
-2003,Female,Constant 2019 Dollars,Doctor's degree,93410,steelblue,Female Doctor's degree,"(3,422)"
-2004,Female,Constant 2019 Dollars,Doctor's degree,93220,steelblue,Female Doctor's degree,"(3,316)"
-2005,Female,Constant 2019 Dollars,Doctor's degree,87520,steelblue,Female Doctor's degree,"(3,260)"
-2006,Female,Constant 2019 Dollars,Doctor's degree,89430,steelblue,Female Doctor's degree,"(2,256)"
-2007,Female,Constant 2019 Dollars,Doctor's degree,85060,steelblue,Female Doctor's degree,"(2,657)"
-2008,Female,Constant 2019 Dollars,Doctor's degree,87900,steelblue,Female Doctor's degree,"(2,546)"
-2009,Female,Constant 2019 Dollars,Doctor's degree,91260,steelblue,Female Doctor's degree,"(1,087)"
-2010,Female,Constant 2019 Dollars,Doctor's degree,90740,steelblue,Female Doctor's degree,"(2,549)"
-2011,Female,Constant 2019 Dollars,Doctor's degree,88040,steelblue,Female Doctor's degree,(24)
-2012,Female,Constant 2019 Dollars,Doctor's degree,86750,steelblue,Female Doctor's degree,"(4,026)"
-2013,Female,Constant 2019 Dollars,Doctor's degree,82410,steelblue,Female Doctor's degree,"(3,858)"
-2014,Female,Constant 2019 Dollars,Doctor's degree,86980,steelblue,Female Doctor's degree,"(3,105)"
-2015,Female,Constant 2019 Dollars,Doctor's degree,88780,steelblue,Female Doctor's degree,"(4,047)"
-2016,Female,Constant 2019 Dollars,Doctor's degree,92000,steelblue,Female Doctor's degree,"(4,777)"
-2017,Female,Constant 2019 Dollars,Doctor's degree,95990,steelblue,Female Doctor's degree,"(3,272)"
-2018,Female,Constant 2019 Dollars,Doctor's degree,96900,steelblue,Female Doctor's degree,"(5,175)"
-2019,Female,Constant 2019 Dollars,Doctor's degree,101170,steelblue,Female Doctor's degree,(952)
+1990,Male,Current Dollars,Less than 9th grade,17390,darkred,Male Less than 9th grade,NA
+1995,Male,Current Dollars,Less than 9th grade,18350,darkred,Male Less than 9th grade,545
+2000,Male,Current Dollars,Less than 9th grade,20790,darkred,Male Less than 9th grade,376
+2001,Male,Current Dollars,Less than 9th grade,21360,darkred,Male Less than 9th grade,235
+2002,Male,Current Dollars,Less than 9th grade,20920,darkred,Male Less than 9th grade,213
+2003,Male,Current Dollars,Less than 9th grade,21220,darkred,Male Less than 9th grade,227
+2004,Male,Current Dollars,Less than 9th grade,21660,darkred,Male Less than 9th grade,191
+2005,Male,Current Dollars,Less than 9th grade,22330,darkred,Male Less than 9th grade,220
+2006,Male,Current Dollars,Less than 9th grade,22710,darkred,Male Less than 9th grade,398
+2007,Male,Current Dollars,Less than 9th grade,23380,darkred,Male Less than 9th grade,544
+2008,Male,Current Dollars,Less than 9th grade,24260,darkred,Male Less than 9th grade,631
+2009,Male,Current Dollars,Less than 9th grade,23950,darkred,Male Less than 9th grade,394
+2010,Male,Current Dollars,Less than 9th grade,24450,darkred,Male Less than 9th grade,597
+2011,Male,Current Dollars,Less than 9th grade,25220,darkred,Male Less than 9th grade,23
+2012,Male,Current Dollars,Less than 9th grade,25130,darkred,Male Less than 9th grade,440
+2013,Male,Current Dollars,Less than 9th grade,26160,darkred,Male Less than 9th grade,531
+2014,Male,Current Dollars,Less than 9th grade,26580,darkred,Male Less than 9th grade,382
+2015,Male,Current Dollars,Less than 9th grade,27160,darkred,Male Less than 9th grade,460
+2016,Male,Current Dollars,Less than 9th grade,30350,darkred,Male Less than 9th grade,500
+2017,Male,Current Dollars,Less than 9th grade,31000,darkred,Male Less than 9th grade,369
+2018,Male,Current Dollars,Less than 9th grade,31800,darkred,Male Less than 9th grade,420
+2019,Male,Current Dollars,Less than 9th grade,32140,darkred,Male Less than 9th grade,531
+1990,Female,Current Dollars,Less than 9th grade,12250,steelblue,Female Less than 9th grade,NA
+1995,Female,Current Dollars,Less than 9th grade,13580,steelblue,Female Less than 9th grade,490
+2000,Female,Current Dollars,Less than 9th grade,15800,steelblue,Female Less than 9th grade,327
+2001,Female,Current Dollars,Less than 9th grade,16690,steelblue,Female Less than 9th grade,255
+2002,Female,Current Dollars,Less than 9th grade,16510,steelblue,Female Less than 9th grade,297
+2003,Female,Current Dollars,Less than 9th grade,16910,steelblue,Female Less than 9th grade,256
+2004,Female,Current Dollars,Less than 9th grade,17020,steelblue,Female Less than 9th grade,241
+2005,Female,Current Dollars,Less than 9th grade,16140,steelblue,Female Less than 9th grade,250
+2006,Female,Current Dollars,Less than 9th grade,18130,steelblue,Female Less than 9th grade,408
+2007,Female,Current Dollars,Less than 9th grade,18260,steelblue,Female Less than 9th grade,461
+2008,Female,Current Dollars,Less than 9th grade,18630,steelblue,Female Less than 9th grade,494
+2009,Female,Current Dollars,Less than 9th grade,18480,steelblue,Female Less than 9th grade,451
+2010,Female,Current Dollars,Less than 9th grade,18240,steelblue,Female Less than 9th grade,592
+2011,Female,Current Dollars,Less than 9th grade,20100,steelblue,Female Less than 9th grade,250
+2012,Female,Current Dollars,Less than 9th grade,20060,steelblue,Female Less than 9th grade,514
+2013,Female,Current Dollars,Less than 9th grade,19840,steelblue,Female Less than 9th grade,502
+2014,Female,Current Dollars,Less than 9th grade,20990,steelblue,Female Less than 9th grade,279
+2015,Female,Current Dollars,Less than 9th grade,21050,steelblue,Female Less than 9th grade,275
+2016,Female,Current Dollars,Less than 9th grade,22210,steelblue,Female Less than 9th grade,485
+2017,Female,Current Dollars,Less than 9th grade,22360,steelblue,Female Less than 9th grade,533
+2018,Female,Current Dollars,Less than 9th grade,22970,steelblue,Female Less than 9th grade,1042
+2019,Female,Current Dollars,Less than 9th grade,24560,steelblue,Female Less than 9th grade,595
+1990,Male,Constant 2019 Dollars,Less than 9th grade,34030,darkred,Male Less than 9th grade,NA
+1995,Male,Constant 2019 Dollars,Less than 9th grade,30790,darkred,Male Less than 9th grade,914
+2000,Male,Constant 2019 Dollars,Less than 9th grade,30860,darkred,Male Less than 9th grade,558
+2001,Male,Constant 2019 Dollars,Less than 9th grade,30840,darkred,Male Less than 9th grade,339
+2002,Male,Constant 2019 Dollars,Less than 9th grade,29730,darkred,Male Less than 9th grade,303
+2003,Male,Constant 2019 Dollars,Less than 9th grade,29490,darkred,Male Less than 9th grade,315
+2004,Male,Constant 2019 Dollars,Less than 9th grade,29320,darkred,Male Less than 9th grade,259
+2005,Male,Constant 2019 Dollars,Less than 9th grade,29230,darkred,Male Less than 9th grade,288
+2006,Male,Constant 2019 Dollars,Less than 9th grade,28800,darkred,Male Less than 9th grade,505
+2007,Male,Constant 2019 Dollars,Less than 9th grade,28820,darkred,Male Less than 9th grade,671
+2008,Male,Constant 2019 Dollars,Less than 9th grade,28800,darkred,Male Less than 9th grade,749
+2009,Male,Constant 2019 Dollars,Less than 9th grade,28530,darkred,Male Less than 9th grade,470
+2010,Male,Constant 2019 Dollars,Less than 9th grade,28670,darkred,Male Less than 9th grade,700
+2011,Male,Constant 2019 Dollars,Less than 9th grade,28670,darkred,Male Less than 9th grade,26
+2012,Male,Constant 2019 Dollars,Less than 9th grade,27980,darkred,Male Less than 9th grade,490
+2013,Male,Constant 2019 Dollars,Less than 9th grade,28710,darkred,Male Less than 9th grade,583
+2014,Male,Constant 2019 Dollars,Less than 9th grade,28710,darkred,Male Less than 9th grade,413
+2015,Male,Constant 2019 Dollars,Less than 9th grade,29290,darkred,Male Less than 9th grade,496
+2016,Male,Constant 2019 Dollars,Less than 9th grade,32330,darkred,Male Less than 9th grade,533
+2017,Male,Constant 2019 Dollars,Less than 9th grade,32330,darkred,Male Less than 9th grade,385
+2018,Male,Constant 2019 Dollars,Less than 9th grade,32380,darkred,Male Less than 9th grade,428
+2019,Male,Constant 2019 Dollars,Less than 9th grade,32140,darkred,Male Less than 9th grade,531
+1990,Female,Constant 2019 Dollars,Less than 9th grade,23970,steelblue,Female Less than 9th grade,NA
+1995,Female,Constant 2019 Dollars,Less than 9th grade,22780,steelblue,Female Less than 9th grade,822
+2000,Female,Constant 2019 Dollars,Less than 9th grade,23450,steelblue,Female Less than 9th grade,485
+2001,Female,Constant 2019 Dollars,Less than 9th grade,24100,steelblue,Female Less than 9th grade,368
+2002,Female,Constant 2019 Dollars,Less than 9th grade,23470,steelblue,Female Less than 9th grade,422
+2003,Female,Constant 2019 Dollars,Less than 9th grade,23500,steelblue,Female Less than 9th grade,356
+2004,Female,Constant 2019 Dollars,Less than 9th grade,23040,steelblue,Female Less than 9th grade,326
+2005,Female,Constant 2019 Dollars,Less than 9th grade,21130,steelblue,Female Less than 9th grade,327
+2006,Female,Constant 2019 Dollars,Less than 9th grade,23000,steelblue,Female Less than 9th grade,517
+2007,Female,Constant 2019 Dollars,Less than 9th grade,22520,steelblue,Female Less than 9th grade,568
+2008,Female,Constant 2019 Dollars,Less than 9th grade,22130,steelblue,Female Less than 9th grade,587
+2009,Female,Constant 2019 Dollars,Less than 9th grade,22020,steelblue,Female Less than 9th grade,537
+2010,Female,Constant 2019 Dollars,Less than 9th grade,21380,steelblue,Female Less than 9th grade,694
+2011,Female,Constant 2019 Dollars,Less than 9th grade,22850,steelblue,Female Less than 9th grade,284
+2012,Female,Constant 2019 Dollars,Less than 9th grade,22340,steelblue,Female Less than 9th grade,572
+2013,Female,Constant 2019 Dollars,Less than 9th grade,21770,steelblue,Female Less than 9th grade,551
+2014,Female,Constant 2019 Dollars,Less than 9th grade,22670,steelblue,Female Less than 9th grade,301
+2015,Female,Constant 2019 Dollars,Less than 9th grade,22710,steelblue,Female Less than 9th grade,297
+2016,Female,Constant 2019 Dollars,Less than 9th grade,23660,steelblue,Female Less than 9th grade,517
+2017,Female,Constant 2019 Dollars,Less than 9th grade,23320,steelblue,Female Less than 9th grade,556
+2018,Female,Constant 2019 Dollars,Less than 9th grade,23380,steelblue,Female Less than 9th grade,1061
+2019,Female,Constant 2019 Dollars,Less than 9th grade,24560,steelblue,Female Less than 9th grade,595
+1990,Male,Current Dollars,"Some high school, no completion",20900,darkred,"Male Some high school, no completion",NA
+1995,Male,Current Dollars,"Some high school, no completion",22190,darkred,"Male Some high school, no completion",342
+2000,Male,Current Dollars,"Some high school, no completion",25100,darkred,"Male Some high school, no completion",436
+2001,Male,Current Dollars,"Some high school, no completion",26210,darkred,"Male Some high school, no completion",251
+2002,Male,Current Dollars,"Some high school, no completion",25900,darkred,"Male Some high school, no completion",207
+2003,Male,Current Dollars,"Some high school, no completion",26470,darkred,"Male Some high school, no completion",280
+2004,Male,Current Dollars,"Some high school, no completion",26280,darkred,"Male Some high school, no completion",234
+2005,Male,Current Dollars,"Some high school, no completion",27190,darkred,"Male Some high school, no completion",237
+2006,Male,Current Dollars,"Some high school, no completion",27650,darkred,"Male Some high school, no completion",573
+2007,Male,Current Dollars,"Some high school, no completion",29320,darkred,"Male Some high school, no completion",590
+2008,Male,Current Dollars,"Some high school, no completion",29680,darkred,"Male Some high school, no completion",458
+2009,Male,Current Dollars,"Some high school, no completion",28020,darkred,"Male Some high school, no completion",542
+2010,Male,Current Dollars,"Some high school, no completion",29440,darkred,"Male Some high school, no completion",684
+2011,Male,Current Dollars,"Some high school, no completion",30420,darkred,"Male Some high school, no completion",300
+2012,Male,Current Dollars,"Some high school, no completion",30330,darkred,"Male Some high school, no completion",430
+2013,Male,Current Dollars,"Some high school, no completion",30570,darkred,"Male Some high school, no completion",551
+2014,Male,Current Dollars,"Some high school, no completion",30840,darkred,"Male Some high school, no completion",382
+2015,Male,Current Dollars,"Some high school, no completion",32140,darkred,"Male Some high school, no completion",320
+2016,Male,Current Dollars,"Some high school, no completion",32490,darkred,"Male Some high school, no completion",1237
+2017,Male,Current Dollars,"Some high school, no completion",34620,darkred,"Male Some high school, no completion",1249
+2018,Male,Current Dollars,"Some high school, no completion",35600,darkred,"Male Some high school, no completion",406
+2019,Male,Current Dollars,"Some high school, no completion",37150,darkred,"Male Some high school, no completion",826
+1990,Female,Current Dollars,"Some high school, no completion",14430,steelblue,"Female Some high school, no completion",NA
+1995,Female,Current Dollars,"Some high school, no completion",15830,steelblue,"Female Some high school, no completion",293
+2000,Female,Current Dollars,"Some high school, no completion",17920,steelblue,"Female Some high school, no completion",434
+2001,Female,Current Dollars,"Some high school, no completion",19160,steelblue,"Female Some high school, no completion",359
+2002,Female,Current Dollars,"Some high school, no completion",19310,steelblue,"Female Some high school, no completion",360
+2003,Female,Current Dollars,"Some high school, no completion",18940,steelblue,"Female Some high school, no completion",327
+2004,Female,Current Dollars,"Some high school, no completion",19160,steelblue,"Female Some high school, no completion",319
+2005,Female,Current Dollars,"Some high school, no completion",20130,steelblue,"Female Some high school, no completion",274
+2006,Female,Current Dollars,"Some high school, no completion",20130,steelblue,"Female Some high school, no completion",270
+2007,Female,Current Dollars,"Some high school, no completion",20400,steelblue,"Female Some high school, no completion",292
+2008,Female,Current Dollars,"Some high school, no completion",20410,steelblue,"Female Some high school, no completion",295
+2009,Female,Current Dollars,"Some high school, no completion",21230,steelblue,"Female Some high school, no completion",301
+2010,Female,Current Dollars,"Some high school, no completion",20880,steelblue,"Female Some high school, no completion",334
+2011,Female,Current Dollars,"Some high school, no completion",21110,steelblue,"Female Some high school, no completion",131
+2012,Female,Current Dollars,"Some high school, no completion",21390,steelblue,"Female Some high school, no completion",285
+2013,Female,Current Dollars,"Some high school, no completion",22250,steelblue,"Female Some high school, no completion",544
+2014,Female,Current Dollars,"Some high school, no completion",21990,steelblue,"Female Some high school, no completion",322
+2015,Female,Current Dollars,"Some high school, no completion",22670,steelblue,"Female Some high school, no completion",714
+2016,Female,Current Dollars,"Some high school, no completion",24800,steelblue,"Female Some high school, no completion",562
+2017,Female,Current Dollars,"Some high school, no completion",25450,steelblue,"Female Some high school, no completion",459
+2018,Female,Current Dollars,"Some high school, no completion",25140,steelblue,"Female Some high school, no completion",576
+2019,Female,Current Dollars,"Some high school, no completion",26740,steelblue,"Female Some high school, no completion",337
+1990,Male,Constant 2019 Dollars,"Some high school, no completion",40900,darkred,"Male Some high school, no completion",NA
+1995,Male,Constant 2019 Dollars,"Some high school, no completion",37220,darkred,"Male Some high school, no completion",574
+2000,Male,Constant 2019 Dollars,"Some high school, no completion",37260,darkred,"Male Some high school, no completion",647
+2001,Male,Constant 2019 Dollars,"Some high school, no completion",37840,darkred,"Male Some high school, no completion",362
+2002,Male,Constant 2019 Dollars,"Some high school, no completion",36820,darkred,"Male Some high school, no completion",294
+2003,Male,Constant 2019 Dollars,"Some high school, no completion",36780,darkred,"Male Some high school, no completion",389
+2004,Male,Constant 2019 Dollars,"Some high school, no completion",35570,darkred,"Male Some high school, no completion",317
+2005,Male,Constant 2019 Dollars,"Some high school, no completion",35590,darkred,"Male Some high school, no completion",310
+2006,Male,Constant 2019 Dollars,"Some high school, no completion",35070,darkred,"Male Some high school, no completion",727
+2007,Male,Constant 2019 Dollars,"Some high school, no completion",36150,darkred,"Male Some high school, no completion",727
+2008,Male,Constant 2019 Dollars,"Some high school, no completion",35240,darkred,"Male Some high school, no completion",544
+2009,Male,Constant 2019 Dollars,"Some high school, no completion",33390,darkred,"Male Some high school, no completion",646
+2010,Male,Constant 2019 Dollars,"Some high school, no completion",34510,darkred,"Male Some high school, no completion",802
+2011,Male,Constant 2019 Dollars,"Some high school, no completion",34580,darkred,"Male Some high school, no completion",341
+2012,Male,Constant 2019 Dollars,"Some high school, no completion",33770,darkred,"Male Some high school, no completion",479
+2013,Male,Constant 2019 Dollars,"Some high school, no completion",33540,darkred,"Male Some high school, no completion",605
+2014,Male,Constant 2019 Dollars,"Some high school, no completion",33300,darkred,"Male Some high school, no completion",413
+2015,Male,Constant 2019 Dollars,"Some high school, no completion",34670,darkred,"Male Some high school, no completion",345
+2016,Male,Constant 2019 Dollars,"Some high school, no completion",34610,darkred,"Male Some high school, no completion",1318
+2017,Male,Constant 2019 Dollars,"Some high school, no completion",36110,darkred,"Male Some high school, no completion",1303
+2018,Male,Constant 2019 Dollars,"Some high school, no completion",36250,darkred,"Male Some high school, no completion",413
+2019,Male,Constant 2019 Dollars,"Some high school, no completion",37150,darkred,"Male Some high school, no completion",826
+1990,Female,Constant 2019 Dollars,"Some high school, no completion",28230,steelblue,"Female Some high school, no completion",NA
+1995,Female,Constant 2019 Dollars,"Some high school, no completion",26550,steelblue,"Female Some high school, no completion",492
+2000,Female,Constant 2019 Dollars,"Some high school, no completion",26600,steelblue,"Female Some high school, no completion",644
+2001,Female,Constant 2019 Dollars,"Some high school, no completion",27660,steelblue,"Female Some high school, no completion",518
+2002,Female,Constant 2019 Dollars,"Some high school, no completion",27440,steelblue,"Female Some high school, no completion",512
+2003,Female,Constant 2019 Dollars,"Some high school, no completion",26320,steelblue,"Female Some high school, no completion",454
+2004,Female,Constant 2019 Dollars,"Some high school, no completion",25940,steelblue,"Female Some high school, no completion",432
+2005,Female,Constant 2019 Dollars,"Some high school, no completion",26350,steelblue,"Female Some high school, no completion",359
+2006,Female,Constant 2019 Dollars,"Some high school, no completion",25530,steelblue,"Female Some high school, no completion",342
+2007,Female,Constant 2019 Dollars,"Some high school, no completion",25150,steelblue,"Female Some high school, no completion",360
+2008,Female,Constant 2019 Dollars,"Some high school, no completion",24230,steelblue,"Female Some high school, no completion",350
+2009,Female,Constant 2019 Dollars,"Some high school, no completion",25290,steelblue,"Female Some high school, no completion",359
+2010,Female,Constant 2019 Dollars,"Some high school, no completion",24480,steelblue,"Female Some high school, no completion",392
+2011,Female,Constant 2019 Dollars,"Some high school, no completion",24000,steelblue,"Female Some high school, no completion",149
+2012,Female,Constant 2019 Dollars,"Some high school, no completion",23810,steelblue,"Female Some high school, no completion",317
+2013,Female,Constant 2019 Dollars,"Some high school, no completion",24420,steelblue,"Female Some high school, no completion",597
+2014,Female,Constant 2019 Dollars,"Some high school, no completion",23740,steelblue,"Female Some high school, no completion",348
+2015,Female,Constant 2019 Dollars,"Some high school, no completion",24450,steelblue,"Female Some high school, no completion",770
+2016,Female,Constant 2019 Dollars,"Some high school, no completion",26420,steelblue,"Female Some high school, no completion",599
+2017,Female,Constant 2019 Dollars,"Some high school, no completion",26550,steelblue,"Female Some high school, no completion",479
+2018,Female,Constant 2019 Dollars,"Some high school, no completion",25590,steelblue,"Female Some high school, no completion",586
+2019,Female,Constant 2019 Dollars,"Some high school, no completion",26740,steelblue,"Female Some high school, no completion",337
+1990,Male,Current Dollars,High school completion,26650,darkred,Male High school completion (includes equivalency),NA
+1995,Male,Current Dollars,High school completion,29510,darkred,Male High school completion (includes equivalency),358
+2000,Male,Current Dollars,High school completion,34300,darkred,Male High school completion (includes equivalency),457
+2001,Male,Current Dollars,High school completion,34720,darkred,Male High school completion (includes equivalency),299
+2002,Male,Current Dollars,High school completion,33210,darkred,Male High school completion (includes equivalency),311
+2003,Male,Current Dollars,High school completion,35410,darkred,Male High school completion (includes equivalency),168
+2004,Male,Current Dollars,High school completion,35730,darkred,Male High school completion (includes equivalency),148
+2005,Male,Current Dollars,High school completion,36300,darkred,Male High school completion (includes equivalency),141
+2006,Male,Current Dollars,High school completion,37030,darkred,Male High school completion (includes equivalency),164
+2007,Male,Current Dollars,High school completion,37860,darkred,Male High school completion (includes equivalency),406
+2008,Male,Current Dollars,High school completion,39010,darkred,Male High school completion (includes equivalency),399
+2009,Male,Current Dollars,High school completion,39480,darkred,Male High school completion (includes equivalency),379
+2010,Male,Current Dollars,High school completion,40060,darkred,Male High school completion (includes equivalency),237
+2011,Male,Current Dollars,High school completion,40450,darkred,Male High school completion (includes equivalency),87
+2012,Male,Current Dollars,High school completion,40350,darkred,Male High school completion (includes equivalency),194
+2013,Male,Current Dollars,High school completion,40290,darkred,Male High school completion (includes equivalency),227
+2014,Male,Current Dollars,High school completion,40930,darkred,Male High school completion (includes equivalency),197
+2015,Male,Current Dollars,High school completion,41570,darkred,Male High school completion (includes equivalency),184
+2016,Male,Current Dollars,High school completion,41890,darkred,Male High school completion (includes equivalency),180
+2017,Male,Current Dollars,High school completion,42440,darkred,Male High school completion (includes equivalency),524
+2018,Male,Current Dollars,High school completion,45580,darkred,Male High school completion (includes equivalency),300
+2019,Male,Current Dollars,High school completion,46850,darkred,Male High school completion (includes equivalency),378
+1990,Female,Current Dollars,High school completion,18320,steelblue,Female High school completion (includes equivalency),NA
+1995,Female,Current Dollars,High school completion,20460,steelblue,Female High school completion (includes equivalency),162
+2000,Female,Current Dollars,High school completion,24970,steelblue,Female High school completion (includes equivalency),236
+2001,Female,Current Dollars,High school completion,25300,steelblue,Female High school completion (includes equivalency),132
+2002,Female,Current Dollars,High school completion,25180,steelblue,Female High school completion (includes equivalency),121
+2003,Female,Current Dollars,High school completion,26070,steelblue,Female High school completion (includes equivalency),118
+2004,Female,Current Dollars,High school completion,26030,steelblue,Female High school completion (includes equivalency),116
+2005,Female,Current Dollars,High school completion,26290,steelblue,Female High school completion (includes equivalency),134
+2006,Female,Current Dollars,High school completion,26740,steelblue,Female High school completion (includes equivalency),136
+2007,Female,Current Dollars,High school completion,27240,steelblue,Female High school completion (includes equivalency),133
+2008,Female,Current Dollars,High school completion,28380,steelblue,Female High school completion (includes equivalency),283
+2009,Female,Current Dollars,High school completion,29150,steelblue,Female High school completion (includes equivalency),273
+2010,Female,Current Dollars,High school completion,29860,steelblue,Female High school completion (includes equivalency),260
+2011,Female,Current Dollars,High school completion,30010,steelblue,Female High school completion (includes equivalency),145
+2012,Female,Current Dollars,High school completion,30410,steelblue,Female High school completion (includes equivalency),165
+2013,Female,Current Dollars,High school completion,30800,steelblue,Female High school completion (includes equivalency),173
+2014,Female,Current Dollars,High school completion,30650,steelblue,Female High school completion (includes equivalency),151
+2015,Female,Current Dollars,High school completion,31250,steelblue,Female High school completion (includes equivalency),138
+2016,Female,Current Dollars,High school completion,31540,steelblue,Female High school completion (includes equivalency),152
+2017,Female,Current Dollars,High school completion,32240,steelblue,Female High school completion (includes equivalency),199
+2018,Female,Current Dollars,High school completion,32620,steelblue,Female High school completion (includes equivalency),471
+2019,Female,Current Dollars,High school completion,35100,steelblue,Female High school completion (includes equivalency),307
+1990,Male,Constant 2019 Dollars,High school completion,52150,darkred,Male High school completion (includes equivalency),NA
+1995,Male,Constant 2019 Dollars,High school completion,49510,darkred,Male High school completion (includes equivalency),601
+2000,Male,Constant 2019 Dollars,High school completion,50930,darkred,Male High school completion (includes equivalency),678
+2001,Male,Constant 2019 Dollars,High school completion,50130,darkred,Male High school completion (includes equivalency),432
+2002,Male,Constant 2019 Dollars,High school completion,47200,darkred,Male High school completion (includes equivalency),442
+2003,Male,Constant 2019 Dollars,High school completion,49210,darkred,Male High school completion (includes equivalency),233
+2004,Male,Constant 2019 Dollars,High school completion,48350,darkred,Male High school completion (includes equivalency),200
+2005,Male,Constant 2019 Dollars,High school completion,47520,darkred,Male High school completion (includes equivalency),185
+2006,Male,Constant 2019 Dollars,High school completion,46960,darkred,Male High school completion (includes equivalency),208
+2007,Male,Constant 2019 Dollars,High school completion,46680,darkred,Male High school completion (includes equivalency),501
+2008,Male,Constant 2019 Dollars,High school completion,46320,darkred,Male High school completion (includes equivalency),474
+2009,Male,Constant 2019 Dollars,High school completion,47040,darkred,Male High school completion (includes equivalency),452
+2010,Male,Constant 2019 Dollars,High school completion,46960,darkred,Male High school completion (includes equivalency),278
+2011,Male,Constant 2019 Dollars,High school completion,45970,darkred,Male High school completion (includes equivalency),99
+2012,Male,Constant 2019 Dollars,High school completion,44930,darkred,Male High school completion (includes equivalency),216
+2013,Male,Constant 2019 Dollars,High school completion,44210,darkred,Male High school completion (includes equivalency),249
+2014,Male,Constant 2019 Dollars,High school completion,44200,darkred,Male High school completion (includes equivalency),213
+2015,Male,Constant 2019 Dollars,High school completion,44840,darkred,Male High school completion (includes equivalency),198
+2016,Male,Constant 2019 Dollars,High school completion,44620,darkred,Male High school completion (includes equivalency),192
+2017,Male,Constant 2019 Dollars,High school completion,44260,darkred,Male High school completion (includes equivalency),547
+2018,Male,Constant 2019 Dollars,High school completion,46400,darkred,Male High school completion (includes equivalency),305
+2019,Male,Constant 2019 Dollars,High school completion,46850,darkred,Male High school completion (includes equivalency),378
+1990,Female,Constant 2019 Dollars,High school completion,35840,steelblue,Female High school completion (includes equivalency),NA
+1995,Female,Constant 2019 Dollars,High school completion,34330,steelblue,Female High school completion (includes equivalency),272
+2000,Female,Constant 2019 Dollars,High school completion,37070,steelblue,Female High school completion (includes equivalency),350
+2001,Female,Constant 2019 Dollars,High school completion,36530,steelblue,Female High school completion (includes equivalency),191
+2002,Female,Constant 2019 Dollars,High school completion,35790,steelblue,Female High school completion (includes equivalency),172
+2003,Female,Constant 2019 Dollars,High school completion,36240,steelblue,Female High school completion (includes equivalency),164
+2004,Female,Constant 2019 Dollars,High school completion,35230,steelblue,Female High school completion (includes equivalency),157
+2005,Female,Constant 2019 Dollars,High school completion,34410,steelblue,Female High school completion (includes equivalency),175
+2006,Female,Constant 2019 Dollars,High school completion,33910,steelblue,Female High school completion (includes equivalency),172
+2007,Female,Constant 2019 Dollars,High school completion,33590,steelblue,Female High school completion (includes equivalency),164
+2008,Female,Constant 2019 Dollars,High school completion,33700,steelblue,Female High school completion (includes equivalency),336
+2009,Female,Constant 2019 Dollars,High school completion,34740,steelblue,Female High school completion (includes equivalency),325
+2010,Female,Constant 2019 Dollars,High school completion,35010,steelblue,Female High school completion (includes equivalency),305
+2011,Female,Constant 2019 Dollars,High school completion,34110,steelblue,Female High school completion (includes equivalency),165
+2012,Female,Constant 2019 Dollars,High school completion,33860,steelblue,Female High school completion (includes equivalency),184
+2013,Female,Constant 2019 Dollars,High school completion,33800,steelblue,Female High school completion (includes equivalency),190
+2014,Female,Constant 2019 Dollars,High school completion,33100,steelblue,Female High school completion (includes equivalency),163
+2015,Female,Constant 2019 Dollars,High school completion,33710,steelblue,Female High school completion (includes equivalency),149
+2016,Female,Constant 2019 Dollars,High school completion,33600,steelblue,Female High school completion (includes equivalency),162
+2017,Female,Constant 2019 Dollars,High school completion,33630,steelblue,Female High school completion (includes equivalency),208
+2018,Female,Constant 2019 Dollars,High school completion,33210,steelblue,Female High school completion (includes equivalency),480
+2019,Female,Constant 2019 Dollars,High school completion,35100,steelblue,Female High school completion (includes equivalency),307
+1990,Male,Current Dollars,"Some college, no degree",31730,darkred,"Male Some college, no degree",NA
+1995,Male,Current Dollars,"Some college, no degree",33880,darkred,"Male Some college, no degree",517
+2000,Male,Current Dollars,"Some college, no degree",40340,darkred,"Male Some college, no degree",312
+2001,Male,Current Dollars,"Some college, no degree",41050,darkred,"Male Some college, no degree",214
+2002,Male,Current Dollars,"Some college, no degree",40850,darkred,"Male Some college, no degree",195
+2003,Male,Current Dollars,"Some college, no degree",41350,darkred,"Male Some college, no degree",182
+2004,Male,Current Dollars,"Some college, no degree",41900,darkred,"Male Some college, no degree",175
+2005,Male,Current Dollars,"Some college, no degree",42420,darkred,"Male Some college, no degree",323
+2006,Male,Current Dollars,"Some college, no degree",43830,darkred,"Male Some college, no degree",812
+2007,Male,Current Dollars,"Some college, no degree",44900,darkred,"Male Some college, no degree",585
+2008,Male,Current Dollars,"Some college, no degree",45820,darkred,"Male Some college, no degree",276
+2009,Male,Current Dollars,"Some college, no degree",47100,darkred,"Male Some college, no degree",347
+2010,Male,Current Dollars,"Some college, no degree",46430,darkred,"Male Some college, no degree",348
+2011,Male,Current Dollars,"Some college, no degree",47070,darkred,"Male Some college, no degree",78
+2012,Male,Current Dollars,"Some college, no degree",47190,darkred,"Male Some college, no degree",407
+2013,Male,Current Dollars,"Some college, no degree",47650,darkred,"Male Some college, no degree",739
+2014,Male,Current Dollars,"Some college, no degree",46900,darkred,"Male Some college, no degree",429
+2015,Male,Current Dollars,"Some college, no degree",49670,darkred,"Male Some college, no degree",708
+2016,Male,Current Dollars,"Some college, no degree",49240,darkred,"Male Some college, no degree",784
+2017,Male,Current Dollars,"Some college, no degree",50850,darkred,"Male Some college, no degree",274
+2018,Male,Current Dollars,"Some college, no degree",51690,darkred,"Male Some college, no degree",291
+2019,Male,Current Dollars,"Some college, no degree",53810,darkred,"Male Some college, no degree",1484
+1990,Female,Current Dollars,"Some college, no degree",22230,steelblue,"Female Some college, no degree",NA
+1995,Female,Current Dollars,"Some college, no degree",24000,steelblue,"Female Some college, no degree",274
+2000,Female,Current Dollars,"Some college, no degree",28700,steelblue,"Female Some college, no degree",364
+2001,Female,Current Dollars,"Some college, no degree",30420,steelblue,"Female Some college, no degree",186
+2002,Female,Current Dollars,"Some college, no degree",29400,steelblue,"Female Some college, no degree",299
+2003,Female,Current Dollars,"Some college, no degree",30140,steelblue,"Female Some college, no degree",176
+2004,Female,Current Dollars,"Some college, no degree",30820,steelblue,"Female Some college, no degree",135
+2005,Female,Current Dollars,"Some college, no degree",31400,steelblue,"Female Some college, no degree",165
+2006,Female,Current Dollars,"Some college, no degree",31950,steelblue,"Female Some college, no degree",165
+2007,Female,Current Dollars,"Some college, no degree",32840,steelblue,"Female Some college, no degree",415
+2008,Female,Current Dollars,"Some college, no degree",32630,steelblue,"Female Some college, no degree",355
+2009,Female,Current Dollars,"Some college, no degree",34090,steelblue,"Female Some college, no degree",483
+2010,Female,Current Dollars,"Some college, no degree",33400,steelblue,"Female Some college, no degree",410
+2011,Female,Current Dollars,"Some college, no degree",34590,steelblue,"Female Some college, no degree",512
+2012,Female,Current Dollars,"Some college, no degree",35060,steelblue,"Female Some college, no degree",452
+2013,Female,Current Dollars,"Some college, no degree",35240,steelblue,"Female Some college, no degree",312
+2014,Female,Current Dollars,"Some college, no degree",34380,steelblue,"Female Some college, no degree",891
+2015,Female,Current Dollars,"Some college, no degree",36140,steelblue,"Female Some college, no degree",273
+2016,Female,Current Dollars,"Some college, no degree",36880,steelblue,"Female Some college, no degree",273
+2017,Female,Current Dollars,"Some college, no degree",36620,steelblue,"Female Some college, no degree",259
+2018,Female,Current Dollars,"Some college, no degree",38840,steelblue,"Female Some college, no degree",600
+2019,Female,Current Dollars,"Some college, no degree",40810,steelblue,"Female Some college, no degree",272
+1990,Male,Constant 2019 Dollars,"Some college, no degree",62090,darkred,"Male Some college, no degree",NA
+1995,Male,Constant 2019 Dollars,"Some college, no degree",56850,darkred,"Male Some college, no degree",867
+2000,Male,Constant 2019 Dollars,"Some college, no degree",59890,darkred,"Male Some college, no degree",463
+2001,Male,Constant 2019 Dollars,"Some college, no degree",59260,darkred,"Male Some college, no degree",309
+2002,Male,Constant 2019 Dollars,"Some college, no degree",58060,darkred,"Male Some college, no degree",277
+2003,Male,Constant 2019 Dollars,"Some college, no degree",57460,darkred,"Male Some college, no degree",253
+2004,Male,Constant 2019 Dollars,"Some college, no degree",56710,darkred,"Male Some college, no degree",237
+2005,Male,Constant 2019 Dollars,"Some college, no degree",55530,darkred,"Male Some college, no degree",423
+2006,Male,Constant 2019 Dollars,"Some college, no degree",55590,darkred,"Male Some college, no degree",1030
+2007,Male,Constant 2019 Dollars,"Some college, no degree",55360,darkred,"Male Some college, no degree",721
+2008,Male,Constant 2019 Dollars,"Some college, no degree",54410,darkred,"Male Some college, no degree",328
+2009,Male,Constant 2019 Dollars,"Some college, no degree",56120,darkred,"Male Some college, no degree",414
+2010,Male,Constant 2019 Dollars,"Some college, no degree",54440,darkred,"Male Some college, no degree",408
+2011,Male,Constant 2019 Dollars,"Some college, no degree",53500,darkred,"Male Some college, no degree",89
+2012,Male,Constant 2019 Dollars,"Some college, no degree",52540,darkred,"Male Some college, no degree",453
+2013,Male,Constant 2019 Dollars,"Some college, no degree",52290,darkred,"Male Some college, no degree",811
+2014,Male,Constant 2019 Dollars,"Some college, no degree",50640,darkred,"Male Some college, no degree",463
+2015,Male,Constant 2019 Dollars,"Some college, no degree",53580,darkred,"Male Some college, no degree",764
+2016,Male,Constant 2019 Dollars,"Some college, no degree",52450,darkred,"Male Some college, no degree",835
+2017,Male,Constant 2019 Dollars,"Some college, no degree",53030,darkred,"Male Some college, no degree",286
+2018,Male,Constant 2019 Dollars,"Some college, no degree",52630,darkred,"Male Some college, no degree",296
+2019,Male,Constant 2019 Dollars,"Some college, no degree",53810,darkred,"Male Some college, no degree",1484
+1990,Female,Constant 2019 Dollars,"Some college, no degree",43490,steelblue,"Female Some college, no degree",NA
+1995,Female,Constant 2019 Dollars,"Some college, no degree",40260,steelblue,"Female Some college, no degree",460
+2000,Female,Constant 2019 Dollars,"Some college, no degree",42610,steelblue,"Female Some college, no degree",540
+2001,Female,Constant 2019 Dollars,"Some college, no degree",43920,steelblue,"Female Some college, no degree",269
+2002,Female,Constant 2019 Dollars,"Some college, no degree",41790,steelblue,"Female Some college, no degree",425
+2003,Female,Constant 2019 Dollars,"Some college, no degree",41890,steelblue,"Female Some college, no degree",245
+2004,Female,Constant 2019 Dollars,"Some college, no degree",41710,steelblue,"Female Some college, no degree",183
+2005,Female,Constant 2019 Dollars,"Some college, no degree",41100,steelblue,"Female Some college, no degree",216
+2006,Female,Constant 2019 Dollars,"Some college, no degree",40520,steelblue,"Female Some college, no degree",209
+2007,Female,Constant 2019 Dollars,"Some college, no degree",40490,steelblue,"Female Some college, no degree",512
+2008,Female,Constant 2019 Dollars,"Some college, no degree",38740,steelblue,"Female Some college, no degree",422
+2009,Female,Constant 2019 Dollars,"Some college, no degree",40620,steelblue,"Female Some college, no degree",576
+2010,Female,Constant 2019 Dollars,"Some college, no degree",39160,steelblue,"Female Some college, no degree",481
+2011,Female,Constant 2019 Dollars,"Some college, no degree",39320,steelblue,"Female Some college, no degree",582
+2012,Female,Constant 2019 Dollars,"Some college, no degree",39040,steelblue,"Female Some college, no degree",503
+2013,Female,Constant 2019 Dollars,"Some college, no degree",38680,steelblue,"Female Some college, no degree",342
+2014,Female,Constant 2019 Dollars,"Some college, no degree",37120,steelblue,"Female Some college, no degree",962
+2015,Female,Constant 2019 Dollars,"Some college, no degree",38990,steelblue,"Female Some college, no degree",294
+2016,Female,Constant 2019 Dollars,"Some college, no degree",39290,steelblue,"Female Some college, no degree",291
+2017,Female,Constant 2019 Dollars,"Some college, no degree",38200,steelblue,"Female Some college, no degree",270
+2018,Female,Constant 2019 Dollars,"Some college, no degree",39540,steelblue,"Female Some college, no degree",611
+2019,Female,Constant 2019 Dollars,"Some college, no degree",40810,steelblue,"Female Some college, no degree",272
+1990,Male,Current Dollars,Associate's degree,NA,darkred,Male Associate's degree,NA
+1995,Male,Current Dollars,Associate's degree,35200,darkred,Male Associate's degree,535
+2000,Male,Current Dollars,Associate's degree,41950,darkred,Male Associate's degree,460
+2001,Male,Current Dollars,Associate's degree,42780,darkred,Male Associate's degree,561
+2002,Male,Current Dollars,Associate's degree,42860,darkred,Male Associate's degree,673
+2003,Male,Current Dollars,Associate's degree,42870,darkred,Male Associate's degree,719
+2004,Male,Current Dollars,Associate's degree,44400,darkred,Male Associate's degree,931
+2005,Male,Current Dollars,Associate's degree,47180,darkred,Male Associate's degree,367
+2006,Male,Current Dollars,Associate's degree,47070,darkred,Male Associate's degree,390
+2007,Male,Current Dollars,Associate's degree,49040,darkred,Male Associate's degree,801
+2008,Male,Current Dollars,Associate's degree,50150,darkred,Male Associate's degree,344
+2009,Male,Current Dollars,Associate's degree,50300,darkred,Male Associate's degree,238
+2010,Male,Current Dollars,Associate's degree,50280,darkred,Male Associate's degree,245
+2011,Male,Current Dollars,Associate's degree,50930,darkred,Male Associate's degree,212
+2012,Male,Current Dollars,Associate's degree,50960,darkred,Male Associate's degree,329
+2013,Male,Current Dollars,Associate's degree,51000,darkred,Male Associate's degree,493
+2014,Male,Current Dollars,Associate's degree,51110,darkred,Male Associate's degree,345
+2015,Male,Current Dollars,Associate's degree,52070,darkred,Male Associate's degree,352
+2016,Male,Current Dollars,Associate's degree,52120,darkred,Male Associate's degree,462
+2017,Male,Current Dollars,Associate's degree,54700,darkred,Male Associate's degree,1414
+2018,Male,Current Dollars,Associate's degree,56720,darkred,Male Associate's degree,598
+2019,Male,Current Dollars,Associate's degree,58800,darkred,Male Associate's degree,1555
+1990,Female,Current Dollars,Associate's degree,NA,steelblue,Female Associate's degree,NA
+1995,Female,Current Dollars,Associate's degree,27310,steelblue,Female Associate's degree,428
+2000,Female,Current Dollars,Associate's degree,31070,steelblue,Female Associate's degree,307
+2001,Female,Current Dollars,Associate's degree,32150,steelblue,Female Associate's degree,231
+2002,Female,Current Dollars,Associate's degree,31630,steelblue,Female Associate's degree,211
+2003,Female,Current Dollars,Associate's degree,32250,steelblue,Female Associate's degree,241
+2004,Female,Current Dollars,Associate's degree,33480,steelblue,Female Associate's degree,489
+2005,Female,Current Dollars,Associate's degree,33940,steelblue,Female Associate's degree,497
+2006,Female,Current Dollars,Associate's degree,35160,steelblue,Female Associate's degree,376
+2007,Female,Current Dollars,Associate's degree,36330,steelblue,Female Associate's degree,283
+2008,Female,Current Dollars,Associate's degree,36760,steelblue,Female Associate's degree,243
+2009,Female,Current Dollars,Associate's degree,37270,steelblue,Female Associate's degree,310
+2010,Female,Current Dollars,Associate's degree,37770,steelblue,Female Associate's degree,588
+2011,Female,Current Dollars,Associate's degree,39290,steelblue,Female Associate's degree,40
+2012,Female,Current Dollars,Associate's degree,37320,steelblue,Female Associate's degree,455
+2013,Female,Current Dollars,Associate's degree,37700,steelblue,Female Associate's degree,751
+2014,Female,Current Dollars,Associate's degree,37480,steelblue,Female Associate's degree,591
+2015,Female,Current Dollars,Associate's degree,40190,steelblue,Female Associate's degree,437
+2016,Female,Current Dollars,Associate's degree,40220,steelblue,Female Associate's degree,362
+2017,Female,Current Dollars,Associate's degree,40640,steelblue,Female Associate's degree,335
+2018,Female,Current Dollars,Associate's degree,41490,steelblue,Female Associate's degree,329
+2019,Female,Current Dollars,Associate's degree,42300,steelblue,Female Associate's degree,540
+1990,Male,Constant 2019 Dollars,Associate's degree,NA,darkred,Male Associate's degree,NA
+1995,Male,Constant 2019 Dollars,Associate's degree,59060,darkred,Male Associate's degree,898
+2000,Male,Constant 2019 Dollars,Associate's degree,62280,darkred,Male Associate's degree,683
+2001,Male,Constant 2019 Dollars,Associate's degree,61760,darkred,Male Associate's degree,810
+2002,Male,Constant 2019 Dollars,Associate's degree,60910,darkred,Male Associate's degree,957
+2003,Male,Constant 2019 Dollars,Associate's degree,59580,darkred,Male Associate's degree,999
+2004,Male,Constant 2019 Dollars,Associate's degree,60100,darkred,Male Associate's degree,1260
+2005,Male,Constant 2019 Dollars,Associate's degree,61760,darkred,Male Associate's degree,480
+2006,Male,Constant 2019 Dollars,Associate's degree,59700,darkred,Male Associate's degree,495
+2007,Male,Constant 2019 Dollars,Associate's degree,60470,darkred,Male Associate's degree,988
+2008,Male,Constant 2019 Dollars,Associate's degree,59550,darkred,Male Associate's degree,408
+2009,Male,Constant 2019 Dollars,Associate's degree,59940,darkred,Male Associate's degree,284
+2010,Male,Constant 2019 Dollars,Associate's degree,58950,darkred,Male Associate's degree,287
+2011,Male,Constant 2019 Dollars,Associate's degree,57880,darkred,Male Associate's degree,241
+2012,Male,Constant 2019 Dollars,Associate's degree,56750,darkred,Male Associate's degree,366
+2013,Male,Constant 2019 Dollars,Associate's degree,55970,darkred,Male Associate's degree,541
+2014,Male,Constant 2019 Dollars,Associate's degree,55200,darkred,Male Associate's degree,373
+2015,Male,Constant 2019 Dollars,Associate's degree,56170,darkred,Male Associate's degree,380
+2016,Male,Constant 2019 Dollars,Associate's degree,55520,darkred,Male Associate's degree,492
+2017,Male,Constant 2019 Dollars,Associate's degree,57050,darkred,Male Associate's degree,1475
+2018,Male,Constant 2019 Dollars,Associate's degree,57750,darkred,Male Associate's degree,609
+2019,Male,Constant 2019 Dollars,Associate's degree,58800,darkred,Male Associate's degree,1555
+1990,Female,Constant 2019 Dollars,Associate's degree,NA,steelblue,Female Associate's degree,NA
+1995,Female,Constant 2019 Dollars,Associate's degree,45820,steelblue,Female Associate's degree,718
+2000,Female,Constant 2019 Dollars,Associate's degree,46130,steelblue,Female Associate's degree,456
+2001,Female,Constant 2019 Dollars,Associate's degree,46420,steelblue,Female Associate's degree,334
+2002,Female,Constant 2019 Dollars,Associate's degree,44950,steelblue,Female Associate's degree,300
+2003,Female,Constant 2019 Dollars,Associate's degree,44820,steelblue,Female Associate's degree,335
+2004,Female,Constant 2019 Dollars,Associate's degree,45320,steelblue,Female Associate's degree,662
+2005,Female,Constant 2019 Dollars,Associate's degree,44430,steelblue,Female Associate's degree,651
+2006,Female,Constant 2019 Dollars,Associate's degree,44590,steelblue,Female Associate's degree,477
+2007,Female,Constant 2019 Dollars,Associate's degree,44800,steelblue,Female Associate's degree,349
+2008,Female,Constant 2019 Dollars,Associate's degree,43650,steelblue,Female Associate's degree,289
+2009,Female,Constant 2019 Dollars,Associate's degree,44410,steelblue,Female Associate's degree,369
+2010,Female,Constant 2019 Dollars,Associate's degree,44290,steelblue,Female Associate's degree,689
+2011,Female,Constant 2019 Dollars,Associate's degree,44650,steelblue,Female Associate's degree,45
+2012,Female,Constant 2019 Dollars,Associate's degree,41560,steelblue,Female Associate's degree,507
+2013,Female,Constant 2019 Dollars,Associate's degree,41380,steelblue,Female Associate's degree,824
+2014,Female,Constant 2019 Dollars,Associate's degree,40470,steelblue,Female Associate's degree,638
+2015,Female,Constant 2019 Dollars,Associate's degree,43350,steelblue,Female Associate's degree,471
+2016,Female,Constant 2019 Dollars,Associate's degree,42840,steelblue,Female Associate's degree,386
+2017,Female,Constant 2019 Dollars,Associate's degree,42390,steelblue,Female Associate's degree,349
+2018,Female,Constant 2019 Dollars,Associate's degree,42240,steelblue,Female Associate's degree,335
+2019,Female,Constant 2019 Dollars,Associate's degree,42300,steelblue,Female Associate's degree,540
+1990,Male,Current Dollars,Bachelor's degree,39240,darkred,Male Bachelor's degree,NA
+1995,Male,Current Dollars,Bachelor's degree,45270,darkred,Male Bachelor's degree,510
+2000,Male,Current Dollars,Bachelor's degree,56330,darkred,Male Bachelor's degree,573
+2001,Male,Current Dollars,Bachelor's degree,55930,darkred,Male Bachelor's degree,335
+2002,Male,Current Dollars,Bachelor's degree,56080,darkred,Male Bachelor's degree,385
+2003,Male,Current Dollars,Bachelor's degree,56500,darkred,Male Bachelor's degree,365
+2004,Male,Current Dollars,Bachelor's degree,57220,darkred,Male Bachelor's degree,393
+2005,Male,Current Dollars,Bachelor's degree,60020,darkred,Male Bachelor's degree,653
+2006,Male,Current Dollars,Bachelor's degree,60910,darkred,Male Bachelor's degree,235
+2007,Male,Current Dollars,Bachelor's degree,62090,darkred,Male Bachelor's degree,236
+2008,Male,Current Dollars,Bachelor's degree,65800,darkred,Male Bachelor's degree,388
+2009,Male,Current Dollars,Bachelor's degree,62440,darkred,Male Bachelor's degree,707
+2010,Male,Current Dollars,Bachelor's degree,63740,darkred,Male Bachelor's degree,1115
+2011,Male,Current Dollars,Bachelor's degree,66200,darkred,Male Bachelor's degree,25
+2012,Male,Current Dollars,Bachelor's degree,66150,darkred,Male Bachelor's degree,570
+2013,Male,Current Dollars,Bachelor's degree,67240,darkred,Male Bachelor's degree,992
+2014,Male,Current Dollars,Bachelor's degree,68160,darkred,Male Bachelor's degree,1282
+2015,Male,Current Dollars,Bachelor's degree,71390,darkred,Male Bachelor's degree,420
+2016,Male,Current Dollars,Bachelor's degree,71630,darkred,Male Bachelor's degree,383
+2017,Male,Current Dollars,Bachelor's degree,71990,darkred,Male Bachelor's degree,395
+2018,Male,Current Dollars,Bachelor's degree,75150,darkred,Male Bachelor's degree,959
+2019,Male,Current Dollars,Bachelor's degree,77090,darkred,Male Bachelor's degree,533
+1990,Female,Current Dollars,Bachelor's degree,28020,steelblue,Female Bachelor's degree,NA
+1995,Female,Current Dollars,Bachelor's degree,32050,steelblue,Female Bachelor's degree,273
+2000,Female,Current Dollars,Bachelor's degree,40420,steelblue,Female Bachelor's degree,284
+2001,Female,Current Dollars,Bachelor's degree,40990,steelblue,Female Bachelor's degree,231
+2002,Female,Current Dollars,Bachelor's degree,40850,steelblue,Female Bachelor's degree,173
+2003,Female,Current Dollars,Bachelor's degree,41330,steelblue,Female Bachelor's degree,204
+2004,Female,Current Dollars,Bachelor's degree,41680,steelblue,Female Bachelor's degree,172
+2005,Female,Current Dollars,Bachelor's degree,42170,steelblue,Female Bachelor's degree,179
+2006,Female,Current Dollars,Bachelor's degree,45410,steelblue,Female Bachelor's degree,259
+2007,Female,Current Dollars,Bachelor's degree,45770,steelblue,Female Bachelor's degree,262
+2008,Female,Current Dollars,Bachelor's degree,47030,steelblue,Female Bachelor's degree,237
+2009,Female,Current Dollars,Bachelor's degree,46830,steelblue,Female Bachelor's degree,260
+2010,Female,Current Dollars,Bachelor's degree,47440,steelblue,Female Bachelor's degree,336
+2011,Female,Current Dollars,Bachelor's degree,49110,steelblue,Female Bachelor's degree,103
+2012,Female,Current Dollars,Bachelor's degree,50170,steelblue,Female Bachelor's degree,290
+2013,Female,Current Dollars,Bachelor's degree,50750,steelblue,Female Bachelor's degree,341
+2014,Female,Current Dollars,Bachelor's degree,51350,steelblue,Female Bachelor's degree,230
+2015,Female,Current Dollars,Bachelor's degree,51680,steelblue,Female Bachelor's degree,278
+2016,Female,Current Dollars,Bachelor's degree,52030,steelblue,Female Bachelor's degree,257
+2017,Female,Current Dollars,Bachelor's degree,52440,steelblue,Female Bachelor's degree,601
+2018,Female,Current Dollars,Bachelor's degree,56680,steelblue,Female Bachelor's degree,466
+2019,Female,Current Dollars,Bachelor's degree,57420,steelblue,Female Bachelor's degree,805
+1990,Male,Constant 2019 Dollars,Bachelor's degree,76780,darkred,Male Bachelor's degree,NA
+1995,Male,Constant 2019 Dollars,Bachelor's degree,75940,darkred,Male Bachelor's degree,856
+2000,Male,Constant 2019 Dollars,Bachelor's degree,83640,darkred,Male Bachelor's degree,851
+2001,Male,Constant 2019 Dollars,Bachelor's degree,80750,darkred,Male Bachelor's degree,484
+2002,Male,Constant 2019 Dollars,Bachelor's degree,79700,darkred,Male Bachelor's degree,547
+2003,Male,Constant 2019 Dollars,Bachelor's degree,78520,darkred,Male Bachelor's degree,507
+2004,Male,Constant 2019 Dollars,Bachelor's degree,77450,darkred,Male Bachelor's degree,532
+2005,Male,Constant 2019 Dollars,Bachelor's degree,78570,darkred,Male Bachelor's degree,855
+2006,Male,Constant 2019 Dollars,Bachelor's degree,77240,darkred,Male Bachelor's degree,298
+2007,Male,Constant 2019 Dollars,Bachelor's degree,76550,darkred,Male Bachelor's degree,291
+2008,Male,Constant 2019 Dollars,Bachelor's degree,78130,darkred,Male Bachelor's degree,461
+2009,Male,Constant 2019 Dollars,Bachelor's degree,74410,darkred,Male Bachelor's degree,843
+2010,Male,Constant 2019 Dollars,Bachelor's degree,74730,darkred,Male Bachelor's degree,1307
+2011,Male,Constant 2019 Dollars,Bachelor's degree,75240,darkred,Male Bachelor's degree,28
+2012,Male,Constant 2019 Dollars,Bachelor's degree,73660,darkred,Male Bachelor's degree,635
+2013,Male,Constant 2019 Dollars,Bachelor's degree,73790,darkred,Male Bachelor's degree,1089
+2014,Male,Constant 2019 Dollars,Bachelor's degree,73610,darkred,Male Bachelor's degree,1384
+2015,Male,Constant 2019 Dollars,Bachelor's degree,77000,darkred,Male Bachelor's degree,453
+2016,Male,Constant 2019 Dollars,Bachelor's degree,76300,darkred,Male Bachelor's degree,408
+2017,Male,Constant 2019 Dollars,Bachelor's degree,75090,darkred,Male Bachelor's degree,412
+2018,Male,Constant 2019 Dollars,Bachelor's degree,76510,darkred,Male Bachelor's degree,976
+2019,Male,Constant 2019 Dollars,Bachelor's degree,77090,darkred,Male Bachelor's degree,533
+1990,Female,Constant 2019 Dollars,Bachelor's degree,54820,steelblue,Female Bachelor's degree,NA
+1995,Female,Constant 2019 Dollars,Bachelor's degree,53770,steelblue,Female Bachelor's degree,458
+2000,Female,Constant 2019 Dollars,Bachelor's degree,60000,steelblue,Female Bachelor's degree,422
+2001,Female,Constant 2019 Dollars,Bachelor's degree,59190,steelblue,Female Bachelor's degree,334
+2002,Female,Constant 2019 Dollars,Bachelor's degree,58060,steelblue,Female Bachelor's degree,246
+2003,Female,Constant 2019 Dollars,Bachelor's degree,57430,steelblue,Female Bachelor's degree,284
+2004,Female,Constant 2019 Dollars,Bachelor's degree,56420,steelblue,Female Bachelor's degree,233
+2005,Female,Constant 2019 Dollars,Bachelor's degree,55210,steelblue,Female Bachelor's degree,234
+2006,Female,Constant 2019 Dollars,Bachelor's degree,57590,steelblue,Female Bachelor's degree,328
+2007,Female,Constant 2019 Dollars,Bachelor's degree,56440,steelblue,Female Bachelor's degree,323
+2008,Female,Constant 2019 Dollars,Bachelor's degree,55840,steelblue,Female Bachelor's degree,281
+2009,Female,Constant 2019 Dollars,Bachelor's degree,55810,steelblue,Female Bachelor's degree,310
+2010,Female,Constant 2019 Dollars,Bachelor's degree,55610,steelblue,Female Bachelor's degree,394
+2011,Female,Constant 2019 Dollars,Bachelor's degree,55810,steelblue,Female Bachelor's degree,117
+2012,Female,Constant 2019 Dollars,Bachelor's degree,55870,steelblue,Female Bachelor's degree,323
+2013,Female,Constant 2019 Dollars,Bachelor's degree,55690,steelblue,Female Bachelor's degree,374
+2014,Female,Constant 2019 Dollars,Bachelor's degree,55450,steelblue,Female Bachelor's degree,248
+2015,Female,Constant 2019 Dollars,Bachelor's degree,55750,steelblue,Female Bachelor's degree,300
+2016,Female,Constant 2019 Dollars,Bachelor's degree,55420,steelblue,Female Bachelor's degree,274
+2017,Female,Constant 2019 Dollars,Bachelor's degree,54690,steelblue,Female Bachelor's degree,627
+2018,Female,Constant 2019 Dollars,Bachelor's degree,57710,steelblue,Female Bachelor's degree,474
+2019,Female,Constant 2019 Dollars,Bachelor's degree,57420,steelblue,Female Bachelor's degree,805
+1990,Male,Current Dollars,Master's degree,NA,darkred,Male Master's degree,NA
+1995,Male,Current Dollars,Master's degree,55220,darkred,Male Master's degree,973
+2000,Male,Current Dollars,Master's degree,68320,darkred,Male Master's degree,1506
+2001,Male,Current Dollars,Master's degree,70900,darkred,Male Master's degree,687
+2002,Male,Current Dollars,Master's degree,67280,darkred,Male Master's degree,1294
+2003,Male,Current Dollars,Master's degree,70640,darkred,Male Master's degree,562
+2004,Male,Current Dollars,Master's degree,71530,darkred,Male Master's degree,490
+2005,Male,Current Dollars,Master's degree,75030,darkred,Male Master's degree,1229
+2006,Male,Current Dollars,Master's degree,75430,darkred,Male Master's degree,859
+2007,Male,Current Dollars,Master's degree,76280,darkred,Male Master's degree,416
+2008,Male,Current Dollars,Master's degree,80960,darkred,Male Master's degree,468
+2009,Male,Current Dollars,Master's degree,79340,darkred,Male Master's degree,1568
+2010,Male,Current Dollars,Master's degree,80960,darkred,Male Master's degree,453
+2011,Male,Current Dollars,Master's degree,83030,darkred,Male Master's degree,755
+2012,Male,Current Dollars,Master's degree,85120,darkred,Male Master's degree,1412
+2013,Male,Current Dollars,Master's degree,86310,darkred,Male Master's degree,1429
+2014,Male,Current Dollars,Master's degree,84760,darkred,Male Master's degree,1988
+2015,Male,Current Dollars,Master's degree,86740,darkred,Male Master's degree,1632
+2016,Male,Current Dollars,Master's degree,88430,darkred,Male Master's degree,2215
+2017,Male,Current Dollars,Master's degree,91600,darkred,Male Master's degree,648
+2018,Male,Current Dollars,Master's degree,99620,darkred,Male Master's degree,1750
+2019,Male,Current Dollars,Master's degree,100560,darkred,Male Master's degree,502
+1990,Female,Current Dollars,Master's degree,NA,steelblue,Female Master's degree,NA
+1995,Female,Current Dollars,Master's degree,40260,steelblue,Female Master's degree,556
+2000,Female,Current Dollars,Master's degree,50140,steelblue,Female Master's degree,735
+2001,Female,Current Dollars,Master's degree,50670,steelblue,Female Master's degree,328
+2002,Female,Current Dollars,Master's degree,48890,steelblue,Female Master's degree,595
+2003,Female,Current Dollars,Master's degree,50160,steelblue,Female Master's degree,454
+2004,Female,Current Dollars,Master's degree,51320,steelblue,Female Master's degree,263
+2005,Female,Current Dollars,Master's degree,51410,steelblue,Female Master's degree,283
+2006,Female,Current Dollars,Master's degree,52440,steelblue,Female Master's degree,561
+2007,Female,Current Dollars,Master's degree,55430,steelblue,Female Master's degree,412
+2008,Female,Current Dollars,Master's degree,57510,steelblue,Female Master's degree,745
+2009,Female,Current Dollars,Master's degree,61070,steelblue,Female Master's degree,304
+2010,Female,Current Dollars,Master's degree,59100,steelblue,Female Master's degree,1021
+2011,Female,Current Dollars,Master's degree,60300,steelblue,Female Master's degree,533
+2012,Female,Current Dollars,Master's degree,60930,steelblue,Female Master's degree,464
+2013,Female,Current Dollars,Master's degree,61280,steelblue,Female Master's degree,561
+2014,Female,Current Dollars,Master's degree,60830,steelblue,Female Master's degree,442
+2015,Female,Current Dollars,Master's degree,62380,steelblue,Female Master's degree,1135
+2016,Female,Current Dollars,Master's degree,64910,steelblue,Female Master's degree,1091
+2017,Female,Current Dollars,Master's degree,68510,steelblue,Female Master's degree,1524
+2018,Female,Current Dollars,Master's degree,66740,steelblue,Female Master's degree,581
+2019,Female,Current Dollars,Master's degree,70810,steelblue,Female Master's degree,543
+1990,Male,Constant 2019 Dollars,Master's degree,NA,darkred,Male Master's degree,NA
+1995,Male,Constant 2019 Dollars,Master's degree,92640,darkred,Male Master's degree,1632
+2000,Male,Constant 2019 Dollars,Master's degree,101430,darkred,Male Master's degree,2236
+2001,Male,Constant 2019 Dollars,Master's degree,102370,darkred,Male Master's degree,992
+2002,Male,Constant 2019 Dollars,Master's degree,95630,darkred,Male Master's degree,1839
+2003,Male,Constant 2019 Dollars,Master's degree,98170,darkred,Male Master's degree,781
+2004,Male,Constant 2019 Dollars,Master's degree,96820,darkred,Male Master's degree,663
+2005,Male,Constant 2019 Dollars,Master's degree,98220,darkred,Male Master's degree,1609
+2006,Male,Constant 2019 Dollars,Master's degree,95660,darkred,Male Master's degree,1089
+2007,Male,Constant 2019 Dollars,Master's degree,94060,darkred,Male Master's degree,513
+2008,Male,Constant 2019 Dollars,Master's degree,96140,darkred,Male Master's degree,556
+2009,Male,Constant 2019 Dollars,Master's degree,94550,darkred,Male Master's degree,1869
+2010,Male,Constant 2019 Dollars,Master's degree,94920,darkred,Male Master's degree,531
+2011,Male,Constant 2019 Dollars,Master's degree,94370,darkred,Male Master's degree,858
+2012,Male,Constant 2019 Dollars,Master's degree,94780,darkred,Male Master's degree,1572
+2013,Male,Constant 2019 Dollars,Master's degree,94720,darkred,Male Master's degree,1568
+2014,Male,Constant 2019 Dollars,Master's degree,91530,darkred,Male Master's degree,2147
+2015,Male,Constant 2019 Dollars,Master's degree,93560,darkred,Male Master's degree,1760
+2016,Male,Constant 2019 Dollars,Master's degree,94200,darkred,Male Master's degree,2359
+2017,Male,Constant 2019 Dollars,Master's degree,95540,darkred,Male Master's degree,676
+2018,Male,Constant 2019 Dollars,Master's degree,101420,darkred,Male Master's degree,1782
+2019,Male,Constant 2019 Dollars,Master's degree,100560,darkred,Male Master's degree,502
+1990,Female,Constant 2019 Dollars,Master's degree,NA,steelblue,Female Master's degree,NA
+1995,Female,Constant 2019 Dollars,Master's degree,67550,steelblue,Female Master's degree,933
+2000,Female,Constant 2019 Dollars,Master's degree,74440,steelblue,Female Master's degree,1091
+2001,Female,Constant 2019 Dollars,Master's degree,73160,steelblue,Female Master's degree,474
+2002,Female,Constant 2019 Dollars,Master's degree,69490,steelblue,Female Master's degree,846
+2003,Female,Constant 2019 Dollars,Master's degree,69710,steelblue,Female Master's degree,631
+2004,Female,Constant 2019 Dollars,Master's degree,69460,steelblue,Female Master's degree,356
+2005,Female,Constant 2019 Dollars,Master's degree,67300,steelblue,Female Master's degree,370
+2006,Female,Constant 2019 Dollars,Master's degree,66500,steelblue,Female Master's degree,711
+2007,Female,Constant 2019 Dollars,Master's degree,68340,steelblue,Female Master's degree,508
+2008,Female,Constant 2019 Dollars,Master's degree,68290,steelblue,Female Master's degree,885
+2009,Female,Constant 2019 Dollars,Master's degree,72770,steelblue,Female Master's degree,362
+2010,Female,Constant 2019 Dollars,Master's degree,69290,steelblue,Female Master's degree,1197
+2011,Female,Constant 2019 Dollars,Master's degree,68540,steelblue,Female Master's degree,606
+2012,Female,Constant 2019 Dollars,Master's degree,67840,steelblue,Female Master's degree,517
+2013,Female,Constant 2019 Dollars,Master's degree,67250,steelblue,Female Master's degree,616
+2014,Female,Constant 2019 Dollars,Master's degree,65690,steelblue,Female Master's degree,477
+2015,Female,Constant 2019 Dollars,Master's degree,67280,steelblue,Female Master's degree,1224
+2016,Female,Constant 2019 Dollars,Master's degree,69140,steelblue,Female Master's degree,1162
+2017,Female,Constant 2019 Dollars,Master's degree,71450,steelblue,Female Master's degree,1590
+2018,Female,Constant 2019 Dollars,Master's degree,67950,steelblue,Female Master's degree,592
+2019,Female,Constant 2019 Dollars,Master's degree,70810,steelblue,Female Master's degree,543
+1990,Male,Current Dollars,Professional degree,NA,darkred,Male Professional degree,NA
+1995,Male,Current Dollars,Professional degree,79670,darkred,Male Professional degree,2582
+2000,Male,Current Dollars,Professional degree,99410,darkred,Male Professional degree,20832
+2001,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,NA
+2002,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,NA
+2003,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,NA
+2004,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,NA
+2005,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,NA
+2006,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,NA
+2007,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,NA
+2008,Male,Current Dollars,Professional degree,100000,darkred,Male Professional degree,NA
+2009,Male,Current Dollars,Professional degree,123240,darkred,Male Professional degree,2539
+2010,Male,Current Dollars,Professional degree,115300,darkred,Male Professional degree,4891
+2011,Male,Current Dollars,Professional degree,119470,darkred,Male Professional degree,1917
+2012,Male,Current Dollars,Professional degree,116350,darkred,Male Professional degree,5632
+2013,Male,Current Dollars,Professional degree,126730,darkred,Male Professional degree,8647
+2014,Male,Current Dollars,Professional degree,121750,darkred,Male Professional degree,5986
+2015,Male,Current Dollars,Professional degree,131190,darkred,Male Professional degree,7197
+2016,Male,Current Dollars,Professional degree,117550,darkred,Male Professional degree,7311
+2017,Male,Current Dollars,Professional degree,127230,darkred,Male Professional degree,5441
+2018,Male,Current Dollars,Professional degree,135440,darkred,Male Professional degree,10136
+2019,Male,Current Dollars,Professional degree,150100,darkred,Male Professional degree,7151
+1990,Female,Current Dollars,Professional degree,NA,steelblue,Female Professional degree,NA
+1995,Female,Current Dollars,Professional degree,50000,steelblue,Female Professional degree,2532
+2000,Female,Current Dollars,Professional degree,58960,steelblue,Female Professional degree,3552
+2001,Female,Current Dollars,Professional degree,61750,steelblue,Female Professional degree,3976
+2002,Female,Current Dollars,Professional degree,57020,steelblue,Female Professional degree,2421
+2003,Female,Current Dollars,Professional degree,66490,steelblue,Female Professional degree,3469
+2004,Female,Current Dollars,Professional degree,75040,steelblue,Female Professional degree,2436
+2005,Female,Current Dollars,Professional degree,80460,steelblue,Female Professional degree,2774
+2006,Female,Current Dollars,Professional degree,76240,steelblue,Female Professional degree,2488
+2007,Female,Current Dollars,Professional degree,71100,steelblue,Female Professional degree,910
+2008,Female,Current Dollars,Professional degree,71300,steelblue,Female Professional degree,2859
+2009,Female,Current Dollars,Professional degree,83910,steelblue,Female Professional degree,3210
+2010,Female,Current Dollars,Professional degree,76740,steelblue,Female Professional degree,2723
+2011,Female,Current Dollars,Professional degree,80720,steelblue,Female Professional degree,135
+2012,Female,Current Dollars,Professional degree,94470,steelblue,Female Professional degree,6655
+2013,Female,Current Dollars,Professional degree,85400,steelblue,Female Professional degree,6196
+2014,Female,Current Dollars,Professional degree,91810,steelblue,Female Professional degree,8587
+2015,Female,Current Dollars,Professional degree,82470,steelblue,Female Professional degree,5049
+2016,Female,Current Dollars,Professional degree,92030,steelblue,Female Professional degree,4468
+2017,Female,Current Dollars,Professional degree,100180,steelblue,Female Professional degree,4817
+2018,Female,Current Dollars,Professional degree,99780,steelblue,Female Professional degree,7090
+2019,Female,Current Dollars,Professional degree,102460,steelblue,Female Professional degree,9619
+1990,Male,Constant 2019 Dollars,Professional degree,NA,darkred,Male Professional degree,NA
+1995,Male,Constant 2019 Dollars,Professional degree,133660,darkred,Male Professional degree,4332
+2000,Male,Constant 2019 Dollars,Professional degree,147590,darkred,Male Professional degree,30928
+2001,Male,Constant 2019 Dollars,Professional degree,144380,darkred,Male Professional degree,NA
+2002,Male,Constant 2019 Dollars,Professional degree,142130,darkred,Male Professional degree,NA
+2003,Male,Constant 2019 Dollars,Professional degree,138980,darkred,Male Professional degree,NA
+2004,Male,Constant 2019 Dollars,Professional degree,135350,darkred,Male Professional degree,NA
+2005,Male,Constant 2019 Dollars,Professional degree,130910,darkred,Male Professional degree,NA
+2006,Male,Constant 2019 Dollars,Professional degree,126820,darkred,Male Professional degree,NA
+2007,Male,Constant 2019 Dollars,Professional degree,123300,darkred,Male Professional degree,NA
+2008,Male,Constant 2019 Dollars,Professional degree,118740,darkred,Male Professional degree,NA
+2009,Male,Constant 2019 Dollars,Professional degree,146860,darkred,Male Professional degree,3026
+2010,Male,Constant 2019 Dollars,Professional degree,135180,darkred,Male Professional degree,5734
+2011,Male,Constant 2019 Dollars,Professional degree,135790,darkred,Male Professional degree,2179
+2012,Male,Constant 2019 Dollars,Professional degree,129560,darkred,Male Professional degree,6271
+2013,Male,Constant 2019 Dollars,Professional degree,139070,darkred,Male Professional degree,9490
+2014,Male,Constant 2019 Dollars,Professional degree,131490,darkred,Male Professional degree,6464
+2015,Male,Constant 2019 Dollars,Professional degree,141510,darkred,Male Professional degree,7763
+2016,Male,Constant 2019 Dollars,Professional degree,125210,darkred,Male Professional degree,7788
+2017,Male,Constant 2019 Dollars,Professional degree,132700,darkred,Male Professional degree,5675
+2018,Male,Constant 2019 Dollars,Professional degree,137890,darkred,Male Professional degree,10320
+2019,Male,Constant 2019 Dollars,Professional degree,150100,darkred,Male Professional degree,7151
+1990,Female,Constant 2019 Dollars,Professional degree,NA,steelblue,Female Professional degree,NA
+1995,Female,Constant 2019 Dollars,Professional degree,83890,steelblue,Female Professional degree,4248
+2000,Female,Constant 2019 Dollars,Professional degree,87530,steelblue,Female Professional degree,5273
+2001,Female,Constant 2019 Dollars,Professional degree,89150,steelblue,Female Professional degree,5741
+2002,Female,Constant 2019 Dollars,Professional degree,81040,steelblue,Female Professional degree,3441
+2003,Female,Constant 2019 Dollars,Professional degree,92410,steelblue,Female Professional degree,4821
+2004,Female,Constant 2019 Dollars,Professional degree,101560,steelblue,Female Professional degree,3297
+2005,Female,Constant 2019 Dollars,Professional degree,105330,steelblue,Female Professional degree,3631
+2006,Female,Constant 2019 Dollars,Professional degree,96690,steelblue,Female Professional degree,3155
+2007,Female,Constant 2019 Dollars,Professional degree,87670,steelblue,Female Professional degree,1122
+2008,Female,Constant 2019 Dollars,Professional degree,84660,steelblue,Female Professional degree,3395
+2009,Female,Constant 2019 Dollars,Professional degree,99990,steelblue,Female Professional degree,3825
+2010,Female,Constant 2019 Dollars,Professional degree,89970,steelblue,Female Professional degree,3193
+2011,Female,Constant 2019 Dollars,Professional degree,91740,steelblue,Female Professional degree,153
+2012,Female,Constant 2019 Dollars,Professional degree,105200,steelblue,Female Professional degree,7410
+2013,Female,Constant 2019 Dollars,Professional degree,93720,steelblue,Female Professional degree,6800
+2014,Female,Constant 2019 Dollars,Professional degree,99150,steelblue,Female Professional degree,9273
+2015,Female,Constant 2019 Dollars,Professional degree,88960,steelblue,Female Professional degree,5446
+2016,Female,Constant 2019 Dollars,Professional degree,98030,steelblue,Female Professional degree,4759
+2017,Female,Constant 2019 Dollars,Professional degree,104480,steelblue,Female Professional degree,5024
+2018,Female,Constant 2019 Dollars,Professional degree,101590,steelblue,Female Professional degree,7218
+2019,Female,Constant 2019 Dollars,Professional degree,102460,steelblue,Female Professional degree,9619
+1990,Male,Current Dollars,Doctor's degree,NA,darkred,Male Doctor's degree,NA
+1995,Male,Current Dollars,Doctor's degree,65340,darkred,Male Doctor's degree,2188
+2000,Male,Current Dollars,Doctor's degree,80250,darkred,Male Doctor's degree,2446
+2001,Male,Current Dollars,Doctor's degree,86970,darkred,Male Doctor's degree,3013
+2002,Male,Current Dollars,Doctor's degree,83310,darkred,Male Doctor's degree,2076
+2003,Male,Current Dollars,Doctor's degree,87130,darkred,Male Doctor's degree,2528
+2004,Male,Current Dollars,Doctor's degree,82400,darkred,Male Doctor's degree,2423
+2005,Male,Current Dollars,Doctor's degree,85860,darkred,Male Doctor's degree,3061
+2006,Male,Current Dollars,Doctor's degree,100000,darkred,Male Doctor's degree,NA
+2007,Male,Current Dollars,Doctor's degree,92090,darkred,Male Doctor's degree,1894
+2008,Male,Current Dollars,Doctor's degree,100000,darkred,Male Doctor's degree,NA
+2009,Male,Current Dollars,Doctor's degree,100740,darkred,Male Doctor's degree,519
+2010,Male,Current Dollars,Doctor's degree,101220,darkred,Male Doctor's degree,653
+2011,Male,Current Dollars,Doctor's degree,100770,darkred,Male Doctor's degree,192
+2012,Male,Current Dollars,Doctor's degree,106470,darkred,Male Doctor's degree,4656
+2013,Male,Current Dollars,Doctor's degree,105280,darkred,Male Doctor's degree,4631
+2014,Male,Current Dollars,Doctor's degree,100710,darkred,Male Doctor's degree,852
+2015,Male,Current Dollars,Doctor's degree,102340,darkred,Male Doctor's degree,4801
+2016,Male,Current Dollars,Doctor's degree,120430,darkred,Male Doctor's degree,4017
+2017,Male,Current Dollars,Doctor's degree,118450,darkred,Male Doctor's degree,4152
+2018,Male,Current Dollars,Doctor's degree,115790,darkred,Male Doctor's degree,5892
+2019,Male,Current Dollars,Doctor's degree,128650,darkred,Male Doctor's degree,4977
+1990,Female,Current Dollars,Doctor's degree,NA,steelblue,Female Doctor's degree,NA
+1995,Female,Current Dollars,Doctor's degree,48140,steelblue,Female Doctor's degree,2373
+2000,Female,Current Dollars,Doctor's degree,57080,steelblue,Female Doctor's degree,2999
+2001,Female,Current Dollars,Doctor's degree,62120,steelblue,Female Doctor's degree,2228
+2002,Female,Current Dollars,Doctor's degree,65720,steelblue,Female Doctor's degree,2268
+2003,Female,Current Dollars,Doctor's degree,67210,steelblue,Female Doctor's degree,2462
+2004,Female,Current Dollars,Doctor's degree,68880,steelblue,Female Doctor's degree,2450
+2005,Female,Current Dollars,Doctor's degree,66850,steelblue,Female Doctor's degree,2490
+2006,Female,Current Dollars,Doctor's degree,70520,steelblue,Female Doctor's degree,1779
+2007,Female,Current Dollars,Doctor's degree,68990,steelblue,Female Doctor's degree,2155
+2008,Female,Current Dollars,Doctor's degree,74030,steelblue,Female Doctor's degree,2144
+2009,Female,Current Dollars,Doctor's degree,76580,steelblue,Female Doctor's degree,912
+2010,Female,Current Dollars,Doctor's degree,77390,steelblue,Female Doctor's degree,2174
+2011,Female,Current Dollars,Doctor's degree,77460,steelblue,Female Doctor's degree,21
+2012,Female,Current Dollars,Doctor's degree,77900,steelblue,Female Doctor's degree,3616
+2013,Female,Current Dollars,Doctor's degree,75090,steelblue,Female Doctor's degree,3515
+2014,Female,Current Dollars,Doctor's degree,80540,steelblue,Female Doctor's degree,2875
+2015,Female,Current Dollars,Doctor's degree,82310,steelblue,Female Doctor's degree,3752
+2016,Female,Current Dollars,Doctor's degree,86370,steelblue,Female Doctor's degree,4485
+2017,Female,Current Dollars,Doctor's degree,92030,steelblue,Female Doctor's degree,3137
+2018,Female,Current Dollars,Doctor's degree,95170,steelblue,Female Doctor's degree,5083
+2019,Female,Current Dollars,Doctor's degree,101170,steelblue,Female Doctor's degree,952
+1990,Male,Constant 2019 Dollars,Doctor's degree,NA,darkred,Male Doctor's degree,NA
+1995,Male,Constant 2019 Dollars,Doctor's degree,109620,darkred,Male Doctor's degree,3671
+2000,Male,Constant 2019 Dollars,Doctor's degree,119140,darkred,Male Doctor's degree,3631
+2001,Male,Constant 2019 Dollars,Doctor's degree,125560,darkred,Male Doctor's degree,4350
+2002,Male,Constant 2019 Dollars,Doctor's degree,118400,darkred,Male Doctor's degree,2951
+2003,Male,Constant 2019 Dollars,Doctor's degree,121090,darkred,Male Doctor's degree,3513
+2004,Male,Constant 2019 Dollars,Doctor's degree,111530,darkred,Male Doctor's degree,3280
+2005,Male,Constant 2019 Dollars,Doctor's degree,112400,darkred,Male Doctor's degree,4007
+2006,Male,Constant 2019 Dollars,Doctor's degree,126820,darkred,Male Doctor's degree,NA
+2007,Male,Constant 2019 Dollars,Doctor's degree,113550,darkred,Male Doctor's degree,2335
+2008,Male,Constant 2019 Dollars,Doctor's degree,118740,darkred,Male Doctor's degree,NA
+2009,Male,Constant 2019 Dollars,Doctor's degree,120050,darkred,Male Doctor's degree,618
+2010,Male,Constant 2019 Dollars,Doctor's degree,118680,darkred,Male Doctor's degree,766
+2011,Male,Constant 2019 Dollars,Doctor's degree,114530,darkred,Male Doctor's degree,218
+2012,Male,Constant 2019 Dollars,Doctor's degree,118550,darkred,Male Doctor's degree,5185
+2013,Male,Constant 2019 Dollars,Doctor's degree,115540,darkred,Male Doctor's degree,5082
+2014,Male,Constant 2019 Dollars,Doctor's degree,108760,darkred,Male Doctor's degree,920
+2015,Male,Constant 2019 Dollars,Doctor's degree,110380,darkred,Male Doctor's degree,5179
+2016,Male,Constant 2019 Dollars,Doctor's degree,128280,darkred,Male Doctor's degree,4279
+2017,Male,Constant 2019 Dollars,Doctor's degree,123540,darkred,Male Doctor's degree,4330
+2018,Male,Constant 2019 Dollars,Doctor's degree,117890,darkred,Male Doctor's degree,5999
+2019,Male,Constant 2019 Dollars,Doctor's degree,128650,darkred,Male Doctor's degree,4977
+1990,Female,Constant 2019 Dollars,Doctor's degree,NA,steelblue,Female Doctor's degree,NA
+1995,Female,Constant 2019 Dollars,Doctor's degree,80770,steelblue,Female Doctor's degree,3981
+2000,Female,Constant 2019 Dollars,Doctor's degree,84750,steelblue,Female Doctor's degree,4452
+2001,Female,Constant 2019 Dollars,Doctor's degree,89700,steelblue,Female Doctor's degree,3217
+2002,Female,Constant 2019 Dollars,Doctor's degree,93400,steelblue,Female Doctor's degree,3224
+2003,Female,Constant 2019 Dollars,Doctor's degree,93410,steelblue,Female Doctor's degree,3422
+2004,Female,Constant 2019 Dollars,Doctor's degree,93220,steelblue,Female Doctor's degree,3316
+2005,Female,Constant 2019 Dollars,Doctor's degree,87520,steelblue,Female Doctor's degree,3260
+2006,Female,Constant 2019 Dollars,Doctor's degree,89430,steelblue,Female Doctor's degree,2256
+2007,Female,Constant 2019 Dollars,Doctor's degree,85060,steelblue,Female Doctor's degree,2657
+2008,Female,Constant 2019 Dollars,Doctor's degree,87900,steelblue,Female Doctor's degree,2546
+2009,Female,Constant 2019 Dollars,Doctor's degree,91260,steelblue,Female Doctor's degree,1087
+2010,Female,Constant 2019 Dollars,Doctor's degree,90740,steelblue,Female Doctor's degree,2549
+2011,Female,Constant 2019 Dollars,Doctor's degree,88040,steelblue,Female Doctor's degree,24
+2012,Female,Constant 2019 Dollars,Doctor's degree,86750,steelblue,Female Doctor's degree,4026
+2013,Female,Constant 2019 Dollars,Doctor's degree,82410,steelblue,Female Doctor's degree,3858
+2014,Female,Constant 2019 Dollars,Doctor's degree,86980,steelblue,Female Doctor's degree,3105
+2015,Female,Constant 2019 Dollars,Doctor's degree,88780,steelblue,Female Doctor's degree,4047
+2016,Female,Constant 2019 Dollars,Doctor's degree,92000,steelblue,Female Doctor's degree,4777
+2017,Female,Constant 2019 Dollars,Doctor's degree,95990,steelblue,Female Doctor's degree,3272
+2018,Female,Constant 2019 Dollars,Doctor's degree,96900,steelblue,Female Doctor's degree,5175
+2019,Female,Constant 2019 Dollars,Doctor's degree,101170,steelblue,Female Doctor's degree,952

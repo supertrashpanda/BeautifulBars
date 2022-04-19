@@ -1,0 +1,13 @@
+name: d3_rshiny_dashboard
+title: d3_rshiny_dashboard
+username:
+account: ashizhou
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6120466
+bundleId: 5813458
+url: https://ashizhou.shinyapps.io/d3_rshiny_dashboard/
+when: 1650371194.73742
+lastSyncTime: 1650371194.73743
+asMultiple: FALSE
+asStatic: FALSE

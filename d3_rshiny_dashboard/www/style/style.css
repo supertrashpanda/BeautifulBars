@@ -1,162 +1,5 @@
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline; }
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-		display: block; }
-	body {
-		line-height: 1; }
-	ol, ul {
-		list-style: none; }
-	blockquote, q {
-		quotes: none; }
-	blockquote:before, blockquote:after,
-	q:before, q:after {
-		content: '';
-		content: none; }
-	table {
-		border-collapse: collapse;
-		border-spacing: 0; }
-
-
-#main-wrapper {
-/*    width: 1090px;*/
-/*    margin: 50px auto;*/
-    font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New";
-}
-h3 {
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0 0 20px 10px;
-}
-
-#sliders {
-    width: 300px;
-    float: left;
-    margin-right: 20px;
-}
-.valuedesc {
-    height: 24px;
-    padding: 0 10px;
-	font-size: 16px;
-}
-#description {
-    font-family: "Mercury SSm A", "Mercury SSm B";
-    font-style: italic;
-    margin: 30px 0;
-    padding: 0 10px;
-    font-size: 13px;
-	line-height: 1.5em;
-}
-#note { 
-	margin: 10px 0 30px 0; 
-	padding: 0 10px;
-/*	font-weight: bold;*/
-	text-transform: uppercase;
-	font-size: 14px;
-}
-.clr { clear: both; }
-
-
-.bar {
-  fill: #ccc;
-}
-#eating .bar.highlight, .eating span {
-    fill: #5bb923;
-	color: #5bb923;
-}
-#education .bar.highlight, .education span {
-    
-    fill: #db7146;
-	color: #db7146;
-}
-#exercise .bar.highlight, .exercise span {
-    fill: #a15dd4;
-	color: #a15dd4;
-}
-#household_activities .bar.highlight, .household_activities span {
-    fill: #0ecef6;
-	color: #0ecef6;
-}
-#household_care .bar.highlight, .household_care span {
-    fill: #e24062;
-	color: #e24062;
-}
-#leisure .bar.highlight, .leisure span {
-    fill: #5b7be9;
-	color: #5b7be9;
-}
-#religion .bar.highlight, .religion span {
-    fill: #e93360;
-	color: #e93360;
-}
-#shopping .bar.highlight, .shopping span {
-    fill: #ece426;
-	color: #ece426;
-}
-#sleeping .bar.highlight, .sleeping span {
-    fill: #f1e12b;
-	color: #f1e12b;
-}
-#traveling .bar.highlight, .traveling span {
-    fill: #20d08b;
-	color: #20d08b;
-}
-#work .bar.highlight, .work span {
-    fill: #d63ca3;
-	color: #d63ca3;
-}
-
-
-
-
-.axis {
-  font: 10px sans-serif;
-}
-    .axis path,
-    .axis line {
-      fill: none;
-      stroke: #000;
-      shape-rendering: crispEdges;
-    }
-    .axis text {
-        font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New";
-        font-size: 14px;
-    }
-    .y.axis path { display: none; }
-    .x.axis path { display: none; }
-
-.baseline line {
-    stroke: #000;
-    stroke-width: 2px;
-}
-
-#indicator line {
-    stroke: #666;
-    stroke-width: 1px;
-    stroke-dasharray: 1,2;
-    stroke-linecap: round;
-}
-#indicator text {
-    font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New";
-    text-anchor: middle;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
-#controls .sentence {
-    float: left;
-    padding: 0px 0 23px 0;
-}
-
-/* #Reset & Basics (Inspired by E. Meyers)
-================================================== */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -182,7 +25,7 @@ table {
 
 
 #main-wrapper {
-font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New";
+    font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New";
 }
 .clr { clear: both; }
 
@@ -190,18 +33,21 @@ font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New";
 * Controls
 ***/
 
-#controls { 
-margin-left: 8px;
-font-size: 18px;
+#controls {
+font-family: 'Merriweather', serif;
+padding-top: 18px;
+padding-left: 17px;
+padding-bottom: 9px;
+font-size: 16px;
 }
 #controls .sentence { 
 float: left; 
 padding: 0px 0 23px 0;
 }
 #time {
-width: 190px;
+width: 150px;
 float: left;
-padding: 0px 0px 3px 5px;
+padding: 0px 0px 3px 0px;
 /*	margin: 15px auto 0 auto;*/
 }
 #time #timevalue {
@@ -332,6 +178,7 @@ display: none;
 .tick line {
 stroke-width: 1;
 }
+
 .tick.minor line {
 stroke-width: 1;
 stroke: #bbb;
@@ -373,14 +220,12 @@ z-index: 1;
 
 
 
-
-
-
-
 /***
 * Bar Chart
 ***/
-
+.bar{
+font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New";
+}
 .bar rect {
 stroke: #fff;
 shape-rendering: crispEdges;
@@ -392,7 +237,7 @@ fill: #eee;
 
 .bar rect.percent {
 /*    fill: #74c476;*/
-fill: #a9b7ad;
+fill: #4BC2BC;
 }
 
 /*.bar:hover rect.percent {
@@ -400,11 +245,12 @@ fill: #a1d99b;
 }*/
 
 .bar text {
-font-size: 14px;
+font-size: 13px;
 fill: #000;
-
 }
-
+.axis{
+font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New";
+}
 .axis path {
 fill: none;
 }
@@ -417,4 +263,28 @@ font-size: 13px;
 }
 
 
+input[type='checkbox']:checked {
+    background-color: #4BC2BC;
+  }
+input[type='checkbox']:checked:after {
+    content: '\2713';
+    color:white;
+  }
+input[type='checkbox']{
+    text-align: center;
+    vertical-align: middle;
+    width: 16px !important;
+    height: 16px !important;
+    appearance:none;
+    border-radius:15%;
+    border: 3px solid #4BC2BC;
+    box-shadow: none;
+    font-size: 1em;
+    transform: translateY(-0.1em);
 
+  }
+  
+.name{
+  font-size: 13.3px !important;
+}
+  

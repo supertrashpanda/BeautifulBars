@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <head>
 <title>Time Use</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="style/skeleton-2.css" type="text/css" media="screen" />
 <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="//db.onlinewebfonts.com/c/f0abbde831a99b1fd43f52730cf7e036?family=TimesModern-Bold" />
+<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather:300,700&display=swap" rel="stylesheet">
+
 </head>
-<div id="main-wrapper">
-<div id="controls">
-<div>
-<div class="sentence">On an average year</div>
-<div id="time">
-<div id="timevalue"></div>
-<div id="timeslider" class="sliderholder"></div>
-</div>
-<div class="sentence">this salary in&nbsp;</div>
-<div id="dollar" class="dropdown-wrapper" , tabindex="2" style="float:left;z-index:9">
-<span>constant 2019</span>
-<ul class="dropdown"></ul>
-</div>
-<div class="sentence">dollars of&nbsp;</div>
-<div id="sex" class="dropdown-wrapper" , tabindex="1" style="float:left;z-index:10">
-<span>Sex</span>
-<ul class="dropdown"></ul>
-</div>
-<div class="sentence">earned with the degree below.</div>
-<div class="clr"></div>
-</div>
-</div>
-<div id="chart">
-</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div id="main-wrapper", style="padding-top: 20px; text-align: center;">
+                <h1 style="padding-bottom: 5px; font-size:35px;font-family: TimesModern-Bold;font-weight: bold;">SHIFTING <span style="color:#4BC2BC">INCOMES</span> BY <span style="color:#4BC2BC">GENDER</span> AND <span style="color:#4BC2BC">EDUCATION</span></h1>
+                <div id="controls">
+                    <div class="sentence">In year</div>
+                    <div id="time">
+                    <div id="timevalue"></div>
+                    <div id="timeslider" class="sliderholder"></div>
+                    </div>
+                    <div class="sentence">this median salary in&nbsp;</div>
+                    <div id="dollar" class="dropdown-wrapper" , tabindex="2" style="float:left;z-index:9">
+                    <span>constant 2019</span>
+                    <ul class="dropdown"></ul>
+                    </div>
+                    <div class="sentence">dollars of&nbsp;</div>
+                    <div id="sex" class="dropdown-wrapper" , tabindex="1" style="float:left;z-index:10">
+                    <span>Sex</span>
+                    <ul class="dropdown"></ul>
+                    </div>
+                    <div class="sentence">with the education level below.</div>
+                    <div class="clr"></div>
+                </div>
+            <div id="chart">
+            </div>
+            <div>
+            <div class="click" style="text-align: left;font-family: 'Merriweather', serif;padding-top: 15px;padding-left: 21px;padding-bottom: 15px;font-size: 12.5px;">
+            <input type="checkbox" id="myCheckbox"> Showing standard error of median salary
+            </div>
+        </div>
+    </div>
 </div>
 <script src="js/d3-3-5-5.min.js"></script>
 <script src="js/d3.slider.js"></script>
@@ -75,8 +87,8 @@ var USER_TIME = now_bin;
 var margin = {top: 30, right: 20, bottom: 30, left: 20},
   	width = parseInt(d3.select('#chart').style('width'), 10),
   	width = width - margin.left - margin.right,
-	  height = 600, // Will change.
-  	barHeight = 25,
+	  height = 1200, // Will change.
+  	barHeight = 40,
 	spacing = 10,
    	percent = d3.format('$.2s'),
 	index,
@@ -85,7 +97,7 @@ var margin = {top: 30, right: 20, bottom: 30, left: 20},
 // scales and axes
 var x = d3.scale.linear()
     .range([0, width])
-    .domain([0, 160000]); // hard-coding this because I know the data
+    .domain([0, 180000]); // hard-coding this because I know the data
 
 // ordinal scales are easier for uniform bar heights
 // I'll set domain and rangeBands after data loads
@@ -108,8 +120,33 @@ var time_slider = d3.slider().min(0).max(20).ticks(0).stepValues(d3.range(0,20))
 	.callback(brushed);
 
 
-d3.csv(data_loc, typeAndSet, function(error, data) {
+// Convert bin numbers 0 to 20 to year 2000 to 2020 in words
+function binNumberToWords(bin_num) {
 	
+	var time_span = bin_num + 2000
+	
+	return time_span;
+}
+
+// generate data (json format in pctsByKey)
+
+function typeAndSet(d) {
+	for (property in d) {
+		if (property != "Sex" && property != "Measure" && property != "Degree" ) {
+			d[property] = +d[property]
+		}
+	}
+	var key = d.Sex + d.Measure;
+	if (!pctsByKey.hasOwnProperty(key)) {
+		pctsByKey[key] = [];
+	}
+	pctsByKey[key].push(d);
+	
+	return d;
+}
+
+
+d3.csv(data_loc, typeAndSet, function(error, data) {
 	// Sex dropdown menu
     var dropdown_sex = d3.select("#controls #sex");
 	dropdown_sex.select("span").text(sexes[USER_SEX]);
@@ -122,13 +159,14 @@ d3.csv(data_loc, typeAndSet, function(error, data) {
         .attr("id", function(d) { return d; })
         .classed("current", function(d) { return d == USER_SEX ? true : false; })
         .text(function(d) { return sexes[d]; });
+
     dropdown_sex_li.on("click", function(d) {
         d3.select("#sex span").text(sexes[d]);
         d3.select(this).classed("current", true); // Hide currently selected metric from menu
         d3.select("#sex #" + USER_SEX).classed("current", false);   // Show previously hidden 
-        
+    
         USER_SEX = d;
-		USER_KEY = USER_SEX + USER_DOLLAR;
+		    USER_KEY = USER_SEX + USER_DOLLAR;
         sex_changed = true;
         update();
     });	
@@ -156,9 +194,15 @@ d3.csv(data_loc, typeAndSet, function(error, data) {
         update();
     });
 
+    d3.select("#myCheckbox").on("change",update);
+    update();
+
+
 	y.domain(d3.range(pctsByKey[USER_KEY].length))
 		.rangeBands([0, pctsByKey[USER_KEY].length * barHeight]);
-	
+		
+		console.log(y.domain)
+
 	index = d3.range(pctsByKey[USER_KEY].length);
 	console.log(pctsByKey[USER_KEY])
 	// controls
@@ -185,7 +229,8 @@ d3.csv(data_loc, typeAndSet, function(error, data) {
       .enter().append('g')
         .attr('class', 'bar')
         .attr('transform', function(d, i) { return 'translate(0,'  + y(i) + ')'; })
-	
+
+
 	bars.append('rect')
         .attr('class', 'background')
         .attr('height', y.rangeBand())
@@ -201,14 +246,24 @@ d3.csv(data_loc, typeAndSet, function(error, data) {
 	bars.append('text')
         .text(function(d) { return activity_descriptions[d.Degree]; })
         .attr('class', 'name')
-        .attr('y', y.rangeBand() - 8)
+        .attr('y', y.rangeBand()-16)
         .attr('x', spacing);
 
+   bars.append('text')
+        .attr('class', 'amount')
+        .attr('x',  function(d) { return x(d[USER_TIME]) + 53; })
+        .attr('y',  y.rangeBand() - 16)
+        .attr('text-anchor', 'middle')
+        .text((d) =>"$"+d[USER_TIME])
+    
 	update();
 	
 }); // @end d3.csv()
 
 function onMouseOver(actual, i){
+    d3.selectAll('.amount')
+        .attr('opacity', 0)
+
       d3.select(this)
         .transition()
         .duration(300)
@@ -216,8 +271,8 @@ function onMouseOver(actual, i){
 
       bars.append('text')
         .attr('class', 'divergence')
-        .attr('x',  function(d) { return x(d[USER_TIME]) + 35; })
-        .attr('y',  y.rangeBand() - 8)
+        .attr('x',  function(d) { return x(d[USER_TIME]) + 50; })
+        .attr('y',  y.rangeBand() - 16)
         .attr('fill', 'white')
         .attr('text-anchor', 'middle')
         .text((a, idx) => {
@@ -233,6 +288,9 @@ function onMouseOver(actual, i){
     }
     
 function onMouseOut(){
+    d3.selectAll('.amount')
+        .attr('opacity', 1)
+
   d3.select(this)
     .transition()
     .duration(300)
@@ -253,17 +311,47 @@ function brushed() {
 
 
 function update() {
-	
-	// Update bar lengths
-	chart.selectAll('.bar')
+    if(d3.select("#myCheckbox").property("checked")){
+        chart.selectAll('.bar')
 		.data(pctsByKey[USER_KEY])
 		.select(".percent")
 	  	.transition()
 		.duration(250)
 		.attr('width', function(d) { return x(d[USER_TIME]); })
-		.each("end", updateOrder);
-	
+        .each("end", updateOrder);
+
+	chart.selectAll('.bar')
+		.data(pctsByKey[USER_KEY])
+        .select(".amount")
+        .transition()
+		.duration(250)
+        .attr('x',  function(d) { return x(d[USER_TIME]) + 80; })
+        .attr('y',  y.rangeBand() - 16)
+        .text((d) =>"$"+d[USER_TIME]+"\xa0(\u00B1" +d["Error"+USER_TIME]+")")
+        .each("end", updateOrder);
 	// updateOrder();
+				} else {
+					chart.selectAll('.bar')
+		.data(pctsByKey[USER_KEY])
+		.select(".percent")
+	  	.transition()
+		.duration(250)
+		.attr('width', function(d) { return x(d[USER_TIME]); })
+        .each("end", updateOrder);
+
+	chart.selectAll('.bar')
+		.data(pctsByKey[USER_KEY])
+        .select(".amount")
+        .transition()
+		.duration(250)
+        .attr('x',  function(d) { return x(d[USER_TIME]) + 53; })
+        .attr('y',  y.rangeBand() - 16)
+        .text((d) =>"$"+d[USER_TIME])
+        .each("end", updateOrder);
+	// updateOrder();		
+				}	
+	// Update bar lengths
+
 }
 
 
@@ -309,31 +397,6 @@ function resize() {
     chart.select('.x.axis.bottom').call(xAxis.orient('bottom'));
 }
 
-
-// Convert bin numbers 0 to 20 to year 2000 to 2020 in words
-function binNumberToWords(bin_num) {
-	
-	var time_span = bin_num + 2000
-	
-	return time_span;
-}
-
-// generate data (json format in pctsByKey)
-
-function typeAndSet(d) {
-	for (property in d) {
-		if (property != "Sex" && property != "Measure" && property != "Degree" ) {
-			d[property] = +d[property]
-		}
-	}
-	var key = d.Sex + d.Measure;
-	if (!pctsByKey.hasOwnProperty(key)) {
-		pctsByKey[key] = [];
-	}
-	pctsByKey[key].push(d);
-	
-	return d;
-}
 
 
 
